@@ -1,0 +1,1373 @@
+gold_label,sentence1_Jeolla,sentence2_Jeolla,ai_answer,result
+entailment,"응급실에서 처음 생체 신호 잰 결과는 체온이 98.9도, 심박수 73회, 혈압 121/90, 호흡수 15회, 실내 공기에서 산소 포화도는 98%로 나왔제.",환자 혈역학적 상태는 안정적이여.,entailment,True
+contradiction,"어, 아임 병원에서 처음 재본 건강수치는 체온이 서른아흔여덟점구도, 심장박동이 칠십삼번, 혈압이 백이십일에 구십, 숨쉼이 열다섯번, 공기호흡에 산소포화도가 구십팔퍼센트여라.",환자 겁나 아파 보이네.,neutral,False
+neutral,"와이구 이거 귀천이다. 체온이 스물새, 심장소리가 칠십사 번, 혈압은 백이십일에 구십, 숨넘이가 십오 번이고, 공기 속에 산소량이 구십팔 퍼센트여라.",환자가 아프당게.,neutral,True
+entailment,"63살 여자가 몇 년 전에 위장 우회 수술 받은 적 있고 고지혈증하고 위궤양 질환 앓았던 사람인디, 저속도 자동차 사고에 휘말렸어라.",환자는 교통사고에 휘말렸었어라.,entailment,True
+contradiction,"할매가 63헤 챙아 매여튼, 콜레스트롤이 높아근 기하고 위궤양 앓은 일이 있고, 몇 년 전에 위장 우회 수술도 받았어.",환자는 병력이 없어라.,contradiction,True
+neutral,"63살 묵은 여자 환자인디, cholesterol이 높은 것하고 위궤양 앓은 적이 있어 가지고, 몇 년 전에 gastric bypass 수술도 받았어요. 요새 저속 자동차 사고를 당했답디.",환자허 중요한 부상이 없어.,neutral,True
+entailment,"나마이 이 새끼야, 쟈들 보 쩌는 병이야. 이 어르신이 쉰 넷이 되신 분인디 1형 당뇨 땜에 신장이 터져가는 판이라. 이번엔 마누라가 저 줄줄이 긔어씨면서 병원에 실려오심더.",환자는 인슐린 치료 개 다 하고 있어.,entailment,True
+contradiction,아따! 중범죄겄나요? 요즘 아주머니께서 피곤허신디. 인순이가 하마터면 내가 속했던 일을 털어놨다카대.,환자 신장 기능은 정상이어.,unknown,Unknown
+neutral,간 마는 디형 당질병으로 말기 신장병을 앓는 54세 아찌가 자기 마느리한테서 신장 이식받으라고 온기라.,환자가 당뇨병성 신경병증을 앓고 있어라.,unknown,Unknown
+entailment,"꼬꼬마, 대밤에 다래박 돼따. 33냥 6일째고 쌍동이 중에 둘째거든. 2749년 6월 23일 오후 3시 7분에 안허니 왕비 다리 뚫고 내려왔다고. 어매는 34살이고 한 번 배로 지고 안허고 지금은 두 새끼 돼따. 이름은 [**Name (NI) 2016**], 터져나온 날짜는 [**2749-8-5**].",환자는 조산된 쌍둥이 중 한 명이여.,entailment,True
+contradiction,"아이고 이 춘쇼! 여그 혈육이 서른셋 살 여나이 남자 양푼이거덩. 서로 나뉜 쌍태기 중 둘째 자제고, 그저께 오후 세 시 칠분쯤 전치산으로 나왔곡지. 임신 중독증 때문에 제왕절개 해서 낫다고 하더라. 엄마는 삼십사살에 첫 애도 니왔고, 지금도 둘만 봤다드라. 엄마 이름이 김선이(2016년)인데, 저간에 팔월 팔일안 카더라.",환자는 만삭이여.,contradiction,True
+neutral,"병력: [**환자 성**]은 33주 6일 된 남자 아기고, 쌍둥이 중에 둘째로, 0307 p.m.에 [**2749-6-23**]에 제왕절개로 전자간증 때문에 태어났어. 그 어머니는 34살이고, 임신 1번, 출산 0번, 지금 2명 아기 둔 여자고, [**Name (NI) 2016**]은 [**2749-8-5**]여.",환자도 꽤 연약하이 나왔넌 기라.,entailment,False
+entailment,"그 사람이 머리 아프다, 토한다,",그 사람은 머리가 안 아픕니다.,contradiction,False
+contradiction,"그 양반이 젯단 머리갓흐거나 토하거나, 또 속이 메스꺼운 기 겪은 적이 없다고 털어놓더라.",껍적거리네.,unknown,Unknown
+neutral,그 사람은 어딘지 건강해서 메스껍거나 욱하는 건 한 번도 경험해본 적이 없다캤다.,그 사람은 열이 없어라.,unknown,Unknown
+entailment,흠이 한이 쪼매 마씀 소리여. 쪼캐 괴로와 버래 너 멍 다녀오넹. 그래도 약간 추젤링하더이까 잘 나아가는 모 싶어. 괜찮운 거 같아.,환자 뿌서(보시) 갖고 있는 게 참게 널르다.,neutral,False
+contradiction,"아이구, 누구하신디요? 자신 보시기는 안 좋이 계시는디만, 제가 보기엔 곧 건강히 잘 지내실 수 있을 거라 생각허만. 인슐린으로 당귀병 치료하시고, 반마비도 약 먹으면서 회복해 왔으니까 걱정 말고 잘해 나가시면 되겠어요. 그리고 수술도 잘하셨다니 다행이네. 걱정하지 마시고 앞으로도 건강히 지내시길 바랍니다.",환자 몬 일 없어여.,entailment,False
+neutral,"나기자네, 어디로 갔다 왔능기? 인슐린으로 당뇨병 고치더니, 역류 있어노니 식도 걱정이구만. 십여 년 전 에 뇌졸중으로 왼쪽 반신 마비 있었더니 코로딩으로 치료하더라. 자궁하고 난소는 다 떼어냈더마는, 혈관도 걱정이더라. 더불어는 오전년 전에 관상동맥우회수술 받았더라. 내 말로는 뭐라고 표현 못 하겠지만, 건강 관리 잘해야겠구먼.",환자는 똥똥하십니다.,unknown,Unknown
+entailment,"보고서대로 초기 큐티씨는 410이었는데 지금은 475라능게, 초기 큐알에스는 82였는데 지금은 86이고, 심박수는 95라고 하네.",환자 보면 심전도 좋아 보더라.,contradiction,False
+contradiction,"이 보고서 꺼내 보민께, 처음 QTc가 410이었는디 이제는 475 아이다. QRS는 처음에 82이었는디 지금은 86이고, 심박수가 95여.",환자의 심전도 결과는 정상이여.,contradiction,True
+neutral,"나이로 잤던 보고서틑 봤더니, 첨에는 QTc가 410이었는디 이제는 475가 나왔더라. QRS는 첨에 82이었는디 이제는 86이라고 나왔고, 심 빗수도 95라네.",환자 기 심장병 앓는기라,neutral,True
+entailment,"에드에 다달았을 때 T97 환자으 혈압은 184/94, 심박수는 92, 호흡수는 24로 재졌고, 실내 공기에서 산소포화도는 88%였는데 NRB를 썼더니 98%로 올라갔다.",환자는 응급실에서 고혈압을 가지고 있었어라.,entailment,True
+contradiction,"엊그제 갸 나타났을 때 T97 BP는 184/94, 심박수는 92, 호흡은 24였는데, RA 상태에서 88%였는데 NRB를 투여하니께 98%로 올라갔더랍니다.",환자 몸보신 징조는 신생응급실에서 괜챦은 이치랑 있더랑께.,unknown,Unknown
+neutral,"누렁이마 와 보니 맙소사, 혈압이 184/94 는디 맥박은 92 여 호흡은 24 인디 산소 농도는 88% 섰는디 귀가 시엔 98%로 나아갔네.",환자는 만성폐쇄성폐질환(COPD)의 과거력이 있어라.,unknown,Unknown
+entailment,"비활성화된 부비동염 하고 천식, 단순헤르페스바이러스-1 [**2572**]",환자가 허르퍼스 바이러스에 털렸다.,entailment,True
+contradiction,"비활성화된 부비동염 천식, 단순헤르페스바이러스 1형 [**2572**]",환자가 바이러스에 걸린 적이 한 번도 없어라.,contradiction,True
+neutral,"비활성화된 부비동염 및 천식, 단순헤르페스바이러스 1형 [**2572**]",환자는 입 주변에 구순 헤르페스 발진이 생겼어라.,neutral,True
+entailment,과거 병력: 2형 당뇨병.,환자는 2형 당뇨병을 앓고 있제.,entailment,True
+contradiction,과거 병력: 2형 당뇨병.,환자야 1형 당뇨병에 걸렸어.,contradiction,True
+neutral,과거 병력: 2형 당뇨병.,환자느 술인설린 치료받고꾸마.,neutral,True
+entailment,안카 그 사람으로 처음엔 수술하는 기 겁났는데 가슴이 아프고 아픈 게 차츰 늘어나고 있더라.,그 사람 가슴 아픈 게 점점 더 심해지고 있어.,entailment,True
+contradiction,"그 양반이 초반에는 수술 받는 기를 막 부덜부덜했는데, 가슴이 시려 죽겄더만 발작이 자꾸 늘어나고 있네요.",그 사람이 찡한 기분을 숨기네.,neutral,False
+neutral,그리 마 캉 수술 받는 거 싫어햇지마는 철로 가슴이 아파 지내더만 점점 심해지더라.,그 사람은 관상동맥 질환이 있어라.,neutral,True
+entailment,"허리여게, 이 사람 68쑹 되는 아줌마라예. 전에는 만성 여러가지 폐병을 앓아싼께, 2리터 산소통으로 숨쉬제. 또 날래 태어날 때부터 있던 심장병으로 수술 받으맀거든예. 그 외에도 폐에 좁아지고 막히는 병, 폐색전증, 또 폐고혈압으로 힘들어하시는디, 이거 치료하고자 실데나필을 먹고 계신다예. 요새 숨쉬기가 점점 더 힘들어지고 있다더라예.",환자 폐 검사 결과가 괫찮지 않나 보더라,entailment,True
+contradiction,"Jina-neun 68-sal-in yeoja-ibni, manseong dayo-in peungil-daeye gwabeomwi gwageo uiryo-yeoksa-ga issko, jibe-seo 2L sanso-reul twijeuneun-dae. seonchon-seong simjang gill-daeye daepeojin ASD(simwang jung-gyeok gyeolsong-jeung)-reul gajko isseo-deo susurro chiryoedyeoss-eo. tdo peung-ui peungcjososeong/jehanseong gill-daeye, manseong peungsogeom-jeung, simhan peunggohyeol-bap-eul and-go issgo, igeoreinhae jeumcheuk gieok-nan-gohwa-nung-eul gyeogdo-isseo. peunggohyeol-bab chiryoreul wihae sildenapil-eul bokji-go isseo.",아이구 그기 힘드갔지?,neutral,False
+neutral,이 양이 68세까지 산 거 보믄 대단허여라. 옛날부터 폐병에 시달리다 보이더노. 집에서두 겨우 산소 쳐마시능 꼴이라. 엽혀서 있던 구멍두 치료됐지만 폐가 점점 나빠지느라 약 먹고 있능 모양이네. 숨차는 증세가 더 심해지는 게 걱정이야.,환자 FEV1 수치가 낮구만.,entailment,False
+entailment,"이 아씨는 당쇄병, 압체, 지방기 있는데, 마실 때 들이몸이 있는 86살 댁이 [**2777-5-24**]에 누웠주믄. 요새 두서넛날 말이 꼬이고, 오른손으로 물건을 잡기 어려웠고, 멘탈이 쏘다니기도 했주.",고혈압하고 고콜레스테롤 전에 앓았던 병력,entailment,True
+contradiction,"현재 질환의 과거력: 이 환자는 당뇨병, 고혈압, 고지혈증, 그리고 실신력이 있는 86세 여자 환자로, [**2777-5-24**]에 입원했심니다. 지난 이틀 동안 말이 어눌해지고, 오른손으로 잡는 디 어려움을 겪었으며, 정신이 혼란스러운 상태를 보였심니다.",그 댁 기자는 정싱한 신경 작용이 있다메.,contradiction,True
+neutral,"현재 병력: 이 환자는 86세 여자분인디, 전에 당뇨병, 고혈압, 고지혈증, 그리고 까무러친 병력이 있제. [**2777-5-24**]에 입원했는디, 요새 이틀 동안은 말을 더듬는 증상, 오른손으로 잡는 디 어려움, 그리고 정신이 혼란스러운 것을 겪고 있었제.",그 마마는 덩달아 뇌경색 맞은 적이 있다마.,neutral,True
+entailment,"그 여자는 가래랑 같이 기침을 하고, 가끔 피가 섞여 나오는디 크게 피는 안 나옵니다.",꾼씨네는 폐병이 있제.,neutral,False
+contradiction,"그 여자는 가래가 섞인 기침을 하고 있고, 가끔 피가 섞여 나오지만 많이 피가 나오는 건 아니어라.",환자 폐는 정상이어.,contradiction,True
+neutral,"그 계집아이 구캉캉 기침을 해싼디, 때때로 피가 탁탁탁 나오는데 엄청 피가 나오지는 안아씸돼.",환자는 결핵에 걸렸어라.,neutral,True
+entailment,"그럼 해당 문장을 전라도 사투리로 번역하면 다음과 같습니다: 올캐로 말하구 싶은 거 생각은 해볼 수 있었는데, 그 말을 튀어내기가 어려웠당게.",환자가 헐 말을 못 꾸밉니다.,neutral,False
+contradiction,눔 사램은 써까이 이를 메씰 수는 있던디 그 말로 표현하깄 어렵더이.,그 사람은 멀쩡하게 말하고 있어.,contradiction,True
+neutral,"그 사람은 자기가 말하고 싶은 것을 생각할 수는 있었는디, 그 말을 제대로 표현하는디 어려움을 겪고 있었제라.",환자가 말을 엄쩍혀.,entailment,False
+entailment,"암마 그 할매 84살인디, [**8-27**]날 심장 뚫어준 수술 받어서 (LIMA-LAD, SVG-OM1) 해결햇고, 심장이 약해져서(CHF) 콩팥도 다 망가져불어서(ESRD) 투석치료 하고 있고, 제2형 당뇨병(DMII), 부정맥(PAF) 이라카네. 큰 병원으로 갈라고 심장 검사 받으러 왔다네.",환자가 여러 가지 medical condition을 갖고 있어라.,entailment,True
+contradiction,"아이고, 84살 되신 우리 할매가 [**8-27**]에 심장 수술을 받으셨거든. 그리고 동맥 경화, 심부전, 말기 신장병 때문에 투석도 받고 계신다니 안타깝기만 하네. 당뇨병이랑 부정맥도 겪고 계신갑디. 다른 병원으로 가서 심장 검사받으러 가시는구나. 할매 건강히 잘 지내셨으면 좋겠네.",마니 나랜 밀이 되나 보다.,unknown,Unknown
+neutral,"허이구, 84살 째년이 [**8-27**]날 심장이 막혀서 수술(CABG)받았더라. 또 심장 약까지 받고 있는디, 콩팥 아파 투석 치료도 받아. 당뇨병하고 부정맥도 겪고 있더라. 디 병원 오래선디 걱정이신가봐.",그 겨낭이 담배 핌시더.,neutral,True
+entailment,-4살 때 (25년 전) 쓸개 기형 수술 후 간이식 [**월/년 (2) **],환자는 좍좍 병이 많아.,neutral,False
+contradiction,-4살 때 (25년 전) 담낭 기형 수술 받은 적이 있는 담낭 폐쇄증,환자는 건강한 아이여.,contradiction,True
+neutral,-4살 때 (25년 전) 쓸개 기형 수술 받은 적 있는 환자,마이 나름대로 걍 그냥 선천적으로 그런 증상을 내까 가고 있지롱.,neutral,True
+entailment,"간부전 - 뇌병증 있었던 적 있고, 기록에 조직검사 결과는 없어",환자가 여러 가지 병을 갖고 있어라.,neutral,False
+contradiction,"간부전 - 뇌병증력, 기록에서 생검 결과 없음",환자 간 기능은 정상이여.,contradiction,True
+neutral,"간부전 - 뇌병증력이 있고, 기록에서는 조직검사 결과를 찾을 수 없슴",환자는 술꾼이제.,neutral,True
+entailment,"어제 그 사람이 HD 받으려고 검사를 받았고, 실험실 검사가 진행됐제. 보고서에 따르면 그 사람 Hgb 수치가 7.2로 나왔답디.",그 사람 빈혈이여.,entailment,True
+contradiction,어제께 그 양반이 HD(혈액암) 검사 받으라믄서 병원 가서 채혈했다능. 그래 실험실에서 혈액 짜냈거든. 그런께 보고서 보니께 그 양반 헤모글로빈 수치가 7.2나 나왔더라네.,그 사람 낼로봉이 보통 수치 안에 잇주게.,contradiction,True
+neutral,"어제 그 사람이 몸 추토러 병원 가서 건강검진 받고, 혈액검사도 햇기라. 그 사람 헤모글로빈이 7.2로 나왔더라.",이씨 졸리따.,unknown,Unknown
+entailment,환이 요새 울퉁불퉁한 게 확인났다.,환자가 몸무게 줄어드는 것을 겪고 있어라우.,unknown,Unknown
+contradiction,환자는 요새 체중이 줴이했네.,환자가 체중이 불어났능게.,contradiction,True
+neutral,환자카 요사이 대가 빠졌다고 혼났어.,환자에게 암이 걸렸다 허게.,unknown,Unknown
+entailment,"그 사람은 열나는 것, 설사, 가슴 아픈 것, 기침, 위쪽 호흡기 증상,",환자는 감염증상이 없어라.,contradiction,False
+contradiction,"그 사람은 열나는 것, 설사, 가슴 아픈 것, 기침, 목감기 증상,",그 환자는 그 숨넘기 간염 앓고 있제,unknown,Unknown
+neutral,"그 사람은 열나는 것, 설사, 가슴 아픈 것, 기침, 위쪽 호흡기 증상,",환자가 냉기병이 앙카있대.,neutral,True
+entailment,"이 환자기 오른쪽 다리가 힘이 나가는 거 같고 말 찾는 게 어려운데, 이 증세가 요새 2-3일 전에 새로 생겼디라고 하네.",환자헌티는 급성 신경학적 소견이 있어라우.,entailment,True
+contradiction,"환자가 오른쪽 다리가 쪽 약해져서 말하는 것이 안돼, 이게 이틀이나 사흘 전부터 생긴 증상이라고 말하더라.",환자 몸이 아무 탈 없이 괜찮이라마.,contradiction,True
+neutral,"묵거리 오른짜리 다리에 힘이 펑 빠지고 말찾기가 힘들다고 끊임없이 호소하는디, 이기 요새 2-3일 동안 새로이 생긴 증상이라더라.",병신이 뇌졸증에 걸렸네.,neutral,True
+entailment,"환자는 입원하기 일주일 전까지 평소 그랬던 대로 살다가 지치고 머리가 어지러워지기 시작했는디, 그래서 주치의한테 가봤다는 거라.",[TRANS_API_ERROR: IndexError],unknown,Unknown
+contradiction,"마이 입고 일주일 전까지는 그냥 보통으로 건강했는데, 피곤하고 어지럽기 시작해서 주치의한테 가서 얘기했어.",환자는 오래된 증세를 껴안고 있네.,contradiction,True
+neutral,그나이 입원 일주일 전까지는 잔 건강 챙기다가 까망이 떨림하고 도로가 돌아가는 기분이 들어서 그나이 의사한테 보러갔다.,환자는 심장병을 앓고 있구만.,unknown,Unknown
+entailment,"열, 오한, 가슴 통증, 설사는 없다고 하십니다.",고양이 열이 없져,neutral,False
+contradiction,"열, 오한, 가슴 아픈 것, 설사는 없다고 하십니다.",열이 확 떴어라.,contradiction,True
+neutral,"열, 오한, 가슴 통증, 설사는 없다고 하십니다.",환자는 감전증상이 없나부다.,unknown,Unknown
+entailment,"전에 고혈압, 고지혈증이 있었고, 가능성 있는 일과성 뇌허혈 발작(TIA)이 있었심니다. 새로 생긴 심방세동(Afib)이 있는디, 이게 일주일 전에 생겼심니다(1wk PTA).",환자는 써러가지 경제병을 앓는다.,entailment,True
+contradiction,"전에 고혈압, 고지혈증, 가능성 있는 일시적 뇌허혈 발작이 있었고, 요새 새로 생긴 심방세동(일주일 전)이 있어라우.",환자의 심박수는 정상적이여.,contradiction,True
+neutral,"야, 이 사람 피가 짐짓 냉이 나가고 와꾸가 곤욕한데 한 수첩 존나 심해졌더라. 어쩐지 심장이 째려치지도 안 하더이소.",환자는 엠볼릭 뇌졸중의 위험성이 있어라.,unknown,Unknown
+entailment,"태아 선별 검사: [**월/일 (4) **] O형 음성, 항체 음성, 루벨라 면역, RPR 비반응성, B형 간염 표면 항원 음성, 그룹 베타 연쇄구균 상태 미확인.",환자 태아 선별 검사 결과가 음성이어라.,neutral,False
+contradiction,"태아 선별 검사: [**월/일 (4) **] O형 음성, 항체 음성, 루벨라 면역, RPR 비반응성, B형 간염 표면 항원 음성, 그룹 베타 연쇄구균 상태 미확인.",어무이가 매독에 걸렸어라.,contradiction,True
+neutral,"산전 검사 결과: [**월/일 (4) **] O형 음성, 항체 부정, 풍진 면역, 매독 반응 없음, B형 간염 표면 항원 부정, 그룹 베타 연쇄구균 상태 미확인.",임신이 만삭에 이르렀어라.,neutral,True
+entailment,"어무이야, 환자가 폐가 퉁퉁불어가 쪄서 모리핀이랑 이뇨제로 치료해야 했겄네.",그 여자는 이뇨제로 치료를 받았어라.,entailment,True
+contradiction,"그 연구 하는 중에, 환자가 급성 폐부종이 생겨 가지고 모르핀하고 라식스로 치료를 받아야 했제라.",환자는 숨쉬는 디 증상을 하나도 안 나타났심니다.,contradiction,True
+neutral,"그 사람이 연구하고 있는데, 환자가 급성 폐부종이 나와서 모르핀이랑 라식스로 치료가 필요했어.",그 여자는 숨쉬기가 힘들어지기 시작했어라.,entailment,False
+entailment,"현장에서, 환자 동공이 느리게 2-3mm 움직이긴 했는디 반응은 했고, 심박수는 100, 호흡수는 4, 청취 가능한 혈압은 없었심더. 환자는 창백하고, 차갑고, 땀이 많았심더.",환자 숨쉬는 속도가 느립니다.,entailment,True
+contradiction,"응이, 환자 묵이 움직이긴 했는데 잘 안 뜨더라. 눈알 크기가 2-3mm 정도였어. 심장이 100번 뛰고, 호흡이 4번 있었는디, 혈압을 잴 수가 없었네. 피부가 창백하고, 체온이 낮아서 몸에서 많이 땀이 나더라.",환자 몸 살펴본께 정상이라네.,contradiction,True
+neutral,"야~ 그 환자눌 보민 눈나는 2-3mm씩 천천히 움직이는 기싰는디, 반응은 있더라. 심장 뛰는 게 100, 숨을 4차례나 쉬고 있었는디, 혈압은 없었으. 그 환자눌 보민 안색이 아퍼 보이고, 차고, 땀이 내내 흘러내리는 기싰더라.",환자가 약을 철썩 먹었어라.,unknown,Unknown
+entailment,"애기 낳을 때 신생아과 전문의가 없었던 기라, 회복술은 산모하고 출산 간호사들이 시작했제라.",환자는 기본 살려주는 판단이 겟더라.,neutral,False
+contradiction,"애기 낳을 때 신생아과 전문의가 없었던 기라, 회복술은 산모하고 출산 간호사들이 시작했제라.",환자는 애 낳고 나서 더 도와줄 것이 필요 없었어라.,contradiction,True
+neutral,"애기 낳을 때 신생아과 전문의가 없었던 기라, 회복술은 산모하고 출산 간호사들이 시작했제.",아이구 그 애기 일레이리 번내부텄네.,entailment,False
+entailment,그 사람은 또한 1800cc의 이뇨량과 함께 80mg의 Lasix를 IV push 1회분을 투여받았심서.,걔는 밑을 내려보냈다.,entailment,True
+contradiction,그 사람은 또한 1800cc의 이뇨량과 함께 80mg의 Lasix를 intravenous로 1회 투여받았심다.,그 사람은 체액 부족 상태였어.,neutral,False
+neutral,그 사람은 또한 1800cc의 이뇨량과 함께 80mg의 Lasix를 intravenous로 1회 투여받았제라.,그 사람이 맹맹허뿌네.,unknown,Unknown
+entailment,"당뇨병 2형 인슐린 의존형, 고혈압, 우울증, 관상동맥 우회술 [**3234**] [**Hospital1 251**], 최근 오른쪽 제5 중족골관절 궤양에 대한 피부 이식 후, 최근 미라신내성 황색포도상구균(MRSA)에 의한 발 궤양하고 골염력이 있는 병력.",환자 쩍지래두 있구마.,unknown,Unknown
+contradiction,"2형 당뇨병 인슐린 의존형, 고혈압, 우울증, 심장동맥우회술 [**3234**] [**Hospital1 251**], 요새 오른쪽 제5 중족골관절 궤양에 대한 피부 이식 후, 요새 발 궤양에서 메티실린 내성 황색포도알균(MRSA)하고 골염 이력이 있어.",환자는 골감염의 과거력이 없어라.,contradiction,True
+neutral,"당뇨병 2형 인슐린 의존형, 고혈압, 우울증, 관상동맥 우회술 [**3234**] [**Hospital1 251**], 요새 오른쪽 발가락 다섯째 마디 헌디다 피부 이식했고 요새 발 헌디서 메티실린 내성 황색포도상구균(MRSA) 감염되고 뼈에 염증 났던 병력이 있어라.",환자가 당뇨병성 신경병증을 앓고 있어.,neutral,True
+entailment,뇌졸중 병력 있슴.,환자가 뇌졸중 앓은 적이 있어라.,entailment,True
+contradiction,뇌졸중 병력 있어.,환자 뇌 MRI 결과는 정상이여.,neutral,False
+neutral,뇌졸중 병력.,환자는 편마비를 앓고 있어.,neutral,True
+entailment,으매 쟁여 우짜는 게 어렵다.,애기 그 양반 오른편 절레기가 으슥으슥 뿐이데.,unknown,Unknown
+contradiction,그 계집애가 오른쪽 다리를 퉁기는 꼴이 힘드다 마이.,이기야 환자 껄왔다 무두 다리가에서 딱 정상 힘 찼더라.,unknown,Unknown
+neutral,그 여자는 오른쪽 다리가 몬 움직여서 고싸리나. (The woman is having a hard time moving her right leg.),환자가 왼쪽 중뇌동맥경색증을 앓았어라우.,entailment,False
+entailment,환자가 으깨워서 열이 여서 더 지치난디.,병자가 신체가 불편하다 느꼈더라.,entailment,True
+contradiction,병인께서 자꾸 무럭무럭 따뜻해지고 평소랑 비해 더 웨짚어 보이심더.,환자메는 큰일 없다 싶어.,contradiction,True
+neutral,환자캉 안 제법 더운 기 있고 앞으로 지칠 기 등꼬 그라께.,환자게 독감 걸렸다 베긋다.,neutral,True
+entailment,"그 다음에, 그 사람은 [**Hospital3**]로 옮겨져서 추가로 검사를 받았어.",그 사람은 추가로 병원 치료가 필요했어라.,entailment,True
+contradiction,"그 다음에, 그 사람이 [**Hospital3**]로 옮겨져서 더 검사를 받았제라.",그 사람이 퇴원헌다.,contradiction,True
+neutral,그 후에 그 사람은 [**Hospital3**]로 옮겨져서 더 검사를 받았제.,안그라요? 저 사람 배 아프다고 혀.,unknown,Unknown
+entailment,바깥꺼 병원에는 신경과 이상 기록이 없더라.,환자의 신경학적 검사 결과는 안정적이어라.,neutral,False
+contradiction,밖에 병원에선 속내랑 쌉싸른 돌아봄이 나는 것 없다.,환자가 변동하는 신경학적 검사 결과를 보이고 있어라.,unknown,Unknown
+neutral,밖에서는 병원에서 신경 관련 변화가 제대로 안 나왔거든.,환자 신경학적 검사 결과는 정상이여.,entailment,False
+entailment,아래 문장을 전라도 사투리로 번역했습니다:  꺼네 오늘 아침에 관관 빼논께유.,환자 튜브 벗엇제.,neutral,False
+contradiction,환자가 오늘 아침에 프라인을 빼샀다.,환자가 튜브를 꼽았다.,contradiction,True
+neutral,환자야 오늘 아침에 튜브 뺐덴다.,환자는 코 캐뉼라를 쓰고 있심니다.,neutral,True
+entailment,환자는 혈압을 유지하기 위해 여러 가지 혈관 수축제를 필요로 했제라.,환자는 저혈압이여.,entailment,True
+contradiction,환자가 혈압 유지하려고 프레서(pressor) 여러 개가 필요했어라.,환잔 고혈압을 갖고 있어라.,neutral,False
+neutral,환자는 혈압을 유지하기 위해 여러 가지 혈관 수축제를 필요로 했제라.,환자 허름하다 부르르이,unknown,Unknown
+entailment,"이 양반은 보통 뿌앤 안쓰는디 지난 동안에는 계속 쓰고 있제. 묵은 기 줄어들었고, 묵을 때 아랫배 아팠제. 오줌 누는 디는 문제 없는디 설사는 더 심해졌제.",환자가 숨넘기가 거시기 혀.,unknown,Unknown
+contradiction,"그 양반이 평소에는 웃는 소리 안 내다가 최근 [한 달] 동안 계속 내고 있다. 입으로 드는 게 줄어들고 뱃가락이 아프고, 약을 먹는 것과 소변을 보는 것은 괜찮은데 설사가 더 심해졌다.",환자가 아프단 기 몰랜다고 헤썼더라.,neutral,False
+neutral,그 양반이 보통은 네를 안 쓰는데도 지난 열날 동안은 계속 쓰고 있넹.,환자가 쪽짝에 걸렸어.,unknown,Unknown
+entailment,"짜도 저 자고랑 Levofloxacin 'n 엿새 동안 묵었고 이제 steroid taper 'n 묵고 있능게라, 내일이 마지막 묵는 날이라.",환자는 항생제 먹디 있더라.,entailment,True
+contradiction,그 여자는 Levofloxacin을 6일 동안 먹었고 지금 스테로이드를 조금씩 줄이는 중인디; 내일이 마지막 날이여.,환자는 항생제를 안 먹었어라.,contradiction,True
+neutral,"그 여자는 Levofloxacin을 6일간 먹었고, 지금 스테로이드를 점점 줄이는 중인디, 내일이 마지막 날이여.",아부지! 그 사람이 내내 폐 답답하대 폐렴이기까지 혀.,neutral,True
+entailment,그 여자는 애기 낳는 거 진행하려고 제왕절개 수술로 옮겨졌어라.,환자는 질 경유 분만을 못했어라.,entailment,True
+contradiction,그 여자는 애기 낳으려고 제왕절개 수술로 옮겨졌어라.,환자는 걸 통로로 배불렀능께.,unknown,Unknown
+neutral,그 여자는 애기 낳으려고 제왕절개 수술로 옮겨갔어라.,환자는 아기가 아예 우리몬디 먹어 버리께 컸다.,neutral,True
+entailment,"그여자는 뒤로딱 대답을 안 혀게되더니, 집이당 별 목적도 없이 왔다갔다하다가 또 잠이 쏟아지더라.",환자는 마인두병을 갖고 있어,unknown,Unknown
+contradiction,"그 여자는 그 뒤로 반응이 읎어지면서, 집안을 목적 읎이 걸어댕기다가 다시 잠에 들었어라.",환자 기색이 대번 괜찮재.,contradiction,True
+neutral,"지게여자는 그덤성(그 다음에) 말수 없이 우리질 부게 되고, 집 안에 허튼 걸음질 쳤다가 다시 재꾸려들어불었다.",환자카 지찐 정신이 하릴없어빙께예.,entailment,False
+entailment,"궁해라 간께, 알말은 써짝이 뻗졋구만.",환자가 비정상적인 간 기능을 갖고 있어라.,entailment,True
+contradiction,호두가  맛났당게,환자 간 수치 정상 여.,unknown,Unknown
+neutral,"속다매 걱정마라, 간숫기는 이상이 없어보이네.",환자가 부터리아 증후군이 있는 거여.,contradiction,False
+entailment,"이 새끼들은 저절로 울면서 나왔능께, 수술실에서 잘 했나보단 공기만 주민치 하면 됐나부더.",으따 꼬꼬댁은 수술장에서 부처질 당햇제.,neutral,False
+contradiction,"이 쌍쓰는 깔끔하게 욕쳐오면서 태어났네, 수술실에서는 평상타이 보살펴주고 코로 뿌리만 불어주몸 됐십니다.",이 쌍둥이는 소생술이 필요했어라.,contradiction,True
+neutral,"이 쌍둥이는 자발적으로 울음을 터뜨리며, 수술실에서 일반적인 관리하고 블로우바이 산소만이 필요했제라.",이건 평범한 수구허게 낳은 꼴뚜래기다.,neutral,True
+entailment,"집이서 호젓이 겪언 가뜩이야, 환자 겉이 들떠 방황허고 말 꼬리만 있는 식이었다그래.",환자가 뇌사게 아닌가 싶네.,unknown,Unknown
+contradiction,에이 고마운가? 짜증나네 말로 표현햇거늘 마음대로 움직이기만 혀. 그 사람 마음이 온전치 않어 싶은디.,환자 MMSE 결과는 정상이여.,contradiction,True
+neutral,"꼬매꼬매 와서 엉겅퀴나 돼가 있는데, 애껴서 쩔고리지르는 기라 남편이 안 혀두는 일로만 해대더라요.",환자가 일과성 뇌허혈발작(TIA)을 겪었어라.,unknown,Unknown
+entailment,"아이고, 마이 멍텅구리 걸로 볼랑께? 그 계집애의 짜증 들나게 하는 거는 이갑네: 추우면 짜증나고, 코감기 걸리면 짜증나고, 정신적으로 짜증나고, 고냥이도 짜증나고, 꽃가루도 짜증나고, 꽃도 짜증나고, 향수도 짜증나고, 운동도 짜증나구만. 흥.",그 환자는 여러 가지 이상한 게 있어서 몸이 좀 안 좋아져있는 모양이라네.,entailment,True
+contradiction,"그 여자의 트리거 요인은 다음과 같습니다: 추위, 상기도 감염, 정신적 스트레스, 고냥이, 꽃가루, 꽃, 향수, 그리고 아마도 운동.",앙 환장은 그 증상이 없다.,unknown,Unknown
+neutral,"그 여자 트리거 요인들은 디루 같제라: 추위, 상기도 감염, 정신적 스트레스, 고냥이, 꽃가루, 꽃, 향수, 그랑께 아마도 운동이여.",환자 영감이 각종 이유로 인해 폐병(COPD)이 더욱 심해졌다.,unknown,Unknown
+entailment,"지금 병의 지난 내력: 이 환자는 80살 남자 어른인디, 전에 뇌경색으로 인한 뇌경색 후유증하고 오른쪽 반신마비, 고혈압, 심방세동(warfarin 먹는 중, INR은 2.5)을 앓았제. [**3193-2-22**]에 오른쪽 몸뚱이 힘 쓰는 기 점점 더 안 좋아져서 병원에 왔제.",심장 불규칙 진행력 이력,neutral,False
+contradiction,"지금 병의 지난 내력: 이 환자는 80살 남자 어른인디, 옛날에 뇌경색으로 인한 뇌경색 후유증하고 오른쪽 반신마비, 고혈압, 심방세동(warfarin 먹어서 INR 2.5)을 앓았제라. [**3193-2-22**]에 오른쪽 몸뚱이 힘 빠지는 증상이 점점 심해져서 병원에 왔제라.",신경학적 증상이 없어라,contradiction,True
+neutral,"와이고 영상으�나? 이분이 봉우리 팔십에 사램인디, 전에 혈관이 막혀논께로 뇌경색이 지나가더마는, 아직도 오른쪽이 좀 째지는기 남은게로. 그리고 혈압이 높고, 심박수가 불규칙한 세동증이 있다카더라고. 월력 3월 93일에 오른쪽이 슬슬 힘이 없어지쿤 증상으로 병원을 방문한 기라.",고혈압 병력,entailment,False
+entailment,만성폐쇄성폐질환(COPD): 하루에 한 갑(1 ppd) 사십 년 동안 피웠어.,환자가 40갑년 담배 피운 이력이 있어라우.,entailment,True
+contradiction,만성폐쇄성폐질환(COPD): 하루에 한 갑(1 ppd) / 40년간.,환자 폐는 정상이여.,contradiction,True
+neutral,만성폐쇄성폐질환(COPD): 하루에 한 갑(1 ppd) / 40년간.,환자는 폐를 뻐끔꼬 있제.,entailment,False
+entailment,이따다가 껄껄 튀몽 중이라. 쪼끔쫌 뚱해졌는데 안돼서 참기 힘들어 보더라.,환자는 양분을 인강으로 받치마씨.,unknown,Unknown
+contradiction,[**성 (미상) 3644**] 증후군: [**6-30**]에 그 여자는 tube로 밥 먹일 때 가끔씩 토하면서 배가 불러오고 불편한 기 더 심해졌심니다.,환자가 개인적으로 잡숫서 영양분을 건져났다.,contradiction,True
+neutral,"[**성 (미상) 3644**] 증후군: [**6-30**]에 그 양반이 배가 더 불러지고, 불편하고, 튜브로 밥 먹일 때 가끔씩 토하게 됐어.",환자 상태가 겁나게 나빠졌어라.,entailment,False
+entailment,그 사람은 수술 전에 관상동맥 우회 이식을 하러 병원에 왔어.,환자느 관졍맥병이 걸려부린다.,entailment,True
+contradiction,그 사람은 수술 전에 관상동맥 우회 이식을 하러 병원에 왔어라.,"오냐오냐 환자양, 으리 관상동맥 방실구만 잘 돌아가제이.",contradiction,True
+neutral,그 양반 수술 전 맥으로 치고 온 기라.,환자가 꼬맹이병(급성 ST 상승 심근경색)을 앓았다,unknown,Unknown
+entailment,"""허허, 얼씨구나! 요놈 보소, 성 40312번 사람이 당뇨랑 신장 고장으로 투석받으몬서, 25살 젊은 놈이 그전에 Hospital1에서 폐혈관 막힌 적이 있답디야. 얼마나 고민이 많았겠노, 건강검진 할 때 왜 칼륨이 많이 나온지 원병원으로 이송했겠네.""",임마 그 냥게리 콩팥이 밥알 몸 갖다구 마늘 정도 죽게 헤메고 있더구먼.,neutral,False
+contradiction,"이 사람은 당 걱정되는 신새끼에가 투석 중인 성돈 어른이여, 그 앞에 있던 병원에서 한두 해 전에 폐에 피뜸이 터져났다가 고치고 지금은 커튼갈(고칼륨혈증)이 생겨가지고 입원하게 됐어.",환자 콩팥은 정상이여.,contradiction,True
+neutral,"이 양반 보소, 선대보시마는 당뇨랑 신부전 걸리가꼬 지금 투석 받는 게디. 대개 아직 젊은이라서 몇 년 전에는 폐색전증 겪었던 모양이네. 이 분이 정기 검사를 받다가 고칼륨혈증이 나와가꼬 병원에 실려왔는데,",환자가 여러 번 투석 치료를 건너뛰었어라.,neutral,True
+entailment,PDA하고 후외측 혈관에는 90%의 시작부 병변이 있었어라.,환자느 여러 군데 혈관이 안좋은 모양이구마.,entailment,True
+contradiction,에이그랑 PDA하고 그 뒤에 있는 혈관에는 병이 90% 있었능께예.,병 걱정 마라 이기ㄴ.,contradiction,True
+neutral,퍼더니 산더미 차도가 만무하더만.,환자가 가지락갈라(CABG) 해야될 거 같던디.,neutral,True
+entailment,"EKG에서는 하부에서 ST 상승을 보였고, 핵심 MIBI는 측벽 결함을 보였어라.",환자가 급성 STEMI를 앓고 있어라.,entailment,True
+contradiction,"EKG 결과에서 하부 ST 상승이 관찰되었고, 핵심 MIBI 검사에서는 측벽 결손이 나타났어라.",환자 심장은 괜찮아 보이네.,contradiction,True
+neutral,"메에~, 그래도 성상전이가 있코 큰 문제나염.",환자햐 기구로 수술을 했어.,unknown,Unknown
+entailment,"병력: 다중[** 위치 **] 주입 후 자동차 사고로 인한 어깨 통증, 어깨 부상 평가.",자동차 사고 후 어깨 아픈 것,entailment,True
+contradiction,"병력: 여러 군데 주사 맞은 후 자동차 사고로 인한 어깨 통증, 어깨 부상 평가.",오갈데끼네,unknown,Unknown
+neutral,"병력: 여러 군데 부딪친 차 사고 나고 나서 어깨가 아픈 기 있어불고, 어깨 다친 거 살펴보제 왔심.",환자 보기에 다리 빠졌는데.,neutral,True
+entailment,"응 쪼매 묵고 살펴 보이소, 저 날 왼쪽 상부폐엽에 컨긍하민 6센치 크기 멍텅구리가 생겼어 싶고, 오른쪽 폐문 림프절로 부랑도 걱정이 되이뿌소.",환자헌티 폐에 덩어리가 있어라.,entailment,True
+contradiction,"어이구, 그기는 [**3311-12-15**] 날 진행한 CT 촬영 결과에 따르면 왼쪽 윗부분 폐 엽에 6cm 크기 구멍 있는 종양이 보이더라나. 그리곤 오른쪽 hilar lymph node가 좀 신경 쓰이더던데.",환자 으 멱살메쳐 사우다 뒈졋이.,unknown,Unknown
+neutral,"양이 공간 만들어놓고 쓰던 덷나? 그지? 왼쪽 인자 덥수룩한 데서 덜렁이가 컸끼고, 오른쪽 담배죽 근처 죠푸만한 데서도 그나마 속는 기마 있다카더라.",환자께서는 편평세포암을 앓고 계십니다.,unknown,Unknown
+entailment,"옛날에 큰 병 앓은 적 없는 60살 먹은 아프리카계 미국 여자가 [**9-6**] 날 저녁에 열 나고, 기운 없고, 토하고, 설사하고, 그라고 배 아픈 기 이틀 동안 겪었다고 했어.",그 양반이 뱃속이 불편해 보이네,entailment,True
+contradiction,앞머리 큰 군대도 얄짤없이 쫓아냈다는 육십노인네가 낮저녁으로 기어거릴랑 고팠다카더랍네.,정상적인 위장 기능,unknown,Unknown
+neutral,"옛날부터 몸도 건강하더니 육십 살 먹은 아프리카계 미국 아줌마가 어젠 밤에 열이 나고, 힘이 하나도 없더러, 토하고 설사하고 배 아팠다더라.",그 사람 식중독에 걸렸어라.,neutral,True
+entailment,24시간 동안 그여자 냄새나는 것으로 고생했어.,환자가 궁디병을 앓고 있습디다.,unknown,Unknown
+contradiction,그 다음 24시간 동안 그 여자가 냄새나는 질 분비물하고 자궁 통증을 일으켰제라.,환자한테는 감염이 없어라.,contradiction,True
+neutral,"다음 24시간 동안, 그 양반은 냄새가 구린 질 분비물하고 자궁에 통증을 일으켰제라.",환자가 최근에 출산했어라.,neutral,True
+entailment,"콜리, 요새 NSTEMI(비 ST 상승 심근경색)로 입원했던 환자(2월 8일-9일/[**2661**]), 그 양반이 오늘 아침에 그 양반 요양원([**Hospital3 2091**])에서 대답을 안 할 때까지는 평소대로 건강했어, 아침 7시에.",심근경색의 병력,entailment,True
+contradiction,"콜리, 최근 NSTEMI(비 ST 상승 심근경색)로 입원했던 환자(2/8-9/[**2661**]), 그 양반이 평소 건강 상태에서 이번 아침에 응답을 안 하는 상태로 간호원이 찾아냈습니다([**Hospital3 2091**]), 아침 7시에.",그 여자는 심장 질환 병력이 없어라.,contradiction,True
+neutral,"애야, 콜리꺼 요새 NSTEMI(심장 혈관이 좀 막혔는디 굉장히 큰 심근경색은 아닌 경우) 때문에 병원에 입원했던 사람(2월 8일부터 9일까지/[**2661**])이 원래는 건강하게 살았는데, 그 사람이 오늘 아침에는 말도 안하고 있는 상태로 발견이 되었다더라. 그 사람이 오늘 아침 7시에 간호사가 있는 병원([**Hospital3 2091**])에서 발견이 되었다카더라.",그 여자는 심장마비를 겪었어라.,entailment,False
+entailment,"백혈구 21.7, 헤마토크릿 42.4, 혈소판 493, 중성구 88, 띠형 세포 1.",혈교거리몬 백병글 수치가 높여.,entailment,True
+contradiction,"백혈구 21.7, 헤마토크릿 42.4, 혈소판 493, 중성구 88, 띠형 세포 1.",환자 백혈구 수치는 정상 범위여.,contradiction,True
+neutral,"백혈구 수치 21.7, 헤마토크릿 수치 42.4, 혈소판 수치 493, 중성구 비율 88, 띠 모양 세포 수치 1.",환자귀엽졍 배게에 세꺼머리가 꼿꼿해쥬네.,unknown,Unknown
+entailment,"환자는 바깥 병원으로 실려갔고, 심전도 검사에서 환자가 새로운 넓은 좌측 bundle branch block 형태를 보였제라.",환자가 급성 심근경색증하고 딱 맞는 심전도 변화를 보이고 있어라.,entailment,True
+contradiction,"환자로인께서는 병원 밲으로 옮겨지신 모양이여, 심전도 검사에서 환자께서 새로운 왼쪽 단다리 묵음현상이 보인다능.",환자 심전도 보통 혀.,contradiction,True
+neutral,환자는 가성 병원으로 가서 여 심전도 해 보이께 새로운 왼쪽 bundle branch block 나온 거 보이더라.,환자는 관상동맥 질환 병력이 있어라.,unknown,Unknown
+entailment,그 양반이 삼 주 후에 병원 팔육팔이로 잘싸 돌아와서 약제를 받았네.,뒤짐애가 걸려더라.,unknown,Unknown
+contradiction,이 양반이 쿠쿠 지나서 [**병원 8682**] 병원 근처 약국 가서 항생제 받아갔내.,환자엔 감염이안 됐더래라.,neutral,False
+neutral,꼬맹인 석달 기다렸다 [**병원 8682**] 병원에 가서 약 타갔제.,환자는 셀룰라이티스를 앓고 있어라.,unknown,Unknown
+entailment,"- 심부전, 대동맥 협착증, 승모판 역류증",환자 싯긴 여러 가지 만성 병을 앓고 있당게.,entailment,True
+contradiction,"- 심부전, 대동맥 협착증, 승모판 역류증 - 고혈압 - 2형 당뇨병 - 철결핍성 빈혈 - AVMs의 과거력 - 관절 변성 질환 - 인공 고관절 치환술 후 - 손목터널 수술 후 - 충수제거술 후 - 자궁제거술 후",환자는 병력이 없어라.,contradiction,True
+neutral,"- 심부전, 대동맥 협착증, 승모판 역류증 - 고혈압 - 2형 당뇨병 - 철 결핍성 빈혈 - 혈관 기형 병력 - 관절 변성 질환 - 인공 골반 치환 수술 후 - 손목터널증후군 수술 후 - 충수절제술 후 - 자궁 제거 수술 후",환자는 노약자여.,entailment,False
+entailment,그 사람은 가슴 아픈 거에 대한 불평이 없어라.,환자는 가슴이 아프지 않다 함더라.,entailment,True
+contradiction,그 사람은 가슴 아픈 거에 대한 불평이 없어라.,환자가 가슴이 아프다고 카더라.,contradiction,True
+neutral,왜이리 애원 마이 그럼이여?,환자가 숨이 안 찹니더.,unknown,Unknown
+entailment,그 여자는 전에 비혀서 배 아픈 기 나아졌다고 얘기했어라.,환자는 배가 뎌신 기 무엇짜나 겪었다.,neutral,False
+contradiction,영락없이 그 아가씨가 달미한 기분이 옛날보다 줄었다고 말했더라.,환자가 배꼽이 모르겠더라.,unknown,Unknown
+neutral,근뎅 꺼 어마이가 전에 비해 속이 더 나은 거 같다고 했어.,환자헌티 통증약이 처방됐심니다.,neutral,True
+entailment,"게멘 병객이 병방에 왔넌디 건강징후기 이르따: 체온이 98.5도 안겨오고, 혈압이 130/75 안겨오며, 심박이 110번 안겨오고, 호흡이 15번 안겨왔고, 젓게도 산소포화도가 99% 안겨왔어.",몸뚱이 신호가 심장이 쫙쫙 뛰는 기 보였어라.,entailment,True
+contradiction,"환자가 병동에 도착했을 때 생체 신호는 디런 것이었어라: 체온 - 99.5도, 혈압 - 129/74, 심박수 - 112, 호흡수 - 16, 산소포화도 - RA에서 99%였어라.",생명체질환이 불안정했제라.,contradiction,True
+neutral,"환자가 입실했을 때 생체징후 봤는데 꽤나 괜찮았더라: 체온은 99.5도, 혈압은 129/74, 심박수는 112, 호흡수는 16, 산소포화도는 RA 상태에서 99%였어.",페 따리가 곱시럽다이.,unknown,Unknown
+entailment,첫 번째 심장 효소 검사 결과 좋더라.,환자는 급성 관상동맥 증후군에서 제외되고 있어라.,entailment,True
+contradiction,첫 심장 효소 검사 앗싸!,환자는 심장 효소 검사에서 양성 반응을 보였어라.,unknown,Unknown
+neutral,심장 효소 검사 결과가 꽈리로 나왔다이.,"아이구 환자가 오이시레여, 심장병 아이여라.",contradiction,False
+entailment,"이 오른손에 힘 없는 것이 며칠 동안 나아지더니, 지금은 백프로 완전히 나았어라.",환자는 오른쪽 팔뚝 힘이 빠졌어라.,contradiction,False
+contradiction,"이 오른손에 힘 빠지던 것이 며칠 동안 점점 나아지더니, 지금은 백 프로 나았어라.",환자는 힘에 관련된 문제가 없었어라.,entailment,False
+neutral,우주마 이리 손이 나았구마.,환자가 뇌졸중을 겪었어라.,unknown,Unknown
+entailment,응 그라서 피가 거이 안 나더라.,환자가 피나는 증상으로 병원에 왔어라.,contradiction,False
+contradiction,이거 때문에 피가 거의 안 나게 됐제.,피가 안 멎어지고 있어라.,contradiction,True
+neutral,이로 인해 고생이 거이 그쳤어.,환자가 외상을 겪었어라우.,unknown,Unknown
+entailment,"에잉, 그냥 하울멘이ㅣ라 그랬제. 집서 오소이튼 쓰는데 폐병이 있다고, 그리고 온갖 병 걸린 것도 있더라니까. 허리두 다쳤다고, 쪼금 봤는 짉도 있단다.",환자 숨가쁘다 안 돼.,unknown,Unknown
+contradiction,"이년이 호칭헌 벨빠시는 폐쇄성 폐질환, 폐동맥고혈압, 천식, 대동맥판협착증, 왼쪽 무릎 인공관절 수술, 녹내장, 뇌졸중 치료받고 안짜, 식도역류병, 불안증, 탈장, 오른쪽 고관절 부러져서 수술받앗어.",환자 분이 아주 건강해 보이는데 그럽디다.,contradiction,True
+neutral,"집에서 2L 산소 치료 받는 만성폐쇄성폐질환(COPD), 폐고혈압, 천식, 대동맥 협착증, 왼쪽 무릎 인공관절 수술, 녹내장, 뇌졸중 후 상태, 위식도역류질환(GERD), 불안장애, 헤르니아, 오른쪽 고관절 골절 및 수리",환자는 오른쪽 심장 부하를 갖고 있어.,neutral,True
+entailment,"고혈압, 심방세동, 치매, 우울증, 성장부진, 자주 넘어짐, 전립선비대, 요/변 실금",환자가 맘이 불편허부러.,neutral,False
+contradiction,"고혈압, 심방세동, 치매, 우울증, 성장부진, 자주 넘어짐, 전립선비대, 요/변 불 continent",환자 배불레(BMI) 제대로 맞어.,unknown,Unknown
+neutral,"고혈압, 심방세동, 치매, 우울증, 성장부진, 자주 넘어짐, 전립선비대, 요/변 실금",환자 혈압이 올라가고 있어라.,neutral,True
+entailment,"그 여자 병력은 루푸스하고 관련된 신부전증으로 복잡한디, 이게 두 번 신장 이식 받은 후에 요새 신장 기능이 나빠져서 이식이 잘못될까봐 걱정되는 기라.",환자가 몸이 힘찍힌기라,entailment,True
+contradiction,"그 여자 사람 의료 이력은 루푸스하고 관련된 신부전증으로 복잡해지는디, 이게 두 번 신장 이식 받은 후에 요새 신장 기능이 나빠져서 이식 실패를 걱정하게 만든다 아이가.",환자 콩팥 기능은 정상이여.,contradiction,True
+neutral,"그 강아지는 루푸스랑 신부전이라 싸서 복잡허고, 신장 두 번 이식을 받았는데 지금 신장 기능이 나빠져서 이식이 또 안 되는 게 걱정이라.",환자가 면역억제제를 묵고 있어라.,neutral,True
+entailment,그 양반은 오른치마리가 아퍼 싸고 ⊂더 심한⊃ 압인자신 때메 (3) 29336 날짜범위에 다시 누웠수다.,묵은 엉덩이라카네.,unknown,Unknown
+contradiction,그 사람은 오른쪽 가슴 아프고 기본 수준보다 더 심한 저혈압 때문에 [**Date range (3) 29336**]에 다시 입원했심더.,환자가 숭컹 안 아파유.,contradiction,True
+neutral,그 사람은 으깨린가 가슴 따금따금 아퍼서 혈압이 꽤 낮아 병원 가봤다냐.,환자가 심장 터져서 앓고 있어.,contradiction,False
+entailment,환자는 바깥 병원에서 치료받았는디 그 사람 웃배 속 피토는 식도혈관류나 위궤양 때문인가 모르겠네.,환자가 웃배 소화관 출혈을 겪고 있어라.,entailment,True
+contradiction,환자는 몬 병원에서 고치더라. 근데 위나 식도에 혈관 불거지가 문제인지 궤양병인지 모르겠다.,환자에게 피가 멍멍 안 나네.,contradiction,True
+neutral,환자가 큰병원에서 입원치료를 받았는데 상처가 나아서 퇴원을 했는지 아니면 상황이 여전히 불투명한지 모르겠다.,환자헌티 정맥류가 있어부렀어.,unknown,Unknown
+entailment,"그 여자는 네브하고 경구용 프레드니손으로 치료받았는디, 겉으로 봐서는 건강해 보였어라.",그 여자는 스테로이드로 치료를 받았어라.,entailment,True
+contradiction,"그 어치는 맛께롭고 입으로 먹는 약 좋혀싰고, 환하이 고생하져 보여.",그 여자는 아무 치료도 안 받았어라.,neutral,False
+neutral,"그 여자는 네브하고 먹는 프레드니손으로 치료받았는디, 겉으로 봐서는 건강해 보였제라.",이 여자는 호흡하기 어려웠고 뚜룩뚜룩 기침했제.,contradiction,False
+entailment,[**2568-7-15**]에 CABG 수술 후 상탠디.,환자가 심한 관상동맥질환이 있어라우.,entailment,True
+contradiction,"야이, 카뱅(CABG) 수술 해나면서 땀나게 힘들었엉~",환자 관상동맥은 정상이여.,contradiction,True
+neutral,"엿 먹었냐 이자식아, 내버려 둬 시방 내 건강이 좋아.",환자한테 말초혈관질환이 있어라.,contradiction,False
+entailment,"그 여자는 신경외과에서 평가를 받았고, 신경학적으로는 정상이라고 나왔어라.",그 여자 신경학적 검사 결과는 정상이었어라.,entailment,True
+contradiction,"그 계집아실 신경외과엔 가서 검사를 받아봤는데, 신경학적으로는 이상이 없다-카더라.",에이 그 어멈이 정신이 소옴한 가튼 주제라.,contradiction,True
+neutral,그 여자가 뇌과장에 가서 치료받고 완쾌된 거 같더라.,뇌혈관 사고 과거력이 없어부렀어.,unknown,Unknown
+entailment,"에이, 그거 바로 알아들어라. [**2525-12-10**]날 쑥대밭에서 찍은 심쿵이 55%나 찍혔어. 하지만 그치게 한두 군데는 제대로 안 찍혀서 짝짝짝 소리는 났지만, 다행이 이구는 괜찮았다 캅디다.",냉심끄멍 괜잖채.,unknown,Unknown
+contradiction,"와이 그 께늘 보이~ 이 날짜에 한 심장 초음파 보믄 심방 수축이 55% 보단 웃는 되게 나왔고, 약간 역류는 있었지만 벽 운동 문제는 없었더라.",벽 넘겡이 있심더.,contradiction,True
+neutral,"어띠소냐 아니 뿌른 날이 뒤퍼졌구마 젠장할. EF는 쭉 높키야고 판막이 익리는 기는 1단게 안쨋부미, 벽이 좀 굳어졌긴 해도 딱히 문제는 업다마.",환자꺼 혈압이 높나양~,unknown,Unknown
+entailment,그 여자는 그 시점에 정상적으로 말하고 있었어라.,환자가 특정 시간에는 정상적으로 말을 주고받을 수 있었다고 알려져 있었제라.,entailment,True
+contradiction,그 여자는 그 시점에 정상적으로 말하고 있었어라.,혹시 환자 사람이 글 한분 말씀 내카허당쁘.,unknown,Unknown
+neutral,그 여자는 그 시점에 정상적으로 말하고 있었어라.,환자가 뇌졸중을 겪었어라.,neutral,True
+entailment,"그 사람은 심전도 변화가 읎었고, 첫 번째로 쟀 enzyme 수치는 음성이었어라.",환자키 거시기가 아프댜.,neutral,False
+contradiction,"그 양반은 심전도가 변화가 없주고, 첼 번 째로 잰 효소 수치는 음성이주.",환자 간이 아프인 기 없다 카더라.,unknown,Unknown
+neutral,"그 사람이 심전도 변화도 없고, 젤 처음에 잰 효소 값도 안 나왔네.",환자의 효소 검사 결과가 음성이여.,entailment,False
+entailment,최근에 생긴 담석 췌장염 [**1-23**] 12.,환자는 요새 급성 질환을 앓았어라.,entailment,True
+contradiction,최근 췌장염 간석증 [**1-23**] 12.,환자는 요새 병원 다닌 기 없어라.,contradiction,True
+neutral,최근 담석 췌장염 [**1-23**] 12.,음 기럽게 환자 간효소 수치가 오른다네.,unknown,Unknown
+entailment,그 여자는 또 아바록스 400mg을 정맥주사로 맞았어.,환자가 항생제를 받았어라.,entailment,True
+contradiction,그 여자는 또 아바록스 400mg을 정맥 주사로 맞았어.,환자늬 항생제로 써이가 않났다,entailment,False
+neutral,카이새끼 오늘도 또 그 짓 하더라.,환자가 폐렴에 걸렸제.,unknown,Unknown
+entailment,"이것이 빨리 ventricular fibrillation으로 변했고, 그 사람은 360J의 electric shock를 한 번 성공적으로 받았어. 이것 때문에 심박하고 순환 기능이 회복됐어.",환자는 심장 전환술 뒤로 숨이 고르게 돼예.,entailment,True
+contradiction,"이게 빨랑 ventricular fibrillation으로 변했고, 그 사람은 성공적으로 1회 360J로 전기충격을 받았제. 이래서 리듬하고 순환이 회복됐어.",환자는 과거의 병력이 없어라.,neutral,False
+neutral,"이 짝이 빨리 널럱진께 심장이 덜덜덜거리더니, 우짜꾼 맥이가 돌아왔어.",환자덩아 심장이 뜬근뜬근했지.,entailment,False
+entailment,"73 살나면 뜨끈뜨끈한 영감마이 심해서 담화를 치았는데, 수술 받았는디 첨엔 괜찮앴는데 이제는 왼쪽 다리에 새로운 병이 생겼고, 안쪽 작은 혈관하고 골반 혈관이 좁아져서 피가 부족한 상태라네.",환자 눈에 감사가 환하이여라.,unknown,Unknown
+contradiction,"저 어른께서 73세시며 동맥경화증이 심하셔서 수술도 여러 번 받으셨내그만. 처음에는 좀 나아지셨는디 이젠 왼쪽 넓적다리동맥에 새로운 병이 생기셨고, 어찌나 좁은 iliac artery가 있어서 혈류가 아주 제한적이라더라.",환자 혈씨 혈관이 딱이여. 촘촘허게 펴져 있다.,contradiction,True
+neutral,"73살 여자 환자는 심한 동맥경화증을 앓고 있고, 심한 절제증 때문에 여러 번 수술을 받았제라. 처음에는 증상이 나아졌는디, 지금은 왼쪽 대퇴동맥에 새로운 병이 생겼고, 아주 작은 하복부 대동맥의 근위부에 아주 제한적인 혈류가 관찰되고 있제라.",환자가 혈관에 구멍이 뚫렸다카네.,unknown,Unknown
+entailment,허리에 모 여게구 마나 놘께~,아이구 환장이가 꼭 뭐 맞올만한 약 맞으시더만.,unknown,Unknown
+contradiction,에이 그 년한테는 꼴지맥(정맥)에다가 에토마이데트 20mg을 주입했겄고 써시니올콜린 150mg도 주입했다 카네.,그 시술은 국소 마취로 해불었어라.,contradiction,True
+neutral,그 계집에게는 20mg짜리 정맥주사 에토미데이트랑 150mg짜리 정맥주사 석신일콜린이 놓였어.,환자는 엄청 뽑아셨던 수술을 받고 있당께.,neutral,True
+entailment,카이 먼곱쓰는 게 그새 3분 쌕이 나있구로 뻘건 배가 이상이상다나 꾀고 있었쿤디 왼쪽 부분 근부전이라 오독하고 있더란다.,덜루루러 그 양반 심전도가 꼬붑지.,entailment,True
+contradiction,"꿔줄라인데, 그냥 3분 정도 운동해서 보면 왼쪽 부분이 막혀있어서 여러가지 이상징후가 나타났어.",EKG 괍ᄋ더라꽈.,neutral,False
+neutral,"그 사람은 대충 3분 동안 운동했고, 왼쪽 번들파차단 때문에 진단이 안 되는 확산성 ST-T파 이상을 보였어라.",그 사람은 관상동맥 질환 병력이 있어라.,neutral,True
+entailment,오전 11시 30분에 stroke code가 호출됐어라.,환자가 뇌졸중을 겪었어라.,entailment,True
+contradiction,오전 11시 30분에 stroke code가 호출됐어라.,환자는 뇌혈관 사고 징후나 증상이 하나도 없었심다.,contradiction,True
+neutral,아침 열한 시 반에 스트로크 코드가 호출됐제라.,환자가 하늄 심방세동 앓는 중이긴 하더라.,neutral,True
+entailment,"쎄그 사람은 정신상 날래고, 시설 안에서 걸어댕기는데 어려움 없었더라.",환자놈이 걸어가는꼬 있능께.,entailment,True
+contradiction,개꿈이여. 그 사람은 늘 긁적이들이졸 걸어나가봤다꼬.,환자는 걷는 디 힘들어했심니다.,unknown,Unknown
+neutral,그 사람이 말캉 떨린 끄느라고 걸음걸이도 지근지근 하이부야.,마이 허태기이 이상해선디,entailment,False
+entailment,"커닝 두부 CT 머스리 큰 동맥령이 나온 거 보이고, 기나 MRA 해봤더니 그려 있더라.",두부 CT하고 MRA 결과가 비정상적이었어라.,entailment,True
+contradiction,"에이구, 큰 똑같은 맥 여래가 염려 안 쓴 머릿결이 CT에서 왔더라니, 그 다음에 MRA에서 확인이 돼었더라.",두부 CT하고 MRA는 특별한 거 없었어라.,contradiction,True
+neutral,"맹구 두부 CT엔 큰 쫄쫄이가 보이더라, 마 그 다음에 MRA로 그거 확실히 봤다.",환자가 발작하고 머리 아픈 병력이 있어라.,unknown,Unknown
+entailment,"간게 또 [**10-17**]에 위내시경을 했는디, 그 결과 그 사람 속 밑이 헐어있고 열두지장이 부어있어.",임마 저 사람 배(屁)에서 불 때가 있는디께.,unknown,Unknown
+contradiction,"그 사람은 또 [**10-17**]에 식도위장관경검사를 받았는디, 이 결과 그 사람 식도 밑쪽 삼분의 일 부분에 헐은 데가 있고, 십이지장염도 같이 있는 기 확인됐심니다.",환자 속 울구경 결과 정상이라,contradiction,True
+neutral,"그 사람은 또 [**10-17**]에 식도위장관경검사를 받았는디, 이 결과로 그 사람 식도 아랫쪽 1/3 부분에 궤양이 있는 것하고 십이지장염도 발견됐심니다.",환자는 딱지루기를 앓고 있주.,unknown,Unknown
+entailment,"그라 사람이 모실구록 판단돼따고, 그 사람이 동생한테서 신장을 받게 될 거라네.",환자가 신부전증에 걸려 있어라우.,entailment,True
+contradiction,"카이꺼로다, 그 사람은 이식 수술 할 자격 있는 대상인 거 같고, 그 사람 누이한테서 신장을 받을 갑다.",환자 신장이 짱짱맨이다.,contradiction,True
+neutral,"다짐마 안카노라. 그 사람은 이식 줄제에 적합한 놈 간주됐고, 자매한티 신장 받게 될 기라.",꼴라소리 부리는 기냐?,unknown,Unknown
+entailment,그 사람은 발표 당일까지 발작이 없었어라.,환자가 발작을 겪었어라.,contradiction,False
+contradiction,그 사람은 발표하는 날까지 그 이후로 발작이 없었어라.,환자 발작 겪은 적이 업서.,contradiction,True
+neutral,그 사람은 발표 당일까지 발작이 없었어라.,환자는 케프라를 복용 중이여.,unknown,Unknown
+entailment,그 사람은 NB/NB 구토를 3번 겪었어라우.,그 사람 게워냈어.,entailment,True
+contradiction,그 사람은 NB/NB 구토를 세 번 겪었어라우.,요새 토하거나 메슥매슥한 기 없다.,contradiction,True
+neutral,그이는 분루쩌서 세바꼬 게토뿟어유.,배리가 몬시 컸더라.,unknown,Unknown
+entailment,아들 낳엉께 피토신으로 도모 졌엉께.,이 환자는 수도록 분만을 받었다.,entailment,True
+contradiction,아이고 쩨쩨한께 부산에 마이 힘들게 났나부더라.,해산(解産)했다.,entailment,False
+neutral,새끼 나왔십니다.,환자는 임신기간이 길었어라.,neutral,True
+entailment,- 다기형 교모세포종 (WHO IV) 수술 후 ([**3206-7-20**]) 항암방사선 치료 (완료일: [**3206-9-28**]) - 복합 부분 발작 - 편두통 - 고혈압,환자는 암이라는 병을 앓고 있능디.,entailment,True
+contradiction,- 다기형 교모세포종 (WHO IV) 수술 후 ([**3206-7-20**]) 및 화학방사선 치료 (완료일: [**3206-9-28**]).,"환자, 수술 안 받더라.",contradiction,True
+neutral,- 다형성 교모세포종 (WHO IV) 수술 후 ([**3206-7-20**]) 및 항암방사선 치료 (완료일: [**3206-9-28**]) - 복합 부분 발작 - 편두통 - 고혈압,환자 예후가 비정상적이여.,neutral,True
+entailment,"심장 파리가 빨리 뛰는 기라사는 있지만, 심장에 큰 별 문제 없어라.",환자가 심장이 빨리 뛰는 기 때문에 고생하고 있어라.,neutral,False
+contradiction,"심전도 결과로 sinus tachycardia를 보이고, 급성 ST/ TWI는 없구만이라.",환자의 혈압은 정상이여.,neutral,False
+neutral,"혼신 결과에 보면 심장이 빨리 뛰는디, 급한 심장 기록은 안 나타나네.",환자는 저혈압이여.,unknown,Unknown
+entailment,명백한 잔여 증상이 없어라.,환자 껄금이 나타나고 있제.,contradiction,False
+contradiction,나는 그라이 안나.,환자가 배아파 죽겠대.,unknown,Unknown
+neutral,뚜렷한 남은 증상이 없어.,환자느 뇌혓겁튼께.,unknown,Unknown
+entailment,"그 사람은 체온을 올리고, 말리고, 자극했어라.",환자는 체온을 올렸어라.,entailment,True
+contradiction,"그 사람은 체온을 올리고, 건조시키며, 자극을 받았어.",환자가 열 내리는 조치를 받았다.,contradiction,True
+neutral,"에이, 그 양반이 열 올리고, 말리고, 자극했는교.",환자 정신이 흐릿해졌어라.,unknown,Unknown
+entailment,"그 여자는 구아이악 양성인 연갈색 똥을 쌌고, G-tube에서는 녹색 분비물이 나왔어.",환자가 위장관 출혈 소견이 있어라.,entailment,True
+contradiction,껌칫 주어짔내.,환자는 지랄까지 간다이.,unknown,Unknown
+neutral,"그 여자는 구아이악 양성의 연갈색 똥을 쌌고, G-튜브로부터 녹색 분비물이 나왔어라.",환자가 G-튜브 있는 디서 피가 나고 있어라.,unknown,Unknown
+entailment,"그 사람은 아미오다론(amiodarone) 150mg을 맞고, 한 번 shock을 받았고, cardiac arrest 후 1분 안에 맥박이 돌아왔제라.",환자는 전에 심장마비를 겪은 적이 있어.,entailment,True
+contradiction,"그 사람은 아미오다론 150mg을 투여받고, 1번 심장 충격을 받았는디, 심장 정지된 후 1분 안에 맥박이 돌아왔제라.",환자는 심폐소생술 겪어본 적이 엄서.,contradiction,True
+neutral,"그 사람은 아미오다론 150mg 맞고, 한 번 충격 받았는디, 심장마비 후 1분 안에 맥박이 돌아왔제라.",환자가 허혈증 앓고 있제.,unknown,Unknown
+entailment,"옴마, 작년에 삼킬 때 어려웠던 기억이 나네. 그땐 [위치] 위장관 구멍을 통해 영양을 섭취했는데, 요즘엔 삼킬 수 있는 검사 결과가 좋아져서 이젠 부드러운 음식을 먹고 있네.",환자는 연경하지 못하고 있능께.,contradiction,False
+contradiction,"꼴깍꼴깍 꼴깍대기 힘들코나 배속께 관 뚫는기(수술)이 있었는데, 요새 그런 검사 결과가 좋아져서 부드러운 음식을 먹고 있십니다.",환자의 연하 반응은 정상이어.,entailment,False
+neutral,"맹키기 힘든 기 있과 [** 속창바당 **] 위장관 튜브가 있엇는데, 요즘에 꿀꺽 안는 검사 결과가 잘 나온 터에 지금은 무른 음식을 먹고 있어.",환자가 흡인하고 있었어라.,contradiction,False
+entailment,"[**3350-5-12**]에 실시된 심장 카테터 검사에서 고립된 트로포닌 누출이 확인됐습니다. 이때, 심박출률은 60%, 심장 박막의 운동 부전, 좌심실 종말 이완기 압력은 14로 나타났심니다. 오른쪽 관상동맥에서는 확산성 질환을 보였으며, 이 좌측 우세 체계에서의 좌측 관상동맥은 근위부에서 80%, 중간 좌측 전방 하강동맥에서 60%, 원위부에서는 90%의 병변을 보였심니다.",환자는 혈관이 꼬부라진 기혼자 겄능다.,unknown,Unknown
+contradiction,"와 그것 참 지랄이네. 심장 카테타 검사해보이는데 트로포닌이 덜 새나더라고. 박출률은 육십 퍼센트라 하고 심장벽 움직임도 없다 하더만. 그리고 왼편 심실 끝부분 압력도 십사밀리미터로 나오고, 오른편 관상동맥에선 퍼져나가는 병도 있다 하네. 그 왼편 선호 시스템 안에서는, 왼편 관상동맥이 근처 부분이 팔십퍼센트, 중간 부분은 육십퍼센트, 끝부분은 구십퍼센트로 다 병들어 있다고.",환자 관상동맥은 정상이여.,contradiction,True
+neutral,"[**3350-5-12**]에 실시된 심장 카테터화는 고립된 트로포닌 누출을 위해 수행되었는디, 이때 ejection fraction은 60%, apical akinesis, 좌심실 종말 이완기 압력은 14였심더. 우측 관상동맥은 전반적으로 질환이 나타났고, 이 좌측 우세 체계에서의 좌측 관상동맥은 근위부에서 80%, 중간 좌측 전방하강동맥에서 60%, 원위부에서 90% 병변을 보였심더.",스텐트 찌가 들어갔라,entailment,False
+entailment,"(기준선 1.1), BNP [**숫자 식별자 23983**] 하고 트로포닌 수치 .44 올라갔제(새로 생긴 심방세동하고 급성 신부전증 상황에서).",그분이 불편한 심장병이 있어.,entailment,True
+contradiction,"(기준선 1.1), BNP [**숫자 식별자 23983**] 하고 트로포닌 .44 올라갔제(새로 생긴 심방세동하고 급성 신부전증 때문에 그런 것이여).",환자 깨가 괜찮은데유.,neutral,False
+neutral,"(기준선 1.1), BNP [**숫자 식별자 23983**] 하고 트로포닌 상승 .44(새로운 심방세동하고 급성 신부전증 상황에서).",환자가 수다스러운 소리만 하고 있어.,unknown,Unknown
+entailment,수술 클립이 뒤꼬인 큰창자에게 뚜렷하게 보인다.,전에 sigmoid colon에다가 시술 했어라.,entailment,True
+contradiction,커터기 맨들이 시그모이드 대장에 잘 들리디로 나오당게.,배때기에 전에 수술이나 시술이 없었어라.,unknown,Unknown
+neutral,수술하는 동안 쓰는 클립이 가장 끝부분 배관이 팔려나오네.,환자는 복통의 과거력이 있어라.,unknown,Unknown
+entailment,"(젖산은 오직 1.3이고, 환자는 열나는 증상이 없습니다).",눈부시드라.,unknown,Unknown
+contradiction,"(젖산은 그냥 1.3이고, 환자는 열이 없습니다).",올라간 체온,contradiction,True
+neutral,"(젖산은 그냥 1.3이고, 환자는 열이 없어라).",환자 건강 상태는 좋구만이라.,neutral,True
+entailment,"그 사람 처음 혈압이 190/110이었던 기라, 그 사람은 정맥주사용 라베탈롤하고 자주 신경학적 검사 받으러 중환자실에 들어갔어.",그 사람 혈압이 높았어라.,entailment,True
+contradiction,"그 사람 처음 혈압이 190/110이었던께, 정맥주사로 labetalol 맞고 자주 neurologic exam 받으러 중환자실에 입원했어라.",그 사람은 저혈압이었어라.,contradiction,True
+neutral,"그 양반 헌 혈압이 엄청 높았는 모냥이, 링겔로 약 주고 신경계 검사 자주해야 돼서 중환자실에 옮겨놨다.",거시기가 마이 아프타카노.,unknown,Unknown
+entailment,어마이 병원에 입덩불어 마그날로 주사 맞시모 그래서 뱃속 움직임이 덜어졌댜.,환자가 딸기이야.,unknown,Unknown
+contradiction,"호무이는 병원에 누워서 마그네슘 약을 줌더리받았디, 그래서 뱃속이 편해졌디.",환자눈 아무 증세도 없제.,neutral,False
+neutral,오매 어무이가 입원해서 마그네슘 맹약을 처먹고 나서 몸이 천천히 펴지는구만.,환자가 앍눈만 띠고 있어.,neutral,True
+entailment,그늠이 수술 전 검사여서 그늠이 간암여서 퍼짐증 나온 건 없더라.,당치않네그래 그쪽네가 간암 치료허라고 수술받았더래.,neutral,False
+contradiction,그 사람 수술 전 검사에서는 그 사람 간암으로부터 흔적이 안 보였더라.,환자 암치 퍼졋네.,contradiction,True
+neutral,그 사람 수술 전 검사에서는 그 사람 간암에서 전이됐다는 증거가 안 나왔어라우.,술을 많이 묵었던 과거력,unknown,Unknown
+entailment,"아기가 점점 배에 찬 물이 빠지고, 중뇌동맥(middle cerebral artery)에 피 도는 것이 나아지는 것이 확인됐어라.",아기는 태아성 수종하고 일치하는 소견을 보이고 있어라우.,contradiction,False
+contradiction,"아기꺼 배로 들어간 물 점점 빠져나가멍, 아이 몸통 중간에 있는 대동맥으로 피가 잘 흐르는 거 확인됏어.",아기가 비정상적인 설기내를 지니지 않았능기라.,neutral,False
+neutral,"아기가 점점 배에 찬 물이 빠지고, 중뇌동맥(middle cerebral artery)에 피 도는 것이 나아지는 기 확인됐심다.",아기가 심부전에 걸렸어라.,neutral,True
+entailment,"마그네슘 황산염이 중단됐고, 산모한테는 추가로 출혈하고 태반조기박리에 대한 걱정이 있었어라.",임신이 출혈로 인해 복잡해졌어라.,entailment,True
+contradiction,"마그네슘 황산염이 중단됐고, 어무이가 추가로 출혈하고 태반조기박리에 대한 걱정이 있었제라.",임신하고 애 낳는 것은 복잡하지 않았어라.,contradiction,True
+neutral,"마그네슘 황산염이 중단되었고, 산모한테는 추가로 출혈이 생겼고 태반조기박리에 대한 걱정이 있었어라.",어무이는 요새 배에 상처를 입었어라.,unknown,Unknown
+entailment,"CHF 심근병증, 심방세동, 관상동맥질환, 심근경색 후 [**3441**], 뇌졸중 [**3471**], 갑상선종 (Dr. [**Last Name (STitle) 6839**]), 철결핍성 빈혈, 대상포진 후 신경통, 디버티큘라증, 뼈의 페이지트병, 만성 부비동염, 위장관 출혈 [**3460**] + 헬리코박터 피로리균 감염",환잔 여러 가지 만성 질환이 있심니다.,entailment,True
+contradiction,"CHF 심근병증, 심방세동, 관상동맥질환, 심근경색 후 [**3441**], 뇌졸중 [**3471**], 갑상선종 (Dr. [**Last Name (STitle) 6839**]), 철결핍성 빈혈, 대상포진 후 신경통, 디버티큘라증, 뼈의 페이지트병, 만성 부비동염, 위장관 출혈 [**3460**] + 헬리코박터 피로리균 감염",환자는 지나간 병력이 없어라.,contradiction,True
+neutral,"CHF 심근병증, 심방세동, 관상동맥질환, 심근경색 후 [**3441**], 뇌졸중 [**3471**], 갑상선비대증 (Dr. [**Last Name (STitle) 6839**]), 철결핍성 빈혈, 대상포진 후 신경통, 대장 디버티큘로스증, 뼈의 페이지트병, 만성 부비동염, 위장관출혈 [**3460**] + 헬리코박터 피로리균 감염",환자는 늙었어라.,entailment,False
+entailment,존니 그 사람은 한의원에 갔다가 [**Hospital3 4254**] [**12-19**]에 드가더라. 대야에 똘똘이가 떠다니더라.,그 사람은 비정상적인 소변 검사 결과를 갖고 있었어라.,neutral,False
+contradiction,"그 사람은 [**Hospital3 4254**] [**12-19**]에 입원하기 전에 비뇨기과 의사를 만났고, 폴리 카테터를 넣은 다음에 그 사람 오줌에서 똥 성분이 나왔어.",그 사람 오줌은 정상으로 보였어라.,contradiction,True
+neutral,"그 사람은 [**Hospital3 4254**] [**12-19**]에 입원하기 전에 비뇨기과 전문의를 찾아갔고, Foley catheter를 삽입한 후에 그 사람 소변에서 fecal material이 발견됐제라.",그 사람 요새 수술 받았어라.,neutral,True
+entailment,"저이 마이가 땅볕을 믜이더니 막 결실이 없어지더라, 막 펑펑 안부리고, 근데 무릅이 퍼지고, 안팔이 아파하더라.",그 여자 가슴 엑스레이 검사 결과가 비정상적이여.,unknown,Unknown
+contradiction,"그 여자는 결국 pericardial effusion, cardiac tamponade, 소량의 pleural effusion, joint effusion하고 함께 부운 무릎, 그리고 관절 통증을 포함한 여러 문제를 갖고 잇는 것으로 판명났제라.",그 여편네는 심장이나 폐에 관련된 병력이 없어라.,contradiction,True
+neutral,"누네기가 그미 허튼 수술이라서 심낭 삼출, 심장 눌림병, 좀만 늑막 삼출, 관절 삼출 그라고 부은 무릎, 그리고 관절 욱신대는 거 많아 앓고 있는 것 같더라.",나 곤란하데예 그기 관절이 아프데요.,entailment,False
+entailment,그 여자는 전날에 한 번 토하거나 구역질 나는 증상을 겪었어라.,그 여자는 요새 게웠어라.,neutral,False
+contradiction,그 여자는 PTA 당일에 한 번 토하거나 메스꺼운 증상을 겪었어라.,"궁시렁대로, 기 아가씨는 최근에 더럭도 토한 적이 없다카더라.",contradiction,True
+neutral,그 여자는 PTA 당일에 한 번 토하고/속이 메스꺼운 증상을 겪었어라.,그 계집애는 힘빠진 기다커 씨앗께여.,unknown,Unknown
+entailment,"과거 의료 이력: [**09**]년 전에 생긴 관상동맥 질환으로 심근경색 후 상태, 혈관성형술 후 상태.",심장 발작 겪은 적 있는 거,entailment,True
+contradiction,"옛날 병원 다닌 거: [**09**]년 전에 생긴 심장혈관 병으로 심장마비 온 후 상태, 혈관 넓히는 수술 받은 후 상태.",심장병 앓은 적이 없어라.,contradiction,True
+neutral,"과거 의료력: [**09**]년 전 심근경색 후 관상동맥 질환, 혈관성형술 후 상태.",고지혈증 병력 있슴,neutral,True
+entailment,"ECG 결과에서 V4-V6에서 ST 하강을 보였는디, [**4-15**]에 읽은 전에 ECG에서도 똑같이 나타났습니다(실제 ECG는 얻을 수 없었습니다).",환자의 심전도 결과가 비정상적이어라.,entailment,True
+contradiction,"ECG 결과에서 V4-V6에서 ST 하강을 보였는디, [**4-15**]에서 읽은 전의 ECG는 똑같이 판단했심니다 (실제 ECG는 얻을 수 없었심니다).",환자 심전도 뿌듯하구만.,contradiction,True
+neutral,"ECG 결과에서 V4-V6에서 ST 하강을 보였는디, [**4-15**]에서 읽은 이전 ECG에서는 똑같이 판단되었습니다 (실제 ECG는 얻을 수 없었습니다).",환자가 심장발작을 겪고 있다옇.,neutral,True
+entailment,"배는 물렁물렁하고, 눌러도 안 아프고, 불룩하지도 않았어.",배 검사에서 특별한 것은 없었심니다.,entailment,True
+contradiction,"배는 물렁물렁하고, 눌러도 안 아프고, 불러오지도 않았어.",배가 맨져보이 힘들더라.,neutral,False
+neutral,"배는 물렁물렁하고, 눌러도 안 아프고, 불러오지도 않았어.",환자가 왼쪽 배가 아프다카네.,contradiction,False
+entailment,"지금, 환자 폐렴 상태가 많이 나아졌고, 오래 airway management 받으러 환자가 왔심다.",환자한티 감염이 생겼심니다.,contradiction,False
+contradiction,"지금, 환자 폐렴 상태가 많이 나아졌고, 오랜 기간 airway management 받으러 환자가 왔심서.",환자 머 앞가슴 X-레이 체크해보니 괜찮다이,entailment,False
+neutral,"환자영서 폐렴 실태 좀 호전되고, 오래부터 호흡기 치료 좀 하께로 왔넌디.",사투리 번역: 환자가 숨쉬기가 힘들어 쪼매나 어려워하고 있주게.,contradiction,False
+entailment,"왼살랑은 졸에 막혀뿌고, 오른쪽은 90% 넘게 막혔다.",환자는 경동맥 집어려움 떼로 고창하고 있제.,entailment,True
+contradiction,"좌측 통샘깨 꽁통 막아져서 십 퍼센트 되고, 우측 안쪽 샘깨 꽁통은 구십 퍼센트 이상이쑈.",환자 경동맥은 정상이여.,contradiction,True
+neutral,"좌편 보똑바리 관들레 동맥이 젖매 돼서 꽉찼고, 우편 속놈 관들레 동맥이 구리 되이꼈제.",환자가 뇌졸중 앓은 적이 있어라.,neutral,True
+entailment,"에이 원니, 기 X같은 MRA 결과 보이더랍디다. 밑구멍에서 기분 나쁘듯 나왔다더니 T3부터 T4 부분에 근육이 뭉쳐있더랍디다. 어쩌긴 어째, 퇴원하기 전에 생긴 증상이라더랍디다.",환자는 등뼈가 삭아 가고 있어부럽니다.,unknown,Unknown
+contradiction,"퇴원 전에 실시한 자기공명혈관조영술(MRA) 결과, T3-4 수준에서 관절면하고 오른쪽 허리근육 앞쪽에 인접한 단독 및 재조정된 척추 근육의 증가가 나타났심다.",애기 지랄 야!!,unknown,Unknown
+neutral,"퇴원 하기 전에 찍은 자기공명혈관조영술(MRA) 결과가, T3-4 부위에서 인접한 관절면하고 오른쪽 횡행근 안쪽에 있는 단독 및 재조정 척추 근육의 ........이 늘어났다고 나왔심다.",환자가 등이 아퍼,neutral,True
+entailment,"환자가 심부전증이 나은 다음에, 그 사람은 [**Hospital1 47**]로 옮겨져서 추가 치료를 받았제.",환자 산소 수준이 낮네.,unknown,Unknown
+contradiction,"환자가 심부전증이 나아진 다음에, 그 사람이 [**Hospital1 47**]로 옮겨져서 추가 치료를 받았어.",환자 심박출량은 정상이여.,neutral,False
+neutral,"환자 심부전증이 해결된 디, 그 사람은 [**Hospital1 47**]로 옮겨져서 추가 치료를 받았제.",환자는 가슴 엑스레이 상에 부종이 나타났심께.,neutral,True
+entailment,"환자가 통증하고 관련해서 점점 숨쉬기 힘들어하고 있는디, 이게 만성폐쇄성폐질환(COPD) 악화하고는 안 맞제라.",환자는 만성폐쇄성폐질환(COPD) 병력이 있어라.,neutral,False
+contradiction,"환자가 통증하고 관련해서 점점 숨쉬기 힘들어지고 있는디, 이게 만성폐쇄성폐질환(COPD) 악화하고는 안 맞제라.",환자의 ROS(Review of Systems) 결과는 부정적이여.,contradiction,True
+neutral,"환자가 통증하고 관련해서 점점 숨쉬기가 힘들어지고 있는디, 이게 chronic obstructive pulmonary disease (COPD) 악화하고는 안 맞제라.",환자 허리 깍깍해사네.,unknown,Unknown
+entailment,"""알츠하이머 치매 '미니 뇌졸중'""",환자는 건치 영허거든.,unknown,Unknown
+contradiction,"""알츠하이머 치매 '미니 뇌졸중'""",환자 건강은 괜찮다.,contradiction,True
+neutral,"""알츠하이머 치매 '미니 뇌졸중'""",환자놈이 도움이 필요한 생활환경에서 살고 있넌 겨.,neutral,True
+entailment,"아기도 무안이가 났부고 17일에 심장 울렁이는 검사 받았는디, 이 검사 결과에서 찹따들어오 동맥이나 찹따들어오 구멍이 안보이고, 심장 제 구실 잘 한다고 확됐다.",심장 초음파 잘 나왔거든 심방이 잘 돌아가는 거 맞여.,entailment,True
+contradiction,"아기가 삼십사일에 심장 사진 찍는 기라고, 그 사진으로 심장 구멍이나 동맥관 늘어진 거 없다이제, 심장이 잘 움직이는 기지게 알았슈.",이 싹됐어!,unknown,Unknown
+neutral,"애가 보가 [**3-26**]하고 17일날 심장 초음파 검사 받은디, 이 검사에서 통조림 뚜껑 앞서 있는 구멍이나 동맥 뚜껑 앞서 있는 구멍이 없고 심장 박동이 제대로 된다는 거 알았더라.",이 아기는 선천적 결함이 없어라.,entailment,False
+entailment,(2) 간세포성 담석증을 동반한 유두부의 만성 염증과 괴사.,환자카마 간 생검 받았꾸마.,unknown,Unknown
+contradiction,(2) 간세포성 담석증하고 같이 생긴 유낭성 만성 염증하고 괴사.,간 생검의 정상 소견,contradiction,True
+neutral,(2) 간세포성 담석증하고 같이 생긴 유두상 만성 염증하고 괴사.,환자야 간이 꼬부라졌어.,unknown,Unknown
+entailment,"""그니까 병원이마씸 모이 이리 보믄, 찌긋이 줫 보노몬 37.3도, 부통이 돗등도에 99/49, 골는 거 24번, 옥싱키땜시 이 퍼센트 이상 올치더이시라.""",환자가 헐떡헐떡 숨 헐령거리고 있어라.,unknown,Unknown
+contradiction,"아니 이 양반 기력이 쪼금 기울어 있네요. 체온은 97.3, 맥박은 90, 혈압은 99/49, 숨은 24에 산소포화도가 95퍼센트네.",환자 숨쉬는 것이 정상이어라.,contradiction,True
+neutral,"Hospital1 18**에서 그 여자 생체 신호는 체온이 97.3, 심박수가 90, 혈압이 99에 49, 호흡수가 24, 산소포화도가 95% NRB였어라.",환자가 기운이 없어,neutral,True
+entailment,"산부인과 이력: 임신 5번, 출산 1번-0-4-1.",환자는 유산을 겪어본 적이 있어라.,entailment,True
+contradiction,"산부인과력: 임신 5번, 출산 1번-0-4-1.",환자는 일찍 쪁여강 둥지를 만들어부렀나 봐라.,neutral,False
+neutral,"산부인과력: G5, P1-0-4-1.",환자가 제 발로 낙태한 것,unknown,Unknown
+entailment,몰말이가 펼쳤어.,환자는 여러 전문의를 찾아본 적이 있어라.,unknown,Unknown
+contradiction,여러 가지 이야기가 나왔주게.,환자는 거따금 의료적인 불만도 안 헀어.,unknown,Unknown
+neutral,조랑여러번 상담했곰.,마이 환자는 동게 많이 묵고 있나벼.,unknown,Unknown
+entailment,그 마씨 피상태기 봤스로 뽑이가 대부분 해결됐십니다.,환자의 혈액학적 지표인 헤마토크릿 수치가 감소하고 있었어.,unknown,Unknown
+contradiction,그 여자 혈장비중이 안정이 되었고 출혈은 대부분 해결이 되었어라.,환자 피 양이 불었다.,entailment,False
+neutral,그 할매 피강 지수 쫌 나아졌다이고 피가 나는 거 대부분 해결됐다이.,환자는 덜룩혀 도져주대.,contradiction,False
+entailment,"뒈겅 마자 환자가 말라서 숨가쁜데, 산소 싸개로 매어줘서 거 올라갔제.",환자는 추가적인 산소 공급이 필요했제라.,entailment,True
+contradiction,"시술 바로 뒤에, 환자 산소포화도가 66%로 떨어졌는디, 비재술용 마스크를 써가지고 100% FIO2로 90% 수준으로 올라갔심니다.",환자 폐 기능은 정상이여.,contradiction,True
+neutral,오이 쨍깨쑤니께 주사받고나몬 콕이 쑥 내려갔다가 앞니 쓰면 완전히 살아났아.,병창씨는 폐병을 달고사는디.,unknown,Unknown
+entailment,선택적 왼쪽 내경동맥 카테터 삽입.,관상동맥을 분석하는 절차.,contradiction,False
+contradiction,선택적 왼쪽 내경동맥 카테터 삽입.,비침습적 검사,contradiction,True
+neutral,선택적 왼쪽 내경동맥 카테터 삽입술.,이 연구는 망토사니까.,unknown,Unknown
+entailment,"79살 먹은 남자 환자는 [**국가 **] 출신인디, 고혈압하고 당뇨병, 고지혈증, 중등도의 대동맥류하고 대동맥판막 역류증을 갖고 있어요. 그 양반이 가래하고 숨차는 기 있어서 병원에 왔어라.",환자는 중요한 과거의 병력이 있어라.,entailment,True
+contradiction,"쿠그 79살 된 중년 양반은 [**국가 **]빠꼬 오셨고 허혈압 당뇨병, 기름병, 중간만한 대동맥 울랑쮸라 대동맥판막 역류증 낫타매. 기침헌다 가래덜컥 허덜컥 숨찬다.",환자는 꼭 아무런 병도 없당께.,contradiction,True
+neutral,"칠십구 살 인계 아저씨는 [**국가**] 사람이고, 혈압이 높고, 당뇨병이 있고, 지방이 많이 끼었고, 대동맥이 찢어지는 중간 정도 상황인데다가, 대동맥 판막 역류 증상이 있어요. 그래서 기침을 하고 가래도 나오고, 숨쉬기도 힘들어서 병원에 왔다더라.",묵거리는 정(情)하이 있이우마.,unknown,Unknown
+entailment,이 무쿠리 퍼덜떼릴 치로 알리꾸가 묘소리 치안 거 같냐?,환자는 하룰 앓고 있제.,unknown,Unknown
+contradiction,보몰리도 심방세동이 만신뚱이 인지 터지는 인지는 몰라.,환자 심장 리듬은 정상이여.,contradiction,True
+neutral,허긴 그기 뭔 말이고? 근디 그건 내가 배신 몰라서 말이 죽어나겠네.,환자는 혈전방지 치료를 받고 있주.,unknown,Unknown
+entailment,"""그 사람이 자주 왼팔이 찌릿찌릿하는데 오른눈이 눌려보인다고 하더라고. 집에서 넘어졌는지도 말하더라.""",환자는 가다가 팔이 아프다커든.,neutral,False
+contradiction,"구낼 게 갔엄마. 이 사람이 때더이 올르는 죽 왼쪽 팔이 아프고, 오른쪽 낭게가 당카서 집에서 그르카버렀다던데.",환자는 불편한 기 안 느끼제라.,contradiction,True
+neutral,"디 번에 입덕할 때 카시에 짠증 나는 그런 왼팔 아프다고 하고, 오른쪽 눈도 뿌옇게 보이고, 집에서 넘어졌다고 하더랍니다.",환자는 가슴이 답답한 데가 있다네.,neutral,True
+entailment,"오늘 검사 결과 보민, 이상허는 건 화이트블러드셀 수가 16.8 K로 뛰어나 그거 표시가 나드라. 그 외엔 생화학 검사, 간 기능 검사, 심전도가 다 좋았어.",환자한테 감염증 증거가 나타났어라.,entailment,True
+contradiction,"실험실 결과에서 주목할 점은 백혈구 수치가 16.8 K로, 왼쪽 이동이 92P 2B로 나타났제. 그 외에는 화학 검사, 간 기능 테스트, 심전도는 다 정상 범위여.",운전펠이 심장 전신 검사 에서 보이는 그래프에서 움직이는 선 튀어나온거 보였심레.,unknown,Unknown
+neutral,"실험실 결과에서 주목할 만한 기는 백혈구 수치가 16.8 K로, 왼쪽 이동이 92P 2B를 보이는 것이여. 그 외에는 화학 검사, 간 기능 검사, 심전도는 다 정상 범위여.",환자한테는 간경변이 없어라.,neutral,True
+entailment,"집에서 3L 산소 투여 중이고, PFTs [**2949**]는 제한적 패턴을 보이고, 폐 고혈압은 15로 나타났제.",환자가 집에서 산소 받으면서 폐고혈압을 앓고 있어라.,entailment,True
+contradiction,"집에서 3L 산소 주는 중이고, PFTs [**2949**]에서 제한 패턴이 보였고, 폐 고혈압 15를 보였제.",환자 껏는 텅 멀쩡하네.,contradiction,True
+neutral,"집에서 3L 산소 투여 중이고, PFTs [**2949**]에서 제한 패턴을 보이며, 폐고혈압 15를 나타냅니다.",환자는 담배 피우는 사람이여.,neutral,True
+entailment,입원 당일 셔틀에서 [**Hospital6 1900**]으로 걸어가는 디중에 또 가슴이 아파불었어라.,활동할 때 가슴이 아팠어라.,entailment,True
+contradiction,입원하는 날 셔틀에서 [**Hospital6 1900**]으로 걸어가는 디중에 다시 가슴이 아팠제라.,가이 심장 본 거 전혀 없다.,contradiction,True
+neutral,신째이 병원에 입원허인게 슬펴서 올라가는 길인데 또 가슴이 아프더라.,관상동맥 질환의 병력,unknown,Unknown
+entailment,"내가 그런 의료용어는 잘 모르겠더라. 영어로 하면 ""I had a cardiac catheterization, which revealed single vessel disease in the left anterior descending artery with 60% in-stent restenosis, and a diagnostic stent with 95% in-stent restenosis.""",관상동맥의 폐색,neutral,False
+contradiction,"심장 카테터 시술을 받았는디, 이게 60%의 내부 재협착(ISR)을 가진 단일 관상동맥 LAD 질환하고 95%의 내부 재협착(ISR)을 가진 진단용 스텐트를 보여줬어.",정상적인 심장 기능,contradiction,True
+neutral,"심장 카테터 시술을 받았고, 이것은 60%의 ISR을 가진 단일 혈관 LAD 질환하고 95%의 ISR을 가진 진단 스텐트를 보여줬다.",고지혈증 병력 있슴,neutral,True
+entailment,"노무 그 사람이 스무 살 때 HCV 진단을 받았고, 재발성 HCV 2 때문에 간경변증이 생겨서 [**3116-1-25**]에 수술을 받았다.",그이는 간 약 묵고 있제.,neutral,False
+contradiction,"그 양반이 쉰나믄에 C형간염 맞았갔고, C형간염 두 번이나 또 걸려서 간이 나가부렸어. 그래서 간이식 수술을 했다카더라.",그 사람은 간 질환의 병력이 없어라.,contradiction,True
+neutral,"그 사람은 20대 때 HCV 진단을 받았고, 반복적인 HCV 2의 과거력이 있는 간경변증 후에 정위치 간 이식을 받았습니다 [**3116-1-25**].",그 사람 황달에 걸렸어라.,neutral,True
+entailment,"우리 아이가 거긴감서는 압박 고리 없이 병난들 아셨는데, 이미 뱃가파 데기가 나부대여 일반 호스텔 팀에 보내놨수다.",환자 상태가 좋아져서 일반 병동으로 옮겨갔어라.,entailment,True
+contradiction,어따 쨋노? 힘들지 안카노? 환자가 6월 28일날 압력제 따윈 안 쓰고도 괜찮이 잘 지냈구먼. 그리고 패혈증 겉으로 나타나는 증거들도 다 없어졌대. 그래서 일반 병동으로 옮겨줬다 이기야.,환자는 한집으로 갔다.,contradiction,True
+neutral,세벤 윤월 스무여덟날에 체구살에 제가약 업서도 건강이 좋아삔디 또 병인 잇던이는 싱건 업서서 보통 병실로 옯기맀다.,환잔 패혈증 쇼크로 인해서 중환자실에서 치료를 받았어라.,contradiction,False
+entailment,그 계집아이가 직장검사에서 낫칠 빨간 똥을 보이줬제.,환자가 직장에서 밝은 빨간색 피를 발견했어라.,entailment,True
+contradiction,"오라버니, 그 부인이 업무 검사에서 선홍빛 혈변이 보였더라.",환자한테 뽀로록 가르쳐거튼 데 안개낫다.,unknown,Unknown
+neutral,그 여자는 직장 검사에서 BRBPR(bright red blood per rectum)을 보였어라.,환자가 질낫이 낫고 있습디다.,unknown,Unknown
+entailment,"마침내, 그놈 혈압이 140-160으로 고정이 되고, 70%짜리 마스크를 쓰고 있는데 산소 포화도가 90%였어라.","환자님, 압이 쬐금 높으시는 모양이라네.",entailment,True
+contradiction,"어째, 그 양반 혈압이 140부터 160 사이로 잘 된기다. 마스크 쓰는 중에 산소포화도가 90%였더라.",환자 생명체징은 정상이여.,contradiction,True
+neutral,"이른께 그 양반 압이 천사백에서 육십 사이로 좋아졌고, 칠십 퍼센트 마스크를 쓰고 있을 때 산소량이 구십 퍼센트였능가.",환자가 집 안에 있으몬 신선한 공기 마시는 기가 안 됩�더.,unknown,Unknown
+entailment,"이완기 심부전, 왼쪽심실방출계수 >70% 2006년 2월 10일.",환자의 이완기 충전이 줄어들었어라.,entailment,True
+contradiction,"이완기 심부전, 왼쪽심실배출계수 >70% 2006년 2월 10일.",환자는 협심증을 앓고 있어라우.,neutral,False
+neutral,"이완기 심부전, 2006년 2월의 왼쪽심실박출계수 >70% 10.",환자둥게 이상한 에코 결과가 나왔어,entailment,False
+entailment,"아이고 환자 쩨쩨는 심근경색이 안 있는 거 확인이 되었는데, 이젠 심장 관련 검사하려고 [**Hospital1 58**]로 갔능디.",환자는 급성 STEMI 걸리지 안했주.,contradiction,False
+contradiction,"환자는 심장병 판정은 안받았지만, 심장 검사받으러 [**Hospital1 58**]로 갔수다.",환자는 가슴 아픈 거 없다고 하십니다.,neutral,False
+neutral,"환자는 심근경색이 아니라개, 맨 심장 검사하러 [**병원1 58**]으로 갔제.",환자는 협심증을 앓고 있어라.,contradiction,False
+entailment,메깨가 으메깨로만 나왔던데,둥기 엔엠 알 결과에 보몬 급한 병은 안 나왔주만.,unknown,Unknown
+contradiction,CT 머리 검사에서는 급성 두개내 process가 발견되지 않았심다.,등시거리가 봤네.,unknown,Unknown
+neutral,엿 CT 촬영 안에서는 새카맣고 빠른 과정이 없더랍니다.,환자가 울적허구만하넷.,unknown,Unknown
+entailment,아이구 이기 참 골치 아프겄구나. 날신랑 열이로소이다. 왼쪽 아래폐엽에 나발이 생겼다고? 그래 쫌 큰 게 나왓는갑다. 그나마 양성이라는 게 천만다행이구먼.,환자헌티 신생물이 있어라.,entailment,True
+contradiction,아이고 젭니 그래. 누리랑 왼쪽으로 묵은 거 절제해가지고 마알미 양덩이 4로 나왘는 기라.,환자 가슴 CT 결과는 정상이여.,contradiction,True
+neutral,"어제 수술로 왼쪽 밑구석 폐꼭지를 갖다댔는디, 그게 양성 종양 4라고 나왔구먼.",환자만치 병이 번졌어.,contradiction,False
+entailment,"이력은 환자하고 그 손녀가 제공했는디, 손녀는 그 사건에 참석했제라.",환자가 병력을 모르쿠라.,entailment,True
+contradiction,"이력은 환자하고 그 손녀가 제공했는디, 그 일 있을 때 같이 있었제라.",환자가 병력을 줐제마,entailment,False
+neutral,그 이력은 환자하고 그 주손녀가 그 일에 왔던 대로 써있슈,환자가 병력을 일러줄라 안혀요.,contradiction,False
+entailment,몇 달 전에 49살 남자가 심장에 잡음 있는 기 들통났제라.,양양 쫌 뛰두만 간디뿌이라.,neutral,False
+contradiction,몇 달 전에 49살 남자가 심장에 잡음 있는 기 발견됐제라.,그이는 정상적인 심장 쿵쿵거림이 돼.,contradiction,True
+neutral,몇 달 전에 심장 잡음이 발견된 49세 남성이여.,그 양반이 심장이 약허긴 허다.,neutral,True
+entailment,심부전증,환자는 오래된 병을 가지고 있어.,entailment,True
+contradiction,심부전증,환자는 과거의 병력이 없어라.,contradiction,True
+neutral,심부전증,환자는 심장 펌프 기능이 낮더라.,entailment,False
+entailment,심부전증,환자가 이상한 atrial ejection fraction을 갖고 있어.,neutral,False
+contradiction,심부전증,환자 아씨 에코검사 맞네.,neutral,False
+neutral,심부전증,환자가 옹폐병에 걸려이써.,neutral,True
+entailment,심부전증,심장 질환,entailment,True
+contradiction,심부전증,정상적인 심장 기능,contradiction,True
+neutral,심부전증,부종과 기침,entailment,False
+entailment,환자가 발작 사이에 졸음 짜증 냈다가는 바로 평소 모습으로 돌아왔더라.,환자가 뻗치긴 하더라.,neutral,False
+contradiction,"환자는 그 뒤로 '졸음이 온 것'처럼 보였는디, 발작 사이에는 다시 평소 상태로 돌아온 것으로 보였다.",환자가 발작하쿤 안 했십니더.,contradiction,True
+neutral,"환자는 그 다음에 '졸음이 온 것'처럼 보였는디, 발작 사이에는 다시 평소 상태로 돌아온 것으로 보였어라.",뇌물렸어.,contradiction,False
+entailment,"신경성 방광에 의해 합병되어, 일레알 루프 배설로를 필요로 하는 '[**74**].",환자가 배 수술 받았다네.,entailment,True
+contradiction,신경성 방광 합병증으로 인해 일레알 루프 우회술이 필요했습니다 '[**74**].,환자가 수술 안 받응께라.,contradiction,True
+neutral,[**74**] 신경성 방광으로 인해 일레알 루프 우회술이 필요한 복잡한 상황이여.,환자께서 늘 구토를 하신다네.,unknown,Unknown
+entailment,배 CT에 오라겨 무신 문제 있는지 봤더니 미친 게 아니고 단순한 게 디버티큘라이티스 있다 카더라.,배때기 CT 찍은 거가 이상하게 나왔어라우.,entailment,True
+contradiction,배 CT 결과는 급성 비합병성 디버티큘라염을 확인했심서.,배때기 CT 찍어본 거는 별 이상 없었어라.,contradiction,True
+neutral,배 CT 검사 결과 맹장 작은 주름증 소견이 확인되었주.,환자는 배 알프고 토하는 증상을 겪었심니다.,neutral,True
+entailment,"무릎이나 똑 움직이고, 속깨게 문지르는 것 반응해.",망 조신꿏다 나빠믹샀구나!,unknown,Unknown
+contradiction,모든 손발이 덜덜 떨리고 가슴이 두근거리는구만.,환자가 반응이 없어라.,contradiction,True
+neutral,누게 골좋이 올리고 젖꼭지 올려보이는 중이제.,환자가 뇌졸중을 겪었어야.,unknown,Unknown
+entailment,엄마가 [**9-13**]일 아침 9시에 애 낳는 도중에 물이 터진 채로 병원에 왔수다.,환자께서 저만치로 관절을 번들댔주네.,unknown,Unknown
+contradiction,"어무이는 [**9-13**]일 아침 9시에 애 낳으러 병원에 왔는디, 양막이 터졌어라.",환자 껌껑이 찢어져야 되네.,contradiction,True
+neutral,엄마께서 오전 구경부터 저기 애기 낳으신다고 표징이 나타났더라.,환자한테는 감염증이 없어라.,unknown,Unknown
+entailment,요 사람이 재활로 있다가는 [**2725-10-26**]날 급성 심장 쪼르륵 돼가지고 한 번은 섬정지 겪어서 다른 병원으로 실려갔다.,환자는 심장이 뻗었다.,entailment,True
+contradiction,"야, 그럼 우리 마누라가 그 리하빌리테이션 병원에서 지내다가 [**2725-10-26**] 날짜에 급성 심부전이랑 한 번 더 심정지나 겪어가지고 다른 병원으로 갔다네.",메깃는 넌말거든.,unknown,Unknown
+neutral,이 재활 입원 후 그년 [**2725-10-26**]에 급성 심부전(CHF) 하고 최소한 한 번은 심정지(PEA)로 다른 병원(OSH)으로 옮겨졌심다.,환자 젤로 맹장 잡았어.,unknown,Unknown
+entailment,그 양반 만성폐쇄성폐질환이 대충 3년 전에 진단됐제라.,환자 허파가 안좋아.,entailment,True
+contradiction,그 사람 만성폐쇄성폐질환은 대충 3년 전에 진단됐어라.,환자 뽀예선 멀쩡혀라.,contradiction,True
+neutral,그 사람 만성폐쇄성폐질환은 대충 3년 전에 진단됐어라.,환자는 술로 들어가긴 살까마,unknown,Unknown
+entailment,"이리 일로 일찍 병원 간께, 위가 혈나는지 내봣더니 위 점막이랑 식도가 부어 있더마는 똑 똑 해서 작은 구멍이 생겨 있더라.",환자가 위장 출혈을 겪었어라.,entailment,True
+contradiction,"[**1-13**] 일찍 입원한 위장 출혈: 상부내시경에서 발견된 위염, 식도염, 직장염으로 인한 발적증 및 소규모 궤양, 대장내시경에서 발견된 디버티큘로스.",환자가 보퉁이 출혈 겼던 적이 없었더라.,contradiction,True
+neutral,"와이구래, 일즌 입원혔는데 위장에서 피가 나더라네. 내봤더니 위가 있고 식도도 염증이 있더라카고. 그리고 직장에도 빨갰고 작은 궤양이 있더라카대. 대장도 내봤더니 디버티큘로스증이 있다더라.",환자는 저혈압 상태였어라.,neutral,True
+entailment,"현재 질환의 과거력: 환자는 66세의 남성이여, [**3327-9-26**]에 가슴 아프고 숨 차는 증상으로 입원했심니다.",환자가 숨쉬기 힘들어라.,entailment,True
+contradiction,"현재 질환의 과거력: 환자는 66세의 남성이라, [**3327-9-26**]에 협심증하고 숨 가쁜 증상으로 입원했심니다.",환자는 가슴 아픈 거 없다고 하십니다.,contradiction,True
+neutral,"지금 앓는 병의 지난 력: 환자는 예순여섯 살 남자제로, [**3327-9-26**]에 angina하고 숨 차는 증상으로 입원했심니다.",환자꺼 심장이 쑤시고 아파.,entailment,False
+entailment,환자는 끼아끼아 써주진다 약이랑 우유약을 받아가지고 심신이 좀 나아졌능교.,환자는 혈압을 낮추는 약을 먿억씹소.,unknown,Unknown
+contradiction,환자는 구께 phenoxybenzamine캐나 nifedipine 먹고 심장 뛰는 소리하고 머리아픈 거 조금 나았다.,환자 증상이 약 쓴 다음에 더 심해졌어라.,contradiction,True
+neutral,이자는 안쪽의 명아기레다맨 운전받아서 심장 뛰던거랑 두통이 좀 낫아있어.,환자가 띵으로 갖고 있더라.,unknown,Unknown
+entailment,경미한 승모판 역류증.,심장 판막 기능 장애,entailment,True
+contradiction,경미한 승모판 역류증.,정상적인 심장 기능,neutral,False
+neutral,미약한 승모판 역류증.,심장 잡음,entailment,False
+entailment,"그 냐셈이 응급히 엔진관을 받았제, 오른쪽 다리께리에 신경대가 들어갔어.",환자한테 기관 삽관이 적용되어 있어라우.,neutral,False
+contradiction,"이 양반이 급하게 튜브 박내갖고 고였던디, 오른쪽 넓적다리에 코르디스가 박혀불였더라.",환자한테는 기관 내 튜브가 없어라.,contradiction,True
+neutral,"그 사람이 급하게 튜브삽관 받았고, 오른쪽 넓적다리에 코르디스가 들어갔어라우.",환자한테 중심정맥 카테터가 들어가 있어.,neutral,True
+entailment,그기 솔까 의식을 젔던 거 없심이었는데.,환자 수는 예전부터 쌩이었ㄷ라.,unknown,Unknown
+contradiction,그 여자는 체찮았어.,환자가 정신을 잃었제.,unknown,Unknown
+neutral,그 여자는 의식 손실이 없었어라.,환자는 머리 다친 거 없었어라우.,neutral,True
+entailment,그 여자는 의료진이 당도하자마자 정신을 차렸어라.,어무리 뭐가 궁금허긋나.,unknown,Unknown
+contradiction,다 싰다.,그 여자는 의료진이 도착했을 때도 계속 의식을 잃은 상태였다.,unknown,Unknown
+neutral,그 계집애가 의사 오자마자 정신 차렸쿠만.,그 년이 부상 당했오.,neutral,True
+entailment,20년 동안 병 받고 있십니다.,환자는 만성 질환을 있수다.,entailment,True
+contradiction,이지랑 그리 오래 당뇨병 환자라더냐.,환자 A1c 수치는 정상이여.,contradiction,True
+neutral,이래여 20년동안 당뇨병 걸리 깠십니다.,환자 혈당 수치가 올라갔어라우.,neutral,True
+entailment,혈당 626이여.,환자자 혈제가 높게 나오는디.,entailment,True
+contradiction,혈당 626이여.,환자 A1c 수치는 정상이여.,contradiction,True
+neutral,혈당 626이여.,임마 그 사람 1형 당뇨 앓고 있제.,unknown,Unknown
+entailment,그 여자는 그 다음에 [**Hospital1 18**]로 옮겨져서 더 전문적인 치료를 받았제.,환자가 입원했어.,entailment,True
+contradiction,그 여자는 그 다음에 더 철저한 치료를 받으러 [**Hospital1 18**]로 옮겨갔제라.,환자는 외래치료 중이여.,contradiction,True
+neutral,그 여자는 그 담에 [**Hospital1 18**]로 옮겨져서 더 전문적인 치료를 받았제.,환자는 중대한 의료 질환이 있어라우.,neutral,True
+entailment,확장 및 소파술 후 상태.,환자는 최근에 임신했었어라.,entailment,True
+contradiction,확장 및 소파술 후 상태입니다. (Dilatation and curettage 후 상태입니다.),환자는 감염될 기라 없주.,unknown,Unknown
+neutral,확장 및 소파술 후 상태입니다. (Dilatation and curettage 후 상태입니다.),환자가 골로 갔심더.,unknown,Unknown
+entailment,"환자가 두통, 마비, 따끔따끔한 기, 아니면 복시는 없다고 했어.",환자가 복시는 없다고 했어라.,entailment,True
+contradiction,환자가 시키리 안 아프다쿠디기 했다.,환자가 으무로 맹그러불었제.,neutral,False
+neutral,"환자는 머리 아픈 것, 몸 안 움직여지는 것, 저린 것, 아니면 눈에 두 개로 보이는 것 다 없다고 했어라.",환자는 뇌졸중 앓은 적이 있어라.,neutral,True
+entailment,와 62도 먹었네 그 양반은 1년 넘게 숨이 턱턱 막혀 피곤한 기 엄청 늘었제.,환자 야 아이들이 숨쉬기 힘들어 쪽 쪽 거리더라.,neutral,False
+contradiction,아이구 육십이 살 묵은 영감이 작년이서 올키져 내내 호시리 숨소리가 멋쩍고 쪼매 멍듭해졌는이.,환자가 숨차는 거 겐나 고집이 센가 봐.,entailment,False
+neutral,62살 남자가 지난 12-18개월 동안 숨차는 것하고 피곤한 게 늘어났어라.,이 환자는 폐병(肺病)을 걸리었구마.,neutral,True
+entailment,"자, 그럼 이 문장을 전라도 사투리로 번역해보겠수다.   이번에 한 심초음파 검사에서는 심쟁이에 돌가미가 많이 차이있었고, 이거를 보니 그 정도가 보통 보다 좀 크개 보이더라.",밤송이 안서 울퉁불퉁한 게 있당께.,neutral,False
+contradiction,"인자 한 번 더 검사하께 약간 이상이 더 발견됐고, 중으로 봐서 큰 편이라네.",심장이 정상 배냐?,contradiction,True
+neutral,와 이기 또라 계마는 져 혈초음파로 봤더니 혈짐이 점점 불쪄나는 기라. 지 크기도 쑥쑥 불쪄나는 겨 봤더니 꽤 큰 편이라신가 봐.,환자가 심장염에 걸렸제.,unknown,Unknown
+entailment,아이구 요구슨 간 못 모리겄다. 이 사람이 가마치랑 오래돼서 약 안 묵이주이.,환자가 혈좌약 치료를 안 받았다.,entailment,True
+contradiction,아 그기 참 큰일났긴랴. 헌디 그 환자는 그 양약을 안 땃구로군.,환자한티 혈액 넙혀 치료가 됐능교.,unknown,Unknown
+neutral,"옹네, 저 사람이 만성 심방세동에 걸렸는디 항응고 치료를 받지 안혀.",환자는 넘어질 위험이 있어라.,unknown,Unknown
+entailment,그때는 식도 위장 내시경이 실시되지 않았어라.,환자는 위스코오오 검사를 안 받었더라.,entailment,True
+contradiction,그때 상부위장관내시경(EGD)이 안 했심니다.,환자는 살펴봤다꼬 설비를 맜있게 쳐다봤심더.,unknown,Unknown
+neutral,그때는 속내시경 안 허마씀.,환자가 맺힌 기침이 나고 있어.,unknown,Unknown
+entailment,그 계집애가 거기 있을 때 두 번 구토헀어.,이 사람으 속이 안 좋나 봇겄네.,entailment,True
+contradiction,그양이 거그 있을 때 두 번 그라께랐어.,환자가 토할 기색이 전혀 없다이카네.,unknown,Unknown
+neutral,여자께서는 거기 있을 때 서로 토혈했다우.,환자가 해드깨 된다고 하고 있어.,unknown,Unknown
+entailment,"흐르뽕이 잠깐 좋아졌는디, 또 떨어져서 그 양반한테 실려가기 전에 vecuronium 10mg을 놔줬수다.",환자는 폐병이 있다안네.,unknown,Unknown
+contradiction,"포화도가 일시적으로 90대로 좋아졌는디, 다시 80대로 떨어져 부러서 그 양반이 이송 전에 벡루로늄 10mg을 맞았심니다.",허생들이 좋아라이.,unknown,Unknown
+neutral,"구데기가 잠깐 구리봉 가까이 갔는데, 또 하꼬봉 가까이 떨어져서 불어쌌어. 그래서 그 사람이 옮겨가기 전에 벡루노미 10mg을 맞았어.",환자가 튜브삽관을 받았어라.,unknown,Unknown
+entailment,그 여자는 그 다음에 밝은 빨간 피가 섞인 마룬색 똥을 10번 더 쌌어라.,그 계집아이가 똥을 쌋다.,entailment,True
+contradiction,그 년 끄앙께서 담에 살갛강 빨간 덩달이와 섞인 갈간 똥 맛나게 열 번 더 싼 기라.,똥 모양은 정상이었어라.,contradiction,True
+neutral,그 여자는 그 다음부턴 환한 빨간 피가 섞인 밤색 똥을 열 번이나 더 쌌어라.,그 아씨 치질이 있어.,neutral,True
+entailment,"야이 녀석아, 이 사람 긍게 전에 갑상선암 수술을 받었고, 고지혈증이랑 고혈압 걸렸고, 담배도 피웠다마는, 당뇨병이랑 사르코이드증도 있더라.",마이 환자는 짝짝이로 별게 많이 하모.,entailment,True
+contradiction,"옛날 병원 다닌 기록: 환자가 유두상 갑상선암을 앓은 적이 있고, 갑상선 떼내는 수술을 받았제. 그리고 콜레스테롤 수치가 높고, 혈압도 높고, 전에 담배도 피웠고, 2형 당뇨병하고 사르코이드증도 앓았당께.",환자눈 이전엔 아프거나 아숩제 없엇주.,contradiction,True
+neutral,증 그양이 삐름살이 번셔왔는디 갑창 뜯었더라. 또 콜레스트롤이 부르르는디 혈압도 기네 전에 담배피웠다제 2형당뇨병하더니 사르코이드병도 앓았더라.,환자가 심장 병을 걸렸십니다.,unknown,Unknown
+entailment,"으이구, 병원에서 앳자는 사람은 아세파린 325mg이랑 레이식스 80mg 맞으면서 산소도 맞고, 니트로도 맞아불렀어. 그리고 숨소리가 안 좋아 보이대서 비침습적 환기기도 켰다카더라. 그냥 그렇게 했더니만 통증이 조금은 좀 나아진다네.",환자는 심부전 악화를 치료하기 위해 사용되는 치료를 받았심니다.,entailment,True
+contradiction,"아이구 그래야 되겠네. 간난이 갈때 동네 약국에서 의사 처방 받아서 325mg 아스피린캡슐, 80mg 라식스 링거, 산소랑 질산글리세린 좀 맞아샀더니 구토 안하고 편안헌 모양이라네.",환자가 피압이 져서 싸약을 먹고 치료를 받았다.,entailment,False
+neutral,"몰라, 언니가 병원에 가가지고 의사가 주사랑 약 주더마 그짓이 피가 없어지고 괜찮아졌다더라.",환자는 심부전증을 앓고 있어부렀어.,unknown,Unknown
+entailment,"니가 지금 광주 한의원에서 홍길동 의사님 그리고 김철수 의사님한테 진료 받고 계시고, 그 뒤에 전주병원에서 퇴원하고 나서 The Center에서 주간 치료 받고 계신 거 같제.",환자 개미년이 누워있더만.,unknown,Unknown
+contradiction,자기네 병원에서 빠지제고 낮에 더 센터 가 치료받고 있다 황금리 이성진 선생님이 지켜보고 계시는디 화순 이종휘 선생님도 협조해주고 계신다,환자가 누웠다 안 됐다.,unknown,Unknown
+neutral,"앗이씨, 뿌당 그 [**Location 4245**] 돼지골에서 [**First Name5 (NamePattern1) 4246**] [**Last Name (NamePattern1) 4247**] 씨눔 보러갔다가, [**Telephone/Fax (1) 4248**]13 께로 치료받고 있으며, 또 [**First Name8 (NamePattern2) 694**] [**Last Name (NamePattern1) 4249**] 선생님, [**Telephone/Fax (1) 4248**]32 부터도 치료받고 있지. 그리고 [**Hospital3 4243**] 병원에서 퇴원하고 나서는 The Center에서 치료받고 있다우.",환자는 심각한 medical condition을 갖고 있었어라.,unknown,Unknown
+entailment,병원 응급실로 가 갓심근경색증 진단받었다.,환자는 마음이 약해져 영 제 모양이 아니네.,neutral,False
+contradiction,"아이구 내 사람아, 응급실 가봤더니 심장공격이라고 그러더라.",환자의 troponin 수치는 정상이여.,contradiction,True
+neutral,"담ㄹ디 응급실로 가부난, 심근경색증 병신나더라.",환자 심전도 검사 결과가 비정상이여.,entailment,False
+entailment,"환자가 그뒤로 한 삼 미터나 떨어졌끄만, 정신이 나가섰는지 안 나가셨는지 모르겠네. 그뒤로 화를 내섰던 모양인데 점점 더 미쳐가는 기 보이더라.",아이고~ 느 이 저름신가 보네.,entailment,True
+contradiction,"오냐오냐 환자가 거기서 몬 3미터 쯤 백퍼러지고, 정신을 맞고 있는지 안 맞고 있는지 알기가 어려웠네. 그 뒤로 해서 환자가 삿대질 하면서 점점 정신 상태가 변화하더라.",환자 검사 결과는 정상이여.,contradiction,True
+neutral,"환자가 그 뒤에 한 3미터 떨어졌는디, 정신을 잃었는지 안 잃었는지는 모르겄어. 그 뒤로 점점 정신 상태가 이상해지면서 공격적으로 굴었어.",환자졍 아퍼서 펀펀해뿌렸네.,unknown,Unknown
+entailment,이 갓난아기 아프가르 점수는 8점하고 9점이었어라.,환자 숨쉬는 거는 멀쩡했어라.,neutral,False
+contradiction,이 갓난아기 아프가르 점수는 8점하고 9점이었어라.,환자캉이 메시 괴로와뙤 힘들어 쿠고 있거든.,unknown,Unknown
+neutral,이 갓난아기 아프가르 점수는 8하고 9였어라.,애 낳는 기는 잘 됐심니다.,entailment,False
+entailment,메 토돼서 토이실 꼬 TPN(전체 부위 영양)이 필요타.,환자가 기력이 없어 쪼로록허고 있제.,entailment,True
+contradiction,"어이고 야, 덜떨어진 기라 구토가 심해서 입에도 들어가지 않는 기라 대신 정맥으로 영양 주줘야 할 끼다.",환자한테 지금 링거가 안 꽂혀 있어라우.,contradiction,True
+neutral,심한 구역질 때문에 TPN(Total Parenteral Nutrition)이 필요하다야.,환자는 임신 중이여.,neutral,True
+entailment,심한 구토로 인해 TPN이 필요하당게.,환자는 구토 증상에 대한 영양 치료를 받았어라.,entailment,True
+contradiction,심한 구역질 때문에 TPN이 필요하다 아이가.,토남겄던 거 알약으로 잡앗다.,contradiction,True
+neutral,그거 맹맹혀라 토사르라 부터나왕ㄴ디야,환자가 몸무게 줄였어라.,unknown,Unknown
+entailment,그 마이가 중탄이 인자껀 급치 [**Hospital1 1499**]로 실려가 더 검사받아써.,베릴 좋나 보더만.,unknown,Unknown
+contradiction,그 여자는 대동맥-장루증(aortoenteric fistula)에 대한 걱정 때문에 급하게 [**Hospital1 1499**]로 옮겨져서 더 살펴보게 됐제.,환자꺼는 정기복에도 에수매정 해보인다.,unknown,Unknown
+neutral,그 마누라가 대동맥-장루증(aortoenteric fistula) 땜에 겁내가 나서 급히 [**Hospital1 1499**]로 실려가서 좀 더 살펴보게 됐다지.,환자는 배에 다병엿.,unknown,Unknown
+entailment,"눈깔이 똑같이 동그랗고, 빛에 따라 5밀리에서 3밀리로 줄어들은디.",환자의 눈동자 크기가 똑같다.,entailment,True
+contradiction,"쌍이 눈알이 똑같이 동그랗고, 밝은 데 따라 5밀리에서 3밀리로 줄어듭디다.",환자 눈동자 반응이 없어라.,contradiction,True
+neutral,"눈깔이 똑같이 둥근데, 빛 쪼이몬 5밀리에서 3밀리로 작아집디다.",환자가 혼수 상태에 빠져있어라.,contradiction,False
+entailment,그여자꼬마기관절개관하나뜯엇씨매리.,환자가 트라키오토미 수술 받았갑네.,entailment,True
+contradiction,"그 여자는 오늘 오후에 tracheostomy(기관 절개) 변경을 받았고, 그 과정에서 기관 절개관을 6 uncuffed로 다시 줄였어라.",환자 나는 조타 쓰는 거예.,unknown,Unknown
+neutral,"그늬가리는 오늘 오후에 기관절개술을 받았고, 그 과정에서 기관절개관을 6 uncuffed로 줄였디.",환자는 후두암 병력이 있어라.,neutral,True
+entailment,"당께선 당뇨병으로 인해 십 년 째 고생하신 모양이제. 식이 관리하는 거 어렵다던 모양인데, 글리나제로 그래도 관리하고 계시다더라.",환자가 2형 당뇨병을 앓고 있심니다.,unknown,Unknown
+contradiction,"당뇨병 진단 받고 십 년이 지나갔고, 식이 관리가 실패한 다음에는 글리나제로 조절했어라우.",환자는 당이 왕께끗 존재하더라.,entailment,False
+neutral,"쫌싸돌이가 당뇨병 진단 받고 십 년 지났는디, 배 줌시암해도 안 되서 이제 약으로 조절하고 있다.",환자는 과체중이여.,unknown,Unknown
+entailment,"그 사람은 오른쪽 기관지 동맥 embolization(330-550 micron) 받았고, 이 과정에서 복잡한 문제는 없었심다.",환자가 기관지 동맥 색전술을 받았어라.,entailment,True
+contradiction,"그 사람은 오른쪽 기관지 동맥 embolization(330-550 micron) 받았고, 이 과정에서 복잡한 문제는 안 생겼어.",환자 가슴 CT 결과는 정상이여.,neutral,False
+neutral,"그 사람은 오른쪽 기관지 동맥 embolization(330-550 micron) 받았는디, 이 과정에서 복잡한 문제는 없었어.",환자는 폐암 지이고 있어.,unknown,Unknown
+entailment,비인슐린 의존성 당뇨병.,혈당 높았던 적,entailment,True
+contradiction,비인슐린 의존성 당뇨병,당뇨병 앓은 적 없어라.,contradiction,True
+neutral,비인슐린 의존성 당뇨병.,비만력 이력,neutral,True
+entailment,탈라무스 뇌졸중 ([**3339-11-18**] - 그년의 오른쪽 탈라무스에 관련된 뇌경색으로 인해 몸의 왼쪽 부분에 마비 증상이 생겼심) 9.,환자는 갈아썼다이.,unknown,Unknown
+contradiction,탈라무스 뇌졸중 ([**3339-11-18**] - 그녀의 오른쪽 탈라무스를 침범하는 뇌경색으로 인해 그녀의 몸의 왼쪽 부분에 마비 증상이 생겼심) 9.,환자 몸짱이 시원찮지 안혀,entailment,False
+neutral,탈라무스 뇌졸중 ([**3339-11-18**] - 그녀의 오른쪽 탈라무스에 관련된 뇌경색으로 인해 몸의 왼쪽 부분에 마비 증상이 나타남) 9.,환잔 휠체어에 의지하고 있어라.,unknown,Unknown
+entailment,"피카레 지금 우측 턱뼈에 편편세포암 올땅겉이나오고, 림프절도 크게 불러오랬어.",환자가 가마니 올녀 있제.,neutral,False
+contradiction,게이 환장이 이제야 전라도 땅에 인치매이 맨 턱이 잇서서 엿이 ㅗ지만 쓰는 엿 까지 퍼져있다네.,환자 여차덩게 나쁜 암 앞것이 없주.,unknown,Unknown
+neutral,환자 지금 오른쪽 턱 아래 골몰스러워 다 튀어나왔고 옆구리 뭉개졌나부데.,환자는 담배 피웠시더라.,unknown,Unknown
+entailment,께서늬신께서 무르르르르르르~,그 여자 입하고 턱이 이상하게 보이더라고.,unknown,Unknown
+contradiction,"그 여자는 명백히 오른쪽으로 기울어져 있었고, 입에서 거품이 나오면서 턱을 꽉 물고 있었어.",그 여자 입하고 턱은 정상적으로 보이더라고.,contradiction,True
+neutral,"그 여자는 분명히 오른쪽으로 기울어져 있었고, 입에서 거품이 나오면서 턱을 꽉 물고 있었어.",그 여자는 발작 과거력이 있어라.,neutral,True
+entailment,"이젠 병원 간날에 한 기관경검사에서 어부리가 조금 나왔는디, 다시 걸릴 거 같다고 해서 환자한테 메로페넴이랑 바나코마이신을 줍시다.",환자는 이카리기 무서웨서 쌍살병에 대해 걱정 쿤다,neutral,False
+contradiction,"부산 갔다왔다네, 누가 살펴본께 좀 새린 것 같더마는 큰 걱정할 필요는 없거 아이고, 의사들이 주사 좀 놓아주는 중이라네.",환자 폐야 하니로지.,neutral,False
+neutral,오늘 병원 갔더니 조금씩 구토하더라. 폐렴이 재발했나 보더라. 메로페넴이랑 바나코마이신 처방받았다.,환자는 병원성 폐렴을 앓고 있어라우.,neutral,True
+entailment,"또 간폐 증후군 병력이 있고, MELD 점수는 27이어.",환자가 간기능 장애를 겪고 있어라.,entailment,True
+contradiction,또 간폐 증후군 전에 앓은 적 있는 거하고 MELD 점수가 27인 것이 확인됐제라.,환자들 몸 좋다이소.,contradiction,True
+neutral,또 간폐 증후군 병력이 있고 MELD 점수는 27이여.,환자는 술병이가 돼뿌빔 기리빔이라네.,entailment,False
+entailment,알코올 중독하고 같이 생기는 [** 위치 **]의 델리륨 트렘펀스(DTs)하고 경련 (2개월 전에 생긴 대발작),환자는 방대한 social history를 갖고 있어라.,unknown,Unknown
+contradiction,알코올 중독으로 인한 [** 위치 **]의 델리리움 트렘펜스하고 경련 (2개월 전에 중증 강직성 발작),환자의 과거 병력은 음성이여.,contradiction,True
+neutral,알코올 중독으로 인한 [** 위치 **] 델리륨 트레멘스하고 경련 (2개월 전에 생긴 대발작),애기는 간 병에 걸려 있대.,unknown,Unknown
+entailment,"환자 마누라 말로는, 밤새 환자가 일어나서 소파에서 잠을 잤답디다(그 양반이 밤에 더워져서 이거를 자주 한답디다).",환자는 결혼성이라.,contradiction,False
+contradiction,"환자 마누라 말로는, 밤새 환자가 일어나서 침대에서 옮겨서 소파에서 잠을 잤다고 하더라고요(그 양반이 밤에 더워지면 자주 그라는디요).",그 사람은 결혼 안 했어라.,contradiction,True
+neutral,"환자 마누라 말로는, 밤새 환자가 일어나서 침대에서 안 자고 소파에서 잤다고 하더라고요(밤에 더워지면 자주 이라는디요).",환자씨는 치매병이 들었어.,unknown,Unknown
+entailment,그 환자 양반이 메스껍다든지 밤에 쌀쌀하다든지 땀을 뻘뻘 흘린다든지 가슴이 아프다든지 하는 소리는 한 마디도 안 한 것 같더라.,아이고 이제 뚱땡이가 되어뿟구먼.,unknown,Unknown
+contradiction,"그 영감이 말로는 강경아 니구리 토하든가 꾀가치나게 맑딩기, 밤에 벌벌 떨든가, 밤에 기르르르 땀 나든가, 아니면 가슴이 숨쉬기 싫어하달 그러데요.",환자가 배시상 아프다카네.,neutral,False
+neutral,"환자 남편 말로는, 그 양반이 토하는 것이나 메슥거리는 것, 밤에 오들오들 떠는 것, 밤에 땀 흘리는 것, 아니면 가슴 아픈 것 같은 거는 안 겪었다고 부인하더랍니다.",환자는 발열 증상이 없쿠나.,entailment,False
+entailment,그 사람은 월(만)의 시작부터 피로감을 느끼기 시작했어라.,환자가 피곤함을 느끼고 있제라.,entailment,True
+contradiction,그 사람은 월 초부터 피로감을 느끼기 시작했어라.,영양군이 건건해,unknown,Unknown
+neutral,그 사람은 월(만)의 시작부터 피로감을 느끼기 시작했어라.,환자 머 암이라 그런디 찍혔나 보제.,unknown,Unknown
+entailment,"눼는 어멈이도 모르는 겡들이 보주 안한 기도 있고 라신겢흘 맞았곡, 레보와 플라징릉 한턩씹었지만, 덜 기랭이 한꼼도 제대로 고쳐치었지만 잘 나아지지 않았더라.",환자 진실로 심부전이 야릇해졌구마.,unknown,Unknown
+contradiction,"그 사람은 알러쥬지도 나시고 누가 보잉도 안 했는디, 라식 떼고 레보랑 플라질도 맞는 바람에, 완전 나란 식긴 신다가도 좀도 낫지는 아니했어.",환자는 흉통 없어,unknown,Unknown
+neutral,"그 사람이 이리 저리 들킨 몰래 간호사들하고 몰래 라식스 받고, 레보/플라질도 맞았는데, 완전 혼자 버텼지만 잘 안 나아졌어.",환자는 그 호흡기 감염을 앓고 있어라우.,unknown,Unknown
+entailment,"병원에서 한 MRI 검사 결과로는, C3-C4 수준에서 오른쪽 척추 밖 부분에 척수를 심하게 눌르는 척추 밖 혈종으로 의심되는 덩어리가 발견됐심서.",환자는 갑자기 등이 아픈거 같애.,neutral,False
+contradiction,"병원에서 MRI 해본 결과, 등치 3~4번째 뼈 옆에 꽤나 큰 피탕이 있어서 척수를 많이 눌러주고 있어.",환자 신경학적 검사 결과는 정상이어.,neutral,False
+neutral,병원에서 MRI 스캔 할 때 C3-C4 부위에서 오른쪽 척추 가장자리에 큰 종양이 나타났제. 그것이 척수를 심하게 압박하는 척추 바깥 혈종과 똑같은 증상을 보인다커든.,환자는 치료해야 됩니다.,entailment,False
+entailment,구급차에서 하는 의사 말씀에 따르면 초기에 보인 심전도 리듬은 보통 심장 박동 형태를 띠고 있다네.,이 환자는 심장리듬불균형이 없었다.,contradiction,False
+contradiction,"앞서 오시다가네, 마음이 뛰는 보고에 따르면, 처음에는 제가 보니까 허허신께 좋은 박동이 나오더라 그러네.",환자가 심실 세동을 겪었어라.,contradiction,True
+neutral,"구급차 ꢍ안에서, 심장깨 전문의 말씀 따르면, 맨첨에 리듬 스트립이 정상적인 싸이너스 리듬을 보이더랍니다.",환자는 심장마비로 앓지 않었구마.,neutral,True
+entailment,"양창씨가 자기 차로 병원 다녀왔다고 잘 말하고 있는데 어렵고, 양창씨가 병원 다녀온 기록을 찾기가 힘들네요.",환자는 인지 기능 장애를 갖고 있어라우.,neutral,False
+contradiction,"환자가 자기 병력을 똑바로 설명하는디 애를 먹고 있고, 불행히도 그 사람 medical history를 확인할 수 있는 기록이 거의 없어라.",환자는 클리닉에서 여러 번 의료진하고 상담을 받았어라.,neutral,False
+neutral,"환자가 저사리 자기 병고경험을 정확허게 기억나지도 안카고, 아차피 그 사람 병력 기록은 거진 이따시가 안캅주",마이 환자는 치매증에 걸렸나 봡네.,entailment,False
+entailment,그 사람은 오전에 마일란타를 시도했는디 효과를 못 봤어.,환자가 가슴 불편한 기 호소하고 있어라.,neutral,False
+contradiction,그 사람은 오전에 마일란타를 시도했는디 효과를 못 봤어.,환자가 몸이 불편하드라네.,entailment,False
+neutral,그 사람은 오전에 마일란타를 시도했는디 효과를 못 봤어.,환자가 건강이 허술허여 속속 올라오는 병이 있어.,neutral,True
+entailment,"환자가 중환자실로 이송되기 전 병동에서 잰 생체 신호는 다음과 같았제라: 혈압 130/70, 심박수는 침대에서 쉴 때 90 (서 있을 때는 120에서 160).",환자가 중환자실로 옮겨지기 전에 주요 생체 신호를 쟀어라.,entailment,True
+contradiction,"환자가 중환자실로 이송되기 전에 병동에서 잰 생체 신호는 이랬습니다: 혈압이 130에 70이고, 심박수는 쉴 때 90이었는디 (서 있을 때는 120에서 160이었습니다).",환자 개새끼 사는 게 바글바글 하더라.,unknown,Unknown
+neutral,"환자가 중환자실로 이송되기 전의 생체 신호는 다음과 같았습니다: 혈압 130/70, 심박수는 침대에서 휴식 시 90 (서 있을 때는 120s-160s).",환자의 호흡 속도는 정상 범위 안에 있었어라.,unknown,Unknown
+entailment,폐는 다른 면에서는 정상이어라.,환자카 배꼽부터 가슴까지 사진 본겨.,unknown,Unknown
+contradiction,폐가 다른 구석구석은 괜찮안게로지.,환자 폐가 가슴엑스레이에서 완전히 흰색이여.,contradiction,True
+neutral,껄레기는 다른 쪽으로는 괜찮아.,환자는 폐렴이 없어라.,unknown,Unknown
+entailment,"보글보글 요즘 아펜가리 없고, 우성이는 이제는 컴퓨터방 성성허니 기록 없다.",마이 몸짱 쪼끔 낭패 안내 중이더라.,unknown,Unknown
+contradiction,"계돌아, 그 게발이 근래에 간병이 없고, 그 게발 미국 진료 이래로는 유별나는 데가 없다.",환자가 당뇨병 앓은 적이 있어라.,contradiction,True
+neutral,"지 요새 힘이 말랐구마 게,개셍이 [** 위치 **] 미국 병원 고칠라 간 기록이 딱히 중요한 기록은 아이씀미더.",그 여자는 수술 받은 적이 없어라.,unknown,Unknown
+entailment,껄끄롭기는 하지 말쏘.,환자는 가슴 아픈 기 없어라.,unknown,Unknown
+contradiction,가슴 아픈 것이나 배 아픈 것은 없다고 하십니다.,환자가 가신께 가슴이 찌근드랏구마.,contradiction,True
+neutral,가슴 아픈 것이나 배 아픈 것은 없다고 하네.,환자가 늘 걱정있나 애씀.,neutral,True
+entailment,"태기가 건강캉 울싸로 났는디, suction 이야 drying 처리햇고, 산소도 박탕믿ῴ.",아기가 숨을 쉬며 태어났어라.,entailment,True
+contradiction,"아기가 잉잉 울엉께 건강히 나왔고, 돌키는 받았슈. 또 말랐고, 산소 잘 먹었다이리.",그 갓난아기는 약한 울음소리를 내며 태어났어라.,contradiction,True
+neutral,"아이고, 저 아리랑장에서 낳은 꼬맹이가 울음소리 소리 쩌르르 좋아 우겨나더라니까. 짤짤이 들러붙힌 걸 돌다릿다르다 닦아내더라니까. 엠마 내께서 그냥 생길깔 소리 들어주면서 주셌다더라.",아프가르 점수는 정상이었어라.,entailment,False
+entailment,어무이는 [**3148**]년에 보고된 헤르페스 단순 바이러스(HSV)의 과거력이 있어라.,엄마가 연히 헤르페스 앓은 적이 있어라.,entailment,True
+contradiction,아매캉 [**3148**]년도부터 헤르페스 웨어용 바이로스가 있더라.,단순헤르페스 병력이 없어라.,neutral,False
+neutral,어무이가 [**3148**]년에 보고된 헤르페스 단순 바이러스(HSV) 앓은 적이 있어라.,어무이는 항바이러스 약물 먹은 적이 있어라.,neutral,True
+entailment,아이고 앙증맞디마는 저 아가씨가 발돌로웤아 몸살매두 맹 찌푸시더니 짤르는 배멍이 아퍼서 토도 해내며 더부룩 흔들엉 젓찍 싼데다가 볼꼬당 아퍼하데 말주구 있지,(Note: This word is the same in both standard Korean and Jeolla dialect),unknown,Unknown
+contradiction,"뙤식이 103.0 F 되는 열이 퍼질라카미 올라가고, 엉덩이께가 아프고, 토하고, 통이 아프고, 쓰기까지 한다카더라",환자는 무열증이여.,contradiction,True
+neutral,"응급실에서, 환자가 체온이 화씨 103.0도로 열이 억수로 높았고, 가슴팍이 아프고, 게우고, 머리 아프고, 설사한다고 했어라우.",환자가 세균성 폐렴이 걸렸어.,neutral,True
+entailment,"환자느 월요일에, 수요일에, 그리고 금요일에 깨끗한 피 빼줄 기계를 받아낼라고 병원에 가야되고, 자기가 병원에 있는 사이 이런 거 계속해야 되는 기라.",환자는 말기 신장 질환이 있어라.,entailment,True
+contradiction,"환자는 월요일, 수요일, 그메다 금요일마 혈액투석 받으 쿠리고, 병원 있는 동안 계속해야 됩니더.",환자 콩팥 기능은 정상이여.,contradiction,True
+neutral,"환자는 월요일, 수요일, 그리고 금요일 헤모투시 받야 꽈 하고, 병원에 있는 동안에 꾸준히 해야 한다.",환자가 고칼륨혈증을 앓고 있어라.,unknown,Unknown
+entailment,가슴 아픈 거 없어.,환자는 가슴 아픈 거 없다고 하십니다.,entailment,True
+contradiction,가슴 아픈 거 없어.,환자가 가슴이 뻐근타카더라,contradiction,True
+neutral,가슴 아픈 거 없어.,심전도 좋거든.,neutral,True
+entailment,알려지지 않은 과거 병력을 가진 37살 남자가 외래 병원에서 아세트아미노펜/디페니드라민 과다복용으로 이송됐제라.,환자가 간 손상을 가지고 있어라.,unknown,Unknown
+contradiction,37살 징그만 놈이 아세트아미노펜이랑 디펜히드라민을 많이 마셔서 또라이 병원에서 여기로 옮겨왔다.,환자 간 영향검사 숫구만 말짱디.,neutral,False
+neutral,뭐리 모르겟는 병력을 가진 서른일곱살 남자캉 병원 오게 씹어됐어. 에세타미노펜 과다 맞고 디펜하이드라민 더 많이 먹은께.,환자가 정신과 병력이 있어부렀어.,unknown,Unknown
+entailment,그 여자는 자꾸 어질어질하고 명치 아픈 기 겪고 있어라우.,환자가 웃배 아픈 것을 겪고 있어라.,entailment,True
+contradiction,그 마누라가 쭉 몸이 좋지 않은 기분이라더라.,환자는 배꼽이 아니라구 하더라.,unknown,Unknown
+neutral,그 계집애 또 자빠지락거리면서 명치가 아프단께예.,환자는 위궤양을 갖고 있어라.,unknown,Unknown
+entailment,그 여자는 마취제 프로포폴을 맞고 마비 상태에서 [**병원1 68**]으로 실려갔제라.,환자 이기 수가 진짜 안 좋이구마.,entailment,True
+contradiction,그 여자는 마취제 프로포폴을 맞고 마비 상태로 [**병원1 68**]로 실려갔제라.,환자는 말도 하고 병력도 다 털어놓는다.,contradiction,True
+neutral,기(肌)가 죽어뿌린 기(器)가 [**병원1 68**]로 실러감.,환자는 압붓이나 내만이 궁억써야 됩니다.,unknown,Unknown
+entailment,아싸 꼬마가 싹싹하네.,환자의 아프가르 점수는 정상이어라.,unknown,Unknown
+contradiction,아프가 점수는 8하고 8이었어라.,환자 몸이 안 좋아 보이기럽네.,entailment,False
+neutral,나꼬롱 헤멩이가 8타고 8이더라.,그 환자녀는 갓나온 영락의 어매다.,unknown,Unknown
+entailment,그 사람이 위로스코피 하기 전에 토하진 안했고 메쓰꺼운 증세도 없었어.,환자가 배 속을 뒤져보는 검사를 했능교.,neutral,False
+contradiction,그 사람은 상부위장관내시경(EGD) 하기 전에 토하거나 메스꺼운 증상이 없었어라.,환자는 위내시경 검사 전에 구역질을 느꼈어라.,contradiction,True
+neutral,그 사람은 EGD 전에 구토나 메스꺼움 증상이 없었어라.,환자는 만성 복통을 겪고 잇어라.,neutral,True
+entailment,"도이가 반 푸웍씨 뿌딩 성냥을 봤더니 WBC 10.5, Hct 32.2(디럽도록 정상범위수준구만), Cr 0.9, CE 음성이고 lactate 1.5더라.","아야, 그 손님이 빈혈이 안 나부랭치네.",entailment,True
+contradiction,"주목할 만한 실험실 결과로는 밴드 없는 WBC 10.5, Hct 32.2 (전에 기준치 중간에서 상위 20대), Cr 0.9, CE 부정 X 1, 그라고 락테이트 1.5가 있제라.",환자는 신부전 상태에 있어라.,contradiction,True
+neutral,"오이 영감, 그 뭐꼬? 눈길을 끄는 화검 결과로는 방구 없는 동전돌 수치가 열댓, 피빌린 수치가 엉팔이라네. (원래 기준은 중간에서 높은 이십대였는디), 짜장쌀이 구구, CE 한번 멍게나 토했고, 그리고 맥주 수치가 째깐 나왔어.",환자는 감염이 없어라.,contradiction,False
+entailment,"오른쪽 유방암, 갑상선 기능 저하증",암의 병력,entailment,True
+contradiction,"오른쪽 유방암, 갑상선 기능 저하증",암 병력이 없어,contradiction,True
+neutral,"오른쪽 유방암, 갑상선 기능 저하증",유방절제 수술력,neutral,True
+entailment,"MICU루 오땀 전에 환자 몸 상태는 이렇데: 열은 없고, 심장 뛰기 92번, 혈압이 123/74, 산소 6L에서 96%예.",헐캉 쓰러기 몬~ 쌔요.,contradiction,False
+contradiction,"메이콤으로 갖다 나가기 전에 환자 상황은 안 좋았다. 열은 없고, 심장이 92번 뛰며, 혈압은 123/74였는디, 산소 6리터를 주입하이께네 산소 포화도가 96%이더라.",환자는 안짝에서 메칠이로 숨쉬고 있제.,neutral,False
+neutral,"이제서부터 환자 상태 보는디 열도 없고, 심장 뛰는 게 92번이고, 혈압은 123에 74, 산소는 6L에서 96%로 나왔따.",환자한텐 코감기가 안 왔다.,unknown,Unknown
+entailment,그 여자가 그 사람을 다시 산소통에다 연결했제이.,그놈이 자꾸 숨쉬는데 말이여.,neutral,False
+contradiction,그녀는 그를 다시 산소 공급에 연결했어.,환자가 짠겍이를 들쉬고 있제.,neutral,False
+neutral,그 여자는 그 사람을 다시 산소 공급에 연결했어.,환자가 심장이 아프다고 하는 기라.,unknown,Unknown
+entailment,그 사람 마누라가 한 2-3분 동안 그 양반이 떨고 거품 물고 있는 것을 봤다 아이가.,환자가 발작 증상을 보였어라.,entailment,True
+contradiction,그 사람 마누라가 한 2-3분 동안 그 양반이 심하게 떨고 거품 물고 있는 것을 봤다 아이가.,환자한티는 몸이 하나도 아이라.,contradiction,True
+neutral,그 사람 마누라가 한 2-3분 동안 그 양반이 떨고 거품 물고 있는 것을 봤다고 하더라고.,환자가 발작을 겪었어라.,entailment,False
+entailment,"구랑께서는 그 여자 아이펴에게 온갖 치료법을 다 해줬고, 왼쪽 신장을 빼고 림프절도 뽑아내라이코 하더래.",환자 양양이 왼쪽 정네긍게 나쁜 혹이 나와있어.,entailment,True
+contradiction,뎌 여자는 모든 치료 방법 다 주삤는디 왼쪽 신장 뜯는 수술이랑 주위 림프절 빼는 술기를 하고 싶어 했랍니다.,환자 왼쪽 콩팥은 정상이여.,contradiction,True
+neutral,"마마, 엄매가 그 계림이 인갈 치료 방미들 줨갖고 있고, 왼편 전네 싹 버리고 주변 주기를 짤랑해 써 주고 싶다 헌디.",환자 오른쪽 콩팥은 정상이여.,neutral,True
+entailment,"메예 체온이 40도까지 치솟아서 쨉나게 달궈서 반코마이신이랑 레보플록사신을 줬고, 레식스 40mg 맞혀주고 500ml짜리 생리식염수도 쪼아넣었는데 결국 소변량이 540ml나 나왔네.",환자가 열이 나 보데.,entailment,True
+contradiction,"양즁이 열이 말이여 곤드레불알 타니께 왕짜증나서 vancomycin이랑 levofloxacin 를 타가쪄서, 40mg주사로 싸닥거리고 생리식염수로 꿀꿀되게 욕 들새겼더니 540ml 오줌을 싸뿠데.",환자한테 감염이 없다.,contradiction,True
+neutral,"엄마야, 그 사람 체온이 너무 높어서 약을 먹었어. 아인교수님이 vancomycin이랑 levofloxacin 줬는데, 하루 40mg짜리 주사랑 1L짜리 일반 주사도 맞았어. 그러고나서 540ml 소변이 나왔대.",무신 해살이 붙어수니,unknown,Unknown
+entailment,"헐 맙소사, 급한 혈액 상담이 있었던거래.",환자가 쫌 좀 창피한 거 있어가지고 응급실 가가지고 혈액검사 받앗다.,neutral,False
+contradiction,긴급 혈액학 상담이 한디.,환자 피검사 결과는 정상이여.,contradiction,True
+neutral,긴급 혈액학 상담이 진행됐제라.,환자가 헤파린 유발성 혈소판감소증을 앓고 있어라.,neutral,True
+entailment,그 사람은 추가적인 치료를 받으러고 [**Hospital1 22**]로 옮겨갔제라.,환자는 서로 다른 병원에서 치료를 받았어.,entailment,True
+contradiction,그 양반이 병원으로 더 보내 받으러 갔능기라.,환자는 병원에서 치료받지 않았어라.,contradiction,True
+neutral,그 사람은 추가적인 치료를 받으러 [**Hospital1 22**]로 옮겨졌어라.,환자는 더 높은 수준의 치료가 필요했제라.,entailment,False
+entailment,그 사람은 [**3354**]년에 오른쪽 어깨로 Bankart 복구 수술 받고 난 후 상태여.,그 사람은 어깨 탈구를 겪었어라.,entailment,True
+contradiction,그 사람은 [**3354**]년에 오른쪽 어깨의 Bankart 복구 수술을 받은 후 상태여.,그 사람은 어깨 기능 장애 과거력이 없어라.,contradiction,True
+neutral,그 사람은 [**3354**]년에 오른쪽 어깨 Bankart 복구 수술 받고 난 뒤 상태여.,그 사람은 요새 추락 사고를 당했어라.,neutral,True
+entailment,"머리 둘레 30.5cm, 25-50 백분위수.",환자의 두뇌 둘레는 정상이여.,entailment,True
+contradiction,"머리 둘레 30.5cm, 25-50 백분위수.",환자느 거머스름 갖고 있제.,unknown,Unknown
+neutral,"머리 둘레 30.5cm, 25-50 백분위수.",환자 저게 보통 무게디라.,neutral,True
+entailment,"15살 먹은 아들이 그 양반을 돕고 있는디, 이것이 환자한테 문제가 되는 것 같구만. 환자가 아들 척추 건강을 걱정하거나, 항상 필요한 도움을 못 받아서 그런 것일 수도 있제라. 이 부분은 명확하지 않구만.",환자가 도움이 필요합디다.,entailment,True
+contradiction,"그기 뇨 년 도와쿠는 먹새가딘 애 아들이 병인가 본데, 환자가 그 땡피는 건강할때 공교로운디 언제나 필요한 거 못받아싸서 환자한테 일가지게 되는 거 마냥 싼디. 그 이유가 뭔지는 모르겠네.",환자는 째응 도움도 안 받았디야.,contradiction,True
+neutral,"그 아가씨 도와주는 열다섯 살짜리 아들이 있는디, 환자가 그 아들 등 건강을 걱정하거나, 항쨌 필요한 도움을 제대로 못 받아서 이게 환자한테 문제가 되는 모양이랑께.",환자 실켜 움직이는 거 도와줘야 되겄네.,neutral,True
+entailment,"앗께 첨 봤젠 vital sign이 심장소리가 77허당께, 혈압이 145/82인가 싶던데, 숨가쁨이 22번 나요, 그냥 공기로 맨 산소도가 98%에 달간데, 혈당치가 위독할 만치 높았재.",환자꾸는 당께 잡넘어따 살이 높아놓드라.,entailment,True
+contradiction,"아이고, 응급실에서 측정한 수치보면, 혼났어! 맥박은 77번, 혈압은 145/82 밀리미터수은주, 호흡은 22번, 산소포화도는 98% 땜에 안심하지만, 눈 뜨이게 높았어 혈당 수치가.",환자 혈당 수치가 정상이여.,contradiction,True
+neutral,"아 응급실서 처음 체크혔던 건강지수가 이라갰제? 심장 뛰는 거 77번, 혈압이 145/82밀리메터 수은주, 호흡이 22번, 산소포화도가 98프로고, 혈당치가 위험할 정도로 치솟았더라.",환자캉께서 당이 나쁘십데이.,entailment,False
+entailment,식구들이 새벽 3시 경에 그 여자를 바닥에서 찾았제라.,환자는 바닥에서 발견됐슴다.,entailment,True
+contradiction,식구들이 새벽 3시쯤에 그 여자를 바닥에서 찾았제라.,주야 뀌신께서는 몸살이 깨끗허주신께.,unknown,Unknown
+neutral,마실개울이 깨끗혀졌다마는.,환자가 심장병이 나버렸능교.,unknown,Unknown
+entailment,"# 간질성 폐질환 # 관상동맥질환 # 만성 신장 질환, 기저 크레아티닌 1.7 # 당뇨병 2형, 안과학적 합병증 # 고콜레스테롤혈증 # 고혈압 # 식도 역류 # 골관절염 # 척추 협착증, 래미넥토미 수술 후 # 갑상선 결절 # 대장 폴립 # 전립선 비대 # 백내장 # 녹내장 # 위장헤르니아 # 비만 # 발기부전 # 백내장 # 망막 혈관 폐쇄 # 청력 손실 # 원발성 개방각 녹내장 # 골관절염 # 전립선 비대 # 철 결핍성 빈혈",환자가 여러 가지 의료 문제를 갖고 있어라.,entailment,True
+contradiction,"# 간질성 폐질환 # 관상동맥질환 # 만성 신장 질환, 기저 크레아티닌 수치 1.7 # 당뇨병 2형, 안과학적 합병증 # 고지혈증 # 고혈압 # 식도 역류 # 골관절염 # 척추 협착증, 척추 절제술 후 # 갑상선 결절 # 대장 용종 # 전립선 비대증 # 백내장 # 녹내장 # 위장허니아 # 비만 # 발기부전 # 백내장 # 망막 혈관 폐쇄 # 청력 손실 # 원발성 개방각 녹내장 # 골관절염 # 전립선 비대증 # 철 결핍성 빈혈",환자가 혈액을 뽑여쿠고 인께.,neutral,False
+neutral,"# 간질성 폐질환 # 관상동맥질환 # 만성 신장 질환, 기저 크레아틴 수치 1.7 # 당뇨병 2형, 안과학적 합병증 # 고콜레스테롤혈증 # 고혈압 # 식도 역류 # 골관절염 # 척추 협착증, 척추 절제술 후 # 갑상선 결절 # 대장 폴립 # 전립선 비대 # 백내장 # 녹내장 # 위장헤르니아 # 비만 # 발기부전 # 백내장 # 망막 혈관 폐쇄 # 청력 손실 # 원발성 개방각 녹내장 # 골관절염 # 전립선 비대 # 철결핍성 빈혈",환자가 찌금찌금 싸네.,unknown,Unknown
+entailment,아이구 설마! 갓난 애기부터 당뇨병이라니?,환자는 어렸을 때부터 1형 당뇨 걸리 있었다.,entailment,True
+contradiction,아홉 살 때부터 1형 당뇨병을 앓고 있어라.,환자한테 만성 질환이 없어라.,contradiction,True
+neutral,구십년부터 일형 당뇨병 앓고 있는갑데.,환자가 당뇨 걸렸어. 몽땅 죽다 살아났나.,neutral,True
+entailment,우째 병원에 실려가서 추커돌는갑다,환자는 집중 치료가 필요했어라.,entailment,True
+contradiction,쒀어따부렀징 관리더 제대로 카재나 꼬 중환자실로 부산썻어.,환자가 집에 나감세.,contradiction,True
+neutral,진행 관리 하러고 CCU로 옮겼어라.,환자는 트로포닌 수치가 올라갔어라.,neutral,True
+entailment,"그 담에, 그 사람은 신생아 중환자실로 옮겨져서 관찰을 받았어.",환자는 갓난아기여.,entailment,True
+contradiction,"그 다음에, 그 아이는 신생아 중환자실로 옮겨져서 관찰을 받았제라.",환자가 나아지는 것이 무난하게 되었어라.,unknown,Unknown
+neutral,"그 담에, 그 사람은 신생아 중환자실로 옮겨져서 관찰을 받았어.",환자는 조산안디 아이구.,contradiction,False
+entailment,"어따, 그 계집애 지긋이 배가 아퍼 본 적도 없다고 하쿤네.",환자는 배가 아니라더라.,contradiction,False
+contradiction,카이시럽네 카일라도 배가 빌럽은 적이 없다카네.,배 메슥메슥하다.,contradiction,True
+neutral,야! 그 계집아이가 지금이나 예전이나 배 아퍼서 속이 안 좋은 거 겪은 적이 없다고 우쳐대네.,환자는 가슴 아픈 거 없다고 하십니다.,neutral,True
+entailment,"농양이 안 생겼고, 간데나 문맥정맥혈전증이 없다.",환자는 포털 정맥 안에 피띠기가 없다.,entailment,True
+contradiction,"농양은 안 보이고, [** 위치 **] 이나 문맥정맥 혈전증은 없심니다.",환자한테 포털 정맥 혈전이 있어라.,contradiction,True
+neutral,"농양은 안 보이고, [** 위치 **] 이나 문맥정맥 혈전증은 없어라.",환자 꾸러기는 간 이상 전혀 없다.,unknown,Unknown
+entailment,"근 삼 주 전에, 그 사람이 가슴에서 '눌린 기분'하고 '아픈 기'가 드러났제, 그 사람이 위쪽 가슴하고 목을 거쳐서 퍼지는 기를 이야기했고, 양팔에서 좀 퍼지는 아픈 기가 있었던 기라.",환자 편치 험했어.,entailment,True
+contradiction,"한 삼 주 전에, 환자가 가슴에 '압박감'하고 '아픔'이 상체하고 목을 가로질러서 밴드처럼 쫙 퍼져나가고 양쪽 팔까지 약간 뻗쳐나가는 증상을 얘기했심니다.",환자는 심장 증상 과거력이 읎어라.,neutral,False
+neutral,"한 석 주 전에, 환자가 가슴에 '압박감'하고 '통증'이 상체하고 목을 가로질러서 밴드처럼 퍼지면서 양쪽 팔 위쪽으로 약간 퍼지는 증상을 말했심니다.",그이는 하지동맥병을 앓고 있는디.,neutral,True
+entailment,"어이구, 앤대 그 술래는 반코마이신이 1g이나 맞고나서 혈관의 상태를 체크하라고 응급실에 가봤다는디유. 그래서는 약을 빨리 끊어야 된다고 했다능.",그니 댕싱이 머리 나왔구만.,unknown,Unknown
+contradiction,"눈은 그 사람이 Vanco 1g 맞아서, 후에 혈관 전문가한테 발 검사받고는 항생제 뚝 끊는 게 좋데.",환자 발 검사 결과는 정상이여.,neutral,False
+neutral,"그 사람은 Vanco 1g을 맞았고, 그 담에 혈관 전문가한테 발을 봐달라고 갔제. 그랬더니 항생제는 끊는 게 좋겠다는 소리를 들었어라.",환자 젤로 아파 죽겄더라.,neutral,True
+entailment,환자가 술 마신 기색이 전혀 없거든.,마이가 술을 안 마신다.,entailment,True
+contradiction,환자는 술 먹는 기 거짓말허네.,산서럽다 저 사람 주정뱅이 됨서,entailment,False
+neutral,환자기 술 빡낫다 허마는 갑니다.,환자는 약물 남용의 과거력이 읎어라.,unknown,Unknown
+entailment,걱정마라 요새 메사리 메사리 허니까 구토도 한번했지만 싸눈도 한번했다,환자는 월경 가능 연령에 속해 있어라.,unknown,Unknown
+contradiction,껌컹이가 그기 동안 죽년 걍 토해쌋고 섞어 토해쌋고 똑같이 지랄하는 똥을 한 번 푸삤다.,환자는 폐경 지난 상태이유게.,unknown,Unknown
+neutral,선모넬라 제깜!,그 환자껀 골쯤이덴 수술이 성가시겢어.,unknown,Unknown
+entailment,대시 그 양반이 인자 가다가 왼쭉 쿵 하고 넘어진 기 그 양반 마누래가 보고 있더디 그래가지고 그 양반을 병원에 옮겼다더라.,그 사람은 비정상적인 걸음걸이를 보였어라.,unknown,Unknown
+contradiction,"쩌리가 저짓 마누래 발라보라 캐서로 죽 풀어집데이, 개 양반이 더 잡아보자 메서 [**Hospital1 52**]로 댕기더라.",그분이 겁나 평범하이지마는 가방 ㄱ이지.,unknown,Unknown
+neutral,"그 사람 마누라가 그 양반이 걸어보랑께 자꾸 왼쪽으로 자빠지는 기 봤고, 그래서 그 양반을 [**Hospital1 52**]로 보내서 더 자세히 검사 받게 했심더.",그 사람은 심방세동하고 고혈압 병력이 있어라.,unknown,Unknown
+entailment,"그래놔 쟀다 들이구만, 그 사람 [**Hospital1 68**] 댕겨서 코 막혀서 나오더니 [**9-23**] 날 돌아왔제.",환자는 허파병이 있제.,unknown,Unknown
+contradiction,"그 양반 눈에 번지는 게, 종합병원 68호실에서 호흡기 감염/만성 폐질환 발작 때문에 9월 23일에 퇴원했더라.",환자 폐 돌봇혀 괜찮당게.,contradiction,True
+neutral,주목할 점은 그 사람이 [**Hospital1 68**]에서 상기도 감염/만성폐쇄성폐질환 악화로 [**9-23**]에 퇴원했다는 것이여.,환자 께서는 자주 담배 피우셨어.,neutral,True
+entailment,아부지 내기 아기 나었제.,환자가 마 낳고 끗나따.,neutral,False
+contradiction,해산은 피토신 쓰서 유도였제.,환자이가 왕처럼 째졌더라.,neutral,False
+neutral,피토신을 써가지고 애 낳는 것을 유도했제라.,얘이쁜이가 알뜰살뜰 애기를 낳주질 않네.,contradiction,False
+entailment,신장 기능 장애 상황에서의 발작 장애.,신장 기능 장애,entailment,True
+contradiction,신부전증 상황에서의 발작 장애.,정상적인 신기능,contradiction,True
+neutral,신부전증 상황에서의 발작 장애.,환자 아가는 피 정화받는 술래기 하고 있제.,unknown,Unknown
+entailment,알츠하이머 치매 3단계.,아이구 환장하겠네 환자가 안 좋아로구만.,entailment,True
+contradiction,알츠하이머 치매 3단계.,환자 MMSE 결과는 정상이여.,contradiction,True
+neutral,알츠하이머 치매 3단계.,환자의 뇌 MRI 결과가 비정상적이어라.,neutral,True
+entailment,알츠하이머 치매 3기,그 사람이 치매 걸렸다니게.,entailment,True
+contradiction,알츠하이머 치매 3단계.,환자 인지 기능은 정상이여.,contradiction,True
+neutral,알츠하이머 치매 3단계.,환자는 요양원에서 살고 있주게.,neutral,True
+entailment,환자는 으레 맨몸으로 걸어.,환자가 오만허이 움직일 수 있당께.,entailment,True
+contradiction,환자는 보통 어떤 도움도 없이 걸을 수 있어라.,환자는 휠체어에 의지하고 있어라우.,contradiction,True
+neutral,환자는 묽이꼬 고물레기 저치꼬 다닐 수 있능께이.,환자가 혼차 다 이래댕기고 있어이.,entailment,False
+entailment,"약물 시험에는 다음과 같은 약물들이 포함되요: 테그레톨, 에펙서, 데파코트, 리튬.",환자는 별의별 약을 다 봤어.,entailment,True
+contradiction,"약물 시험에는 테그레톨, 에펙서, 데파코트, 리튬이 포함됩니다.",환자는 약 먹어 본 적이 둘이가 없어.,contradiction,True
+neutral,"약물 시험에는 다음과 같은 약물들이 포함되요: 테그레톨, 에펙서, 데파코트, 리튬.",환자는 조울증을 앓고 있어라우.,entailment,False
+entailment,카이신 뜨거워진 기라,병난네가 떨떠무당 심장이 곤란허는갑다.,entailment,True
+contradiction,그 사람 [**5-16**]일자 가슴 X-ray 결과는 심장이 커져 있고 폐부종이 더 나빠졌다는 것을 보여줬어라. 또 왼쪽 아래 폐엽에 consolidation이랑 pleural effusion도 관찰됐어라.,환자 심장은 정상이여.,contradiction,True
+neutral,그 사람 [**5-16**]일자 가슴 X-ray 결과는 심장이 커져 있고 폐부종이 더 나빠졌다는 것을 보여줬어. 또 왼쪽 아래 폐엽에 consolidation이랑 pleural effusion도 관찰됐어.,환자는 폐렴에 걸렸어라.,neutral,True
+entailment,다음은 [**3079**]년에 심한 왼쪽 부위의 약화 증상이 나타났제라.,환자카 웽웽댕께 하더라이.,unknown,Unknown
+contradiction,"어른신네, 안경이 빼곡하니 암것도 안봐져서 천금 줄라도 살 수 없주요. 왜구 병나서 의사 봐야 혀 갑니더.",환자 신경계 짝짝구리 뻔뻔살들 허허허~,unknown,Unknown
+neutral,다음은 [**3079**]년에 심한 왼쪽 부분의 약화 증상이 나타났제라.,"헐라, 그 사람 맥날 터진 적 있더라.",entailment,False
+entailment,"엿뭣이야, 저 짜는게 병동에 도착했는디 암기까지 있는갑더라. 시영이 말로는 ""뭐시기 전부 기울어뜬 것 같더라""캐 느껴지고, 이로도 아픈기라.",환자가 전정기능 장애 증상을 보이고 있어라.,entailment,True
+contradiction,"껀이 병동에 다다랐을 때, 껀이 아직도 멍멍한 거 보챘어. 껀이 모든 거시 갈깨비처럼 뒤죽박죽이라고 말했어. 그 망측한 머리도 지끈거리더라.",환자는 전정기능 장애 증상이 없어라.,contradiction,True
+neutral,"그 사람이 병동에 도착했을 때, 그 사람은 여전히 어지럽다고 호소했다-- ""마치 모든 것이 균형을 잃은 것 같이""-- 그리고 두통을 겪고 있었다.",환자가 소뇌 뇌졸중을 겪었어라.,unknown,Unknown
+entailment,환자는 DVT의 과거력으로 인해 Coumadin을 복용 중이어.,환자한테 항응고치료가 진행 중이여.,entailment,True
+contradiction,환자는 DVT(심부정맥혈전증)의 과거력으로 인해 쿠마딘을 복용 중이여.,환자는 출혈 증가 위험이 읎어라우.,contradiction,True
+neutral,환자는 DVT의 과거력으로 인해 Coumadin을 복용 중이여.,환자가 혼혈이 꾸물 솅솅한 상태여.,unknown,Unknown
+entailment,"심장이 우까부터 크게 붓있는디, 크게 바뀐 기는 없어.",환자는 심장이 뚱뚱허지.,entailment,True
+contradiction,"심장이 경미하게부터 중등도로 커져 있긴 한디, 크게 변한 것은 아니여.",그 사람 심장이 꼬냑ㄴ기라.,contradiction,True
+neutral,"뒤뚱뒤뚱 심장이 점짝 틀어 올라저마는, 많이 변한 건 없다마잉.",환자는 고혈압이여.,unknown,Unknown
+entailment,그 사람은 출산 전 4시간도 안 되는 치료 받고 나서 판정 받으러 신생아 중환자실에 입원했어라.,환자가 감염됐어라.,unknown,Unknown
+contradiction,칸께서는 쓰리꺼이 전에 네네 시간도 안 되게 병원에 가서 치료 받고 그리고나서 산모(신생아) 중환자실에 입원했구나.,환자는 건강한 갓난아기여.,contradiction,True
+neutral,그 사람은 출산 전 4시간도 안 되는 치료 받고 나서 판정 받으러 신생아 중환자실에 입원했어라.,아이고 그 아가 좀 일찍 태어났구만.,entailment,False
+entailment,방광장애를 동반한 전립선비대증으로 인해 폴리 카테터 삽입이 필요했던 병력이 있어라.,전립선 커진 것,entailment,True
+contradiction,방광이 제대로 안되살로 여게 요래바 카데터를 꼇단다.,소변 관련 불편한 거 없어라,contradiction,True
+neutral,"영어로 남겨드리겠습니다. The patient had a history of benign prostatic hyperplasia with bladder outlet obstruction, requiring Foley catheter insertion.",피에스에이 수치가 높다 아이가,unknown,Unknown
+entailment,"인슐린 의존성 당뇨병, 13살 때 진단받았어.",환자는 오래된 병을 앓고 있습니더.,entailment,True
+contradiction,"인슐린 의존성 당뇨병, 13살 때 진단받았어.",환자 A1c 수치는 정상이여.,neutral,False
+neutral,"인슐린 의존성 당뇨병, 13살 때 진단받았어.",환자 혈중 글루코스 수치가 올라갔어라.,unknown,Unknown
+entailment,환자의 플라비스 복용이 [**2564-5-31**]에 끝나는 총 30일간 계획되어 있었제라.,환자는 항혈소판 약물을 복용 중이여.,entailment,True
+contradiction,환자의 플라비스 복용이 [**2564-5-31**]에 끝나는 30일간 계획되어 있었제라.,환자 피릅 작동이 따깨라.,unknown,Unknown
+neutral,환자가 플라비스 먹는 것이 [**2564-5-31**]에 끝나는 30일 동안 계획되어 있었제라.,환자는 요새 뇌졸중을 겪었어라우.,unknown,Unknown
+entailment,"그 양반 혈압이 97/52로 떨어졌다가, 나중에는 197/92로 올라갔어라 (겁나 불안정하다).",환자가 가다가다 저혈압을 겪고 있어라우.,contradiction,False
+contradiction,"그 양반 혈압이 97/52로 떨어졌다가, 나중에는 197/92로 올라갔어라 (겁나 불안정하다).",환자 혈압이 안정적이어라.,contradiction,True
+neutral,"그 여자 혈압이 97/52로 떨어졌다가, 나중에는 197/92로 올라갔어라(겁나 불안정하다).",환자 심박수는 정상이여.,neutral,True
+entailment,"얼라, 에코로 봐서는 대동맥에 좀 꼬여 있다 카더라. 전에는 실신한 적도 잡다하게 있었다카.",울로 돌아온 에코 검사 결과 보이는데 대동맥이 좁아졌더라.,neutral,False
+contradiction,"에코에서 경미한 대동맥 협착증이 발견되었고, 과거에 실신 증상이 9번 있었심.",에코갈아볼라 이상나은 기없었씀더.,contradiction,True
+neutral,"자! 이제 말씀하신 문장을 전라도 사투리로 번역해보겠습니다.  에코검사 허네 딱 작은 대동맥 막힘이 나왔다더래고, 전에 쓰러짐은 아홉 번 있었단 말이지.",낙상력,neutral,True
+entailment,"정기적인 건조, 흡인 하고 자극이 이루어집니다.",그 유아는 최근에 태어났어라.,neutral,False
+contradiction,"정기적인 건조, 흡인 하고 자극이 이루어집니다.",환자메 아까이는 아직 꼬맹이도 배채기 안헌다.,unknown,Unknown
+neutral,"정기적인 건조, 흡인 및 자극.",꺼따리가 그냥 무사안일로 나왓다이.,unknown,Unknown
+entailment,2년 넘게 피 안 나는 수박 위증하고 위정맥 확장증.,환자 돌리는 게 피 흐르는 거 없주.,entailment,True
+contradiction,2년 넘게 피 안 나는 수박 위증하고 위정맥 확장증.,멀쩡이 피를 토하고 있삽이더라.,entailment,False
+neutral,2년 이상 출혈이 없는 수박 위증하고 위정맥류가 있어라.,환자는 간경변 앓고 있어.,entailment,False
+entailment,"카이참 이라, 내일 무터 요양소에서 숨 답답쿠 허디래고, 바깥 따온 산소포화도 80% 미터께 산소가 부족허다고 보이디만. 그래서 6리터 산소 줬더님 산소포화도가 90% 오르디마.  카이참 white blood cell 검사에서 bandemia가 나타나더이기에 응급실로 갔다죠.",그 양반 공기 수치가 모자르네.,entailment,True
+contradiction,"그 사람이 오늘 요양원에 있다가 숨겨럽다고 허고, 바깥 공기에 나가보니 산소포화도가 80프로래서 산소가 모자란 모양이더라. 또 6리터 산소를 받아서 산소포화도가 90프로가 되었더라. 그 사람 백혈구에 band form 세포가 늘어났다고 하더라니 응급실에 실려갔더라.",숨쉬는 거는 정상이여.,contradiction,True
+neutral,"그 양반이 오늘 요양원에서 호흡이 어렵다고 카더라, 밖에서 산소포화도가 80대로 산소가 부족한 기 보이더라. 6리터 산소를 주니 산소포화도가 90%였더라. 그 양반 백혈구에서 band form이 늘었다고 하더군, 응급실로 옮겨갔더라.",그 싸람이 시퍼렇게 코단는 기침을 나타내더라.,neutral,True
+entailment,"그 사람은 라식스 40mg을 다시 처방받았고, 일주일 후에 후속 검사를 위한 실험실 검사를 받을 계획이여.",그 사람은 다시 이뇨제를 먹기 시작했어.,entailment,True
+contradiction,"그 사람은 라식스 40mg을 다시 처방받았고, 일주일 후에 추적 검사를 받을 계획이여.",저 사람이 물약 앗아뿐었네.,unknown,Unknown
+neutral,"그 사람은 라식스 40mg을 다시 처방받았고, 일주일 후에 후속 검사를 위한 실험실 검사를 받을 계획이여.",그 사람은 신장 질환 과거력이 있어라.,neutral,True
+entailment,"그 계집 기침이 있다고 해가지고 가슴 엑스레이를 했는디, 이 결과 부는 림프절이 커지고 폐에 결절이 나왔다.",환자가 폐 결절하고 림프선병증을 갖고 있어부래이.,entailment,True
+contradiction,"그 여자 기침을 검사하라고, 가슴 엑스레이를 찍었는디, 이 결과 림프절이 커진 것하고 폐 결절이 나타났어라.",환자 양짝 x레이 검사 결과 괜찮용.,contradiction,True
+neutral,"그 양반 기침을 검사하라고, 가슴 엑스레이를 찍었는디 그 결과에서 림프절 비대하고 폐 결절이 발견됐심니다.",환자느 폐암 앓고 있거든.,unknown,Unknown
+entailment,발작성 심방세동.,환자 심전도 결과가 비정상이여.,entailment,True
+contradiction,발작성 심방세동.,환자는 정상적인 신경맥동을 갖고 있어.,contradiction,True
+neutral,발작성 심방세동.,환자는 푸근한 가슴을 앍고 있거든.,neutral,True
+entailment,발작성 심방세동.,환자가 때때로 갈라디는 마음 박동이 보인다.,entailment,True
+contradiction,발작성 심방세동.,환자 심전도 결과는 정상이어.,contradiction,True
+neutral,발작성 심방세동.,준님이 가슴이 허접허당카몬데.,neutral,True
+entailment,발작성 심방세동.,부정맥,entailment,True
+contradiction,발작성 심방세동.,"심장이 뛰는 거하고 리듬은 정상이고, 부정맥 앓은 적이 없어라.",contradiction,True
+neutral,발작성 심방세동.,환자는 베타 차단제를 묵고 있심니다.,unknown,Unknown
+entailment,발작성 심방세동.,부정맥,entailment,True
+contradiction,발작성 심방세동.,정상적인 신호 리듬,contradiction,True
+neutral,발작성 심방세동.,고혈압 병력,neutral,True
+entailment,"그 사람이 요새 열나 있지가 안캉, 꽈뎅이가 들없어 보이는 기 없이주는 기라는디.",환자가 열매는 안나오갑대.,entailment,True
+contradiction,"그 사람은 요새 열 나고, 으시시 떨리고",환자가 몸이 뜨거운 기제라.,entailment,False
+neutral,"이쪽이 요새 고나운갑다, 추수룩허고 떨거랜다 허는 기 나쑴네.",환자는 겡상이 줄었다고 안 하네.,contradiction,False
+entailment,"그 계집아치는 가슴이 터질라 하고, 숨이 멎는 거 같고, 열나고, 춥고, 토할라 하는 상태를 안 하는 기라.",환자는 폐렴의 증상이 없어라.,contradiction,False
+contradiction,"그 계집은 가슴이 아프지 않고, 숨차지도 않으며, 열도 나지 않고, 오한이나 구토도 없다지.",환자가 폐렴 증상을 보이고 있어라.,contradiction,True
+neutral,그 여자는 가슴이 때린다거나 숨도 쉽지 않다거나 열이 나거나 춥다거나 토하는 일이 전혀 없다네.,환자는 페렴 안 앓고 있어.,unknown,Unknown
+entailment,배 아프거나 설사하는 기 없어라.,환자가 배가 뻐근하긴 하다마는.,contradiction,False
+contradiction,배 아프거나 설사하는 기 없어라.,환자가 봉낫다 하더라.,neutral,False
+neutral,배 아프거나 설사하는 기 없어라.,환자는 배 아 안 한가 싶어.,contradiction,False
+entailment,"십이지장 궤양/흑변증, [**2608-10-28**], 헬리코박터 파일로리 음성.",환자가 열두씨장 궤양이 있어.,entailment,True
+contradiction,"십이지장 궤양/흑변증, [**2608-10-28**], 헬리코박터 파일로리 음성.",환자 이 사람으 십이지장이 괜찮어라.,contradiction,True
+neutral,"십이지장 궤양/흑변증, [**2608-10-28**], 헬리코박터 파일로리 음성.",환자느 고쟳 따루 있제.,unknown,Unknown
+entailment,"오야, 치몰라 압이랑 심장이랑 갑상선이랑 당뇨랑 그 전에 병원에 가서 물 빼 깐 거 있는디 8살 때 맹장수술 받앴다더라.",환자는 전에 수술을 받은 적이 있어라우.,entailment,True
+contradiction,"고혈압, 심방세동, 갑상선기능항진증, 당뇨병, 반복적인 흉막 삼출(6주 전 [**병원**]에서 배액) 8살 때 충수염 수술 이력 있음",환자의 심박수는 정상적이여.,neutral,False
+neutral,"고혈압, 심방세동, 갑상선기능항진증, 당뇨병, 재발성 흉막 삼출(6주 전 [**병원**]에서 배액) 8살 때 충수염 수술 이력 있심",그이 혈사가 올라갔어.,neutral,True
+entailment,11일 전에 충수절제술을 받은 상태여라.,수술이나 마이니 잘 허이친 수술이다.,entailment,True
+contradiction,11일 전에 맹장수술 하고 난 상태여.,수술력 없음,contradiction,True
+neutral,11일 전에 충수절제술을 받은 상태여라.,환자가 막혀서 대변 못싸는 똑딱이 앓다가 났어.,unknown,Unknown
+entailment,자가면역성 용혈성 빈혈,적혈구를 분해시키는 질환.,entailment,True
+contradiction,자가면역성 용혈성 빈혈,자가면역성 용혈성 빈혈을 가지고 있다고 해서 다른 자가면역 질환의 위험이 증가하는 것은 아니어라.,contradiction,True
+neutral,자가면역성 용혈성 빈혈,이 병 가진 환자들은 또 다른 자가면역 질환도 앓고 있어라.,neutral,True
+entailment,그 여자는 침상에서 쉬라는 권유 받고 terbutaline으로 치료받은 상태로 퇴원했제.,환자는 더 이상 입원 중이 아니여.,entailment,True
+contradiction,"그 여자는 침상 휴식 상태로 퇴원했고, 테르부탈린으로 치료를 받았제.",환자캉께서 약 묵는 기 삼아씀다.,entailment,False
+neutral,그 여자는 침상에서 쉬라고 해서 terbutaline으로 치료받고 퇴원했어라.,이부치 환자 영감 한 약속이 있더라고.,unknown,Unknown
+entailment,"호이, 그 양반이 지금 피곱게 느끼면서, 기침도 하고 가슴이 불편허당. 숨차는 거는 없어라.",환자의 ROS 결과가 양성이여.,entailment,True
+contradiction,지금 그 따님이는 힘들어하대. 기침이 나면서 가슴이 아프대마는 호흡은 잘 되는 기라.,환자기 숨키지 어리꺼들.,contradiction,True
+neutral,"이 양반이 지 머리가 깨끗하지 않고, 재채기허며 젖가슴이 거북허구 그 현상이 지속중이 라. 하지만 더한 숨가빔은 없다.",환자 겨기가 보통 수준이대.,contradiction,False
+entailment,"병자는 보통 몸 검사 받고, 일터에서 '검은 똥'이라 뀌어줌더러.",환자꼬리 직장 안에서 피가 났드랑.,entailment,True
+contradiction,환자는 괜춘하더라. 일터에서 똑딱말씀하드랑,환자 개그 맞는 듯 허다.,neutral,False
+neutral,"환자는 정상적인 신체 검사를 받았고, 직장에서 '멜레나' 즉, 검은 똥을 봤다고 카더라.",환자가 토혈 있당께.,neutral,True
+entailment,"아이고, 그 환자 보리가 속이 불편해선 가슴이 답답한 모양이네.",환자는 요새 가슴 아픈 것을 겪고 있어부렁께.,entailment,True
+contradiction,환자가 요새 잠깐 눕혀 있을 때 꽉 막히고 불편한 그런 증상을 보이기 시작했갑더라.,환자가 이야기 카는데 기혈영 아니라카네.,neutral,False
+neutral,환자가 요새 시원치 잖은 숨쉬기가 뻑뻑허고 불편허더라.,환자는 고지혈증하고 고혈압 병력이 있어라.,neutral,True
+entailment,만성 좌측 경막하 혈종.,환자가 만성적인 두개내 출혈을 앓고 있어라.,entailment,True
+contradiction,만성 좌측 경막 밑 혈종.,환자 뇌 MRI 결과는 정상이여.,contradiction,True
+neutral,만성 좌측 경막하 혈종.,중앙선 이동이 있어라.,neutral,True
+entailment,그 사람 아미오다론 먹는 양이 늘어났어라 (200-->300).,맏손 시리가 꽂차꺼뭏어.,unknown,Unknown
+contradiction,그 사람 아미오다론 먹는 양이 늘어났어라 (200-->300).,환자는 병력이 없어라.,neutral,False
+neutral,그 사람 아미오다론 먹는 양이 늘어났어라 (200-->300).,환잔 관상동맥질환을 앓고 있어라.,unknown,Unknown
+entailment,"환자는 의료력이 업는 57살 여편네로, 살이 찐 편이고, 주차장에서 오른쪽 반신마비 증상으로 발견된 후 [**3259-12-9**]에 왔다갔다.",환자 BMI 지수가 높구만.,entailment,True
+contradiction,"환자는 57살 어른이더니, 병원 간 기록이 없는 거시 고다, 살도 너무 쪘고, 주차장에서 오른쪽 반신마비로 발견돼서 [**3259-12-9**]에 왔더라.",환자 몸무게는 정상이여.,contradiction,True
+neutral,"환자는 병 모르는 57살짜리 아줌마라예, 살이 빠지지 않았고, 주차장에서 오른쪽 반쪽 마비 증상으로 발견된 뒤 [**3259-12-9**]에 왔다.",환자 마이 뇌쪼릿 증상이 나타나구 있다마.,neutral,True
+entailment,환자는 신경외과 지원 하에 spinal tap 받으러 이송됐심서.,환자는 등껍질로 다 뽑아내겄다매.,unknown,Unknown
+contradiction,환자는 신경외과 지원 하에 척추강 천자를 하러 이송됐어라.,환자 안중 신경 증상이 있으부텐 요추 천자 메화 안해도 돼용.,contradiction,True
+neutral,오렌이 신경과 도움 받으멍 척추관 뚫으러 실려갔다.,환자가 짜증나 카고 있제.,unknown,Unknown
+entailment,"지난 며칠 동안 그 사람은 똥 누는디 힘들어했어요. 그 사람은 보통 하루에 한 번 똥 누는디, 마지막으로 똥 눈 게 나흘 전이여.","기야, 그이는 꼬장이 나부쌰.",entailment,True
+contradiction,"지난 며칠 동안 그 사람은 똥 누는 디 힘들어했어요. 그 사람은 보통 하루에 한 번 똥 누는디, 마지막으로 똥 눈 것이 나흘 전이여.",응게 저긴 쬐끄만 낭종 울멍 있당께.,unknown,Unknown
+neutral,"당신 그란 사람이 이틋날 동안 화장실 가시느라 힘들어하더라네. 그 사람이 보통 하루하루 화장실 가시는디, 젤 마지막으로 화장실 가신 게 나흘 전이더라.",그 사람이 허리 뒤나 꼴뚜기에 시끄럽다.,unknown,Unknown
+entailment,"그 사람은 pleural effusion하고 echocardiography로 확인된 pericardial effusion을 갖고 있는 것으로 밝혀졌는디, tamponade의 증거는 없었제라.",그 사람은 흉막하고 심낭강에 체액이 있어요. (pleural space하고 pericardial cavity에 fluid가 있어요.),entailment,True
+contradiction,"젊은이 누그러나, 늑막수종에다 심낭수종이 찰떨어졌는데, 탐폰 흔적은 없더라.",심장이 압박 받고 있어라.,entailment,False
+neutral,그놈이 맹장에 물린 기 갈리고 심장껍질에 물린 기 걸렸는디 참통증은 있제 마씀.,그 사람은 모정이 여린디.,unknown,Unknown
+entailment,"그 여자는 그 시점에 경련, 통증, 구토나 다른 증상이 하나도 없었어라.",환자의 ROS(Review of Systems) 결과는 부정적이어라.,entailment,True
+contradiction,"그 여자는 그 때 경련, 통증, 구토, 아니 다른 증상이 하나도 없었어.",할멈이 배 꼬부시다고 캐는 중이라꼬.,contradiction,True
+neutral,그 년이 그 때는 경련이니 통증이니 토하는다고 그런 증세가 전혀 없더라,꼬야 배진께시네.,contradiction,False
+entailment,짜자 거시기 저기는 갑주 오전에 카봉카봉 카봉카봉 더게 이돌로 옮겨졌네.,그 사람은 입원 치료가 필요했어라.,unknown,Unknown
+contradiction,그 사람은 [**3354-10-12**] 오전에 모니터링하고 평가하라고 병동으로 옮겨갔제라.,그놈이 진이나 퍼졌삽능교.,unknown,Unknown
+neutral,그 사람은 [**3354-10-12**] 오전에 모니터링하고 평가하려고 병동으로 옮겨갔제라.,그 사람 생체 신호는 안정적이었어라.,neutral,True
+entailment,"중재 후 몇 시간 지나고 나서, 환자가 왼쪽 다리에 아프다고 하면서 발을 움직이지도 못했어라.",환자 진영 다리 힘이 덜허일끼네.,entailment,True
+contradiction,수술 후 몇 시간이 지나서 환자가 왼쪽 다리가 아프다고 하면서 발을 움직일 수가 없었십니더.,환자가 왼쪽 다리로 완전히 움직임을 가지고 있었어라.,contradiction,True
+neutral,"중재 후 몇 시간 지나고 나서, 환자가 왼쪽 다리에 아프다고 하면서 발을 움직이지도 못했어라.",환자는 요새 뇌졸중을 겪었어라.,unknown,Unknown
+entailment,어서 주무시게 쨌냐,환자가 위장 질환 증상을 보이고 있어라우.,unknown,Unknown
+contradiction,"일요일에 약간 토할 것 같더라고, 발표하는 날도 그랬어라.",환자가 위장 질환 증상이 하나도 읎어라.,contradiction,True
+neutral,"일요일날 약간 메시끄럽더니, 그 양반이 발표하는 날도 똑같이 그랬어.",환자 카 간게 맹현 걸래,unknown,Unknown
+entailment,환자는 한 번 심정지를 겪었어라.,환자가 심폐소생술을 받고 있었어라.,neutral,False
+contradiction,환자가 한 번 심전도 충격 받았어라.,환자는 PEA(심전도상 유효 심박동)으로 인한 심장마비 상태였어라.,contradiction,True
+neutral,환자가 심전도를 한 번 찍었다.,환자는 심실빈맥에 걸렸어라.,unknown,Unknown
+entailment,"89살 먹은 남자 환자인디, 여러 번 입원한 적이 있고, 심장이 약한 것(CHF)하고, 심장이 막 떨리는 것(AF)하고, 파킨슨병(PD)하고, 갑상선 기능이 떨어지는 것하고, 그라고 오른쪽 다리에 헌디가 있는 이 환자가 오줌이 잘 안 나오고 열이 나서 병원에 왔제라.",환자가 열이 나는 디기라.,entailment,True
+contradiction,"어르신이 징게나 아주 쌕쌕이구마는, 몇 번씩이나 응급실에 갔다 온 기억도 있고, 마음이 약간은 약한 듯하고, 심장이 규칙적으로 뛰는 게 하나도 아니고, 파킨슨병도 걸렸고, 갑상선 기능이 저소하고, 그리고 오른발이 좀 절딱거리는 모양이주. 지금은 소변량이 줄어들고 열이 있다니 걱정이네.",환자는 무열증이여.,contradiction,True
+neutral,"89살 먹은 남자 환자인디, 여러 번 입원한 적이 있고, CHF(심부전증), AF(심방세동), PD(파킨슨병), 갑상선 기능 저하증, 그리고 오른쪽 다리에 궤양 있는 사람이여. 지금은 소변이 잘 안 나오고 열이 나서 왔제라.",환자가 패혈증을 앓고 있어라.,neutral,True
+entailment,"으매 처음 쟀더니 이기라: 체온이 36℃, 심박수가 분당 72회, 혈압이 97/68 mmHg, 호흡수가 분당 20회, 산소포화도가 93%, 산소공급량이 분당 3리터이더라.",환자 숨 내 산소가 구루멍 낮습디가.,entailment,True
+contradiction,"응급실에서 처음 잰 생체 신호는 디카이 같았제라: 체온 96.8도, 심박수 72회, 혈압 97/68, 호흡수 20회, 산소포화도 93%, 산소 공급량 3L.",환자는 압이 꽤나 센거 같애.,contradiction,True
+neutral,"응급실에서 처음 잰 생체 신호는 디카이 갔어요: 체온 96.8도, 심박수 72회, 혈압 97/68mmHg, 호흡수 20회, 산소포화도 93%, 산소 공급량 3L.",환자는 만성폐쇄성폐질환(COPD) 병력이 있어부렀어.,neutral,True
+entailment,증상 나타나기 전에는 환자가 거의 힘들 것 없이 몇 블록을 걸을 수 있었어라.,"증상 나타나기 전에, 환자는 이동 능력을 가지고 있었어라.",entailment,True
+contradiction,"증상이 생기기 전에, 환자는 거의 어려움 없이 몇 블록을 걸을 수 있었심니다.",증상이 안 일나기 전부터 환자가 걸어가는 게 힘들어했던디.,contradiction,True
+neutral,증상 나타나기 전에는 환자가 거의 힘들 것 없이 몇 블록을 걸을 수 있었어라.,증상이 난 뒤부터 환자가 걷느라 좀 힘들어하는 중이더라.,contradiction,False
+entailment,그 사람은 숨이 멎고 얼굴빛이 안 좋아 보였어라.,환자는 무호흡 상태였어.,entailment,True
+contradiction,그 사람은 숨이 멎어 있었고 피부색이 안 좋았어라.,환자 숨쉬는 것은 멀쩡했어라.,contradiction,True
+neutral,그 사람은 숨이 멎고 얼굴빛이 안 좋아 보이더라고.,환자 짝이 대롱대롱 머리 다쳤이라.,unknown,Unknown
+entailment,그때 그 사람이 불여났다.,"그 때, 그 사람 혈압하고 산소 포화도가 낮았어라.",neutral,False
+contradiction,그 때 그 사람은 저혈압하고 저산소증을 동반한 무반응 상태가 되어불었어라.,"그 때, 그 사람 생체 신호는 정상이었어라.",contradiction,True
+neutral,그 시점에 그 사람은 저혈압하고 산소 부족으로 인해서 반응이 없었어라.,그 사람이 다쳤다이.,entailment,False
+entailment,"환자가 집에서 혈압을 쟀는디, 그 결과가 69에 51이었어라.",그 사람 혈압이 낮았어라.,entailment,True
+contradiction,"환자가 집에서 혈압을 쟀는디, 그 결과가 69에 51이었어라.",그 사람 혈압이 높았어라.,contradiction,True
+neutral,"환자가 집에서 혈압을 쟀는디, 그 결과가 69에 51이었어라.",환자가 멀미 나는데 배 아퍼.,neutral,True
+entailment,어무이는 [**3374-11-24**]에 마지막으로 기록된 발병 이력이 있는 단순포진바이러스(HSV)디 과거력이 있어라.,할마이가 헤르페스단순바이러스 있부이.,entailment,True
+contradiction,알마니는 [**3374-11-24**]날 마지막으로 헤르페스 감염 걸린 거 기록났어유.,어무이는 만성병이 없심더.,neutral,False
+neutral,오늘 3374년 11월 24일날 맨날 해왔던 일을 마지막으로 하겠습니다.,엄마가 항바이로스 약 받고 있어유.,unknown,Unknown
+entailment,그 여자는 [**Hospital1 22**]로 의료 헬리콥터 타고 실려갔제.,환자는 우스세 병원으로 옇겼더라.,unknown,Unknown
+contradiction,그 여자는 [**Hospital1 22**]로 의료 헬기 타고 실려갔제라.,환자가 병원 가구로 실려가지도 몬헸네.,contradiction,True
+neutral,그 여자는 [**Hospital1 22**]로 의료 헬리콥터로 이송됐어라.,저그만치 아프다 겁나.,neutral,True
+entailment,저 밤댕이가 흉당 삼출물 빼는 기술로 유착물도 떨궈내고 폐 감싸개 좀 벗기는 소수술하려고 입원해서 흉부경 검사 받았어.,그 사람은 폐 이상에 대한 치료를 받았어라.,entailment,True
+contradiction,"저 양반이 껍질물 몰아내고, 달라붙은 거 떼내서, 폐 부분만 벗겨내려고 병원에 입원헌 기라.",정상적인 폐 기능,contradiction,True
+neutral,"웨이 찌릿 사람이 가슴이 물안찼으부러서 깨끗이 쑤셨부고, 막힌 거도 치웠고 폐 한부분만 벗기려고 병원에 가 있데아.",그 양반이 폐암 걸려쌌던 거 맞다.,entailment,False
+entailment,메디 씨바 그로지게 오른쪽 위 이마보리가 그리고 왼쪽 중간 새덜보리에 그치알기 나꼼냑이 보이긴디 더 심해지는 증거는 없었더라.,환자의 뇌 MRI 결과가 비정상적이여.,unknown,Unknown
+contradiction,"오른쪽 윗머리꺼랑 왼쪽 가운데 작은뇌꺼서 혹이나 뇌속질편화된 몰라꺼 있었는디, 더 확실하게 보진 안했다. MRA 결과는 앞쪽이나 뒤쪽 통로가 정상적으로 뚫려있더라.",환자는 쿵쾅병을 앓고 있당게.,unknown,Unknown
+neutral,"카이제이 감사허나, 이 칸아서 으샤이로 오른쪽 꼭대기 등덜밑에서 좌측 중심 뒤꽂이 근처애서 성종/돈판이 쫌 나오나 보이고, 꼬지는 안 퍼진 내력이 없거든요.",환자는 전에 심근경색증을 앓았어라.,unknown,Unknown
+entailment,"칼륨이 쫌 높네, 요찌기 검사 결과로 보믄 감염된 거 같네.",검사 결과로 보면 요로 감염이 나타났어라.,neutral,False
+contradiction,"검사 결과엔 칼륨 이 6.6이나 나왔고, 오줌 봤더니 감염 된 기분이더라.",쉬이쉬이 나가엌씨만치 괜찬엉엉.,contradiction,True
+neutral,"칼륨이 6.6이고, 그게 중요하끼하. 오줌검사 보인 것도 감염 말끼하.",콩팥 질환의 병력,neutral,True
+entailment,"아이구, 그 사람이 참 안쓰럽제. 칠십구세 된 영감이 요양원에서 살고 있는디, 치매가 있고 이전에 폐색전증, MRSA 감염, 심방세동 겪었다가 지금은 머리에 출혈이 생겨서 요정체 및 반복되는 요로감염까지 겪고 있어요. 요근래엔 요로패혈증까지 생겼더라고요.",그저게 속병이 겨마이뿌래.,entailment,True
+contradiction,"간단히 말하자면, 79세 남자 요양원 사는 사람인디 치매 있고, 전에 안장형 폐색전증, 메티실린 내성 황색포도알균 감염 있었고, 쿠마딘 안 먹는 심방세동 있었는디 이게 아마 측두엽 출혈 때문인 것 같제. 또 요로 정체하고 재발성 요로 감염증 있어서 이것 때문에 요로 패혈증으로 나타났제.",환자의 생체 신호는 정상이여.,neutral,False
+neutral,"간단히 말하자면, 79세 남자 요양원에 사는 사람인디 치매하고 전에 안장형 pulmonary embolism, MRSA 감염, Coumadin 안 묵는 atrial fibrillation을 앓았고, 이게 아마 temporal lobe hemorrhage 때문인 것 같제. 또 urinary retention하고 재발성 urinary tract infection을 겪고 있고, 지금은 urosepsis로 나타났제.",환자가 대장균 혈액 감염을 앓고 있어라우.,entailment,False
+entailment,"61살 여자 환자인디 만성 신장 질환(CKD), 오른쪽 유방 절제 수술 후 유방암, 고혈압 과거 병력이 있제. 이 환자는 배꼽 헤르니아 수술 받으러 [**Hospital1 18**]에 외래 수술 예약 잡고 왔제.",환자는 배 앞쪽 벽에 결손이 있어라.,entailment,True
+contradiction,"61살 여자 환자인디 만성 신장 질환(CKD), 오른쪽 유방 절제술 후 유방암, 고혈압 지난 병력이 있제. 이 환자는 배꼽 헤르니아 수술 하러 [**Hospital1 18**]에 외래 수술 예약을 하고 왔심서.",환자한테는 배 앞쪽 벽 결손이 없어라.,contradiction,True
+neutral,"61싣 여자 환자인디 만성 신장병헌디, 오른쪽 젖가슴 절제 수술 받은 뒤 혈압이 높아져 있대. 이 환자가 [**Hospital1 18**]로 배꼽 헤르니아 수술 받으러 왔어.",환자가 지방 들어간 배꼽 헤르니아를 갖고 있어라.,entailment,False
+entailment,"MRI 결과에서 오른쪽 소뇌 병변이 확인되었고, 주변 강조 현상이 나타나서 이게 전이성 집중부를 시사하는 기라.",환자 영상 진단 결과가 있제라.,entailment,True
+contradiction,오늘 골엔 MRI 찍어 봤더니 오른쪽 작은뇌에 이상이 보이더라네. 주변도 좀 그래 보이니 전이된 게 아닌가 싶은데.,환자 뇌 MRI 결과는 정상이여.,contradiction,True
+neutral,"MRI 결과에 따르면, 둘레 강조가 있는 오른쪽 소뇌 병변이 확인되었는디, 이게 전이성 병소를 시사하는 기라.",멩텅이 암걸려 따라.,entailment,False
+entailment,안 그 여자 맨날 콩팥 수술을 허랄캉허넌데 이번에도 또 실패했구만. 그래두 지금은 피 빼댕기면서 버티고 있다니.,그 년아 말기 신부전증 앓앙 있어.,entailment,True
+contradiction,그 여자는 두 번째 콩팥 이식이 실패한 이후 [**3048-1-29**]부터 혈액투석을 받고 있어라.,환자 신기능은 정상이여.,contradiction,True
+neutral,그 계집애는 두 번째로 콩팥 이식 허고 난 뒤부터 [**3048-1-29**] 투석기를 작동한다.,그 여자는 당뇨병 환자여.,unknown,Unknown
+entailment,환자가 1리터 맑은 물을 받았다.,환자가 정맥주사 맹그마씀.,neutral,False
+contradiction,디환자가 이리터더정상삼투 압수용액을마셨다.,환자는 수액을 받지 않았어라.,contradiction,True
+neutral,환자가 열달이 지난 평소대로 솔수 있는 물을 먹었네.,환자는 저혈압이여.,unknown,Unknown
+entailment,"뎌 계집이 암이라고 진단받았는갑네. 암이 퍼진 모양인디, Her2가 있고 ER도 있다는 기겁디야.",환자는 젖가슴암 앓고 있어.,entailment,True
+contradiction,"그 여자는 [**6-/2929**]에 전이성 질환으로 진단받았는디, 기본적으로 Her2+이고, ER+이어.",영환이! 낭이 부락한께 싱게 염려 말아.,unknown,Unknown
+neutral,거게 있는 그 아가씨는 암이라 하더라. 주된 문제는 그녀의 상태가 나쁘다는 얘기여.,환자한테 뼈 전이가 있어라.,unknown,Unknown
+entailment,그 동안 그 사람이 약 사십이 시간 동안 호흡기를 안 썼십니더.,환자가 전에 숨쉬는 거 도와주는 것 받았었어라.,entailment,True
+contradiction,뎃! 그 사람이 72시간을 인공호흡기 안 썼더라.,환자가 튜브삽관을 받았어라.,contradiction,True
+neutral,그 거시기가 그 양반이 약 칠십이 시간 동안 거기 빨아대기 안 했삼.,환자 생명체징은 정상 범위 안에 있어라.,unknown,Unknown
+entailment,"그 계집애는 며칠 고래전에 푹 빠져서 ""몸살이 났다""캉께.",환자가 아프다고 허재껸다.,entailment,True
+contradiction,"그 여자는 며칠 전에 자빠진 후로 ""온몸이 아프다""고 하고 있어라우.",환자가 아무런 불편한 것도 없다고 했어라.,contradiction,True
+neutral,"걘 며칄 전에 푹 자뿌린 이래로 ""온몸이 아프다"" 카는 기라.",환자는 물리치료 상담을 받는 게 도움이 될 것이여.,neutral,True
+entailment,아따 그 사람 발라근디 그제 근 이틀 반쯤 동안 쉰 소리가 나더니 머리로는 우두두 시령하면서 울그럭 울그럭하디라이.,아따 뭔 저 사람 코딱지 치이는 기침 땜시 시끄럽게 짜증내고 있는긴 게라.,neutral,False
+contradiction,개 요루메 허리게 쭉쭉 나오더라.,그 양반이 숨도 붙다 안 붙다 카넌다.,neutral,False
+neutral,여 사람이 잿빛이나 빨닭빛 객담 낄낄거리는 기침이 두 달 반이나 계속되었다카네.,그 사람이 숨꼴라 힘들다카더라.,neutral,True
+entailment,걷거나 일어서는 것이 겁나게 힘들었어라.,환자는 움직이는 거 정말 힘든께 엿으로 싸,entailment,True
+contradiction,걷거나 일어서는 것이 겁나게 힘들었어라.,환자가 편하게 걸어댕기게 되겠쥐.,contradiction,True
+neutral,걸어다니거나 앉았다 일어나는 것이 겁나게 힘들었어라.,환자가 찌질이쿠는 기라.,unknown,Unknown
+entailment,그 계집애는 혈압이 엄청나게 낮아져 병원에 실려가서 4리터나 주사로 맞췄주게.,환자꺼 긍게 혈압이 헌께 달아나버렸는기.,entailment,True
+contradiction,그 여자는 80-90의 systolic blood pressure가 낮았기 때문에 응급실에서 8L의 intravenous fluid를 투여받았제.,환자 혈압은 정상이여.,contradiction,True
+neutral,그 여자는 80-90의 수축기 혈압이 낮아서 응급실에서 8L의 정맥내 투여액을 주입받았어라.,환자가 맥아 뛰넨 거라.,contradiction,False
+entailment,"병이 어그로대가리 엉겅퀴혈통이고, 보통 심장 동작 잘하는 데도 여유없이 움직이는 증세가 있는 것 같수다.",환자는 심장병 걸려 있어.,entailment,True
+contradiction,"잘 모르겠네, 그런 말이 있나?",정상적인 심장 기능,unknown,Unknown
+neutral,"심장이 퍽퍽 뛰고 있응께, 안에서 펄펄 끓는 기분이 드이뿌다.",고혈압하고 심근경색 병력이 있어라우.,neutral,True
+entailment,환자 사람 쪼끄마한 사고로 왼쪽 앞니 깨졌네.,환자가 떨어져벘티롱.,neutral,False
+contradiction,메 앞니가 부러졌다 켕.,환자덜 떨어졌다고 한 모 없다.,unknown,Unknown
+neutral,꼬맹이가 주주루 떨어져불어서 왼쪽 어금니가 깨져불었다.,환자가 얼굴뼈가 부러졌어라.,neutral,True
+entailment,"말초 혈관 질환으로 인해 펨- [**의사 성**] 술환자의 상태, 양측 경동맥 협착증.",혈관 수축력 감소의 과거력,unknown,Unknown
+contradiction,"말초 혈관 질환으로 인해 펨- [** 의사 성 **] 술로 우회 수술을 받은 후 상태, 양쪽 경동맥 협착증.",혈관 질환 병력이 없어라.,contradiction,True
+neutral,"말초 혈관 질환으로 인해 펨- [**의사 성**] 술환자의 상태, 양측 경동맥 협착증.",고지혈증력이 있당께,neutral,True
+entailment,"임신 중인 엄마의 선천적 검사 결과, 혈액형은 AB형 Rh(D) 양성, 항체는 음성, 매독 빠른 플라스마 반응(RPR)은 비반응성, 풍진 면역 상태, B형 간염 표면 항원은 음성, 그리고 그룹 베타 연쇄구균 상태는 알 수 없당께.",엄마쩨 혈관 형 AB+이끄라,entailment,True
+contradiction,"엄마 태아검사 결과 보몬 AB형 양성이고, 항체는 안 나왔네. 매독 검사는 정상이고, 풍진 면역이 돼 있더라. B형 간염 항원은 안 나왔고, 그룹 베타 연쇄구균은 모르겠더라.",환자는 RPR 반응이 나타난다.,contradiction,True
+neutral,"임신 초기 모성 검사 결과, 혈액형은 AB형 Rh(D) 음성, 항체는 음성, 매독 무반응, 풍진 면역, B형 간염 표면항원은 음성, 그라고 그룹 베타 연쇄구균 상태는 알 수 없심.",어무이는 B형 연쇄구균 양성이여.,contradiction,False
+entailment,"집에서는 열 나는 증상이 없었고, 토하는 것은 없었는디 (응급실에는 토하는 증상을 얘기했심), 가슴 답답한 것이나 숨 찬 증상은 없었심니다.",환자는 무열증이여.,entailment,True
+contradiction,"아따 봐라, 집에 있을 때는 몸살도 안 났고 토하는 기운도 없었는데, (병원에 가니까 토하는 기가 막혔지만) 가슴이 답답하거나 숨이 차지 않았어.",환자가 심치가 덜컹들어다 카는 거라.,neutral,False
+neutral,"집에서는 열 나는 증상이 없었고, 토한 것은 없었는디 (응급실에는 토한 증상을 보고했심), 가슴 답답한 것이나 숨 찬 증상도 없었심니다.",환자 편이 장염이 걸렸다마.,neutral,True
+entailment,"아기는 건강한 피부색하고 울음소리를 보이면서 태어났고, 입하고 코에 대한 suction이 이루어졌심께.",환자 아기 아프가르 점수는 정상이여.,entailment,True
+contradiction,"아기가 건강한 피부색하고 울음소리를 보이면서 태어났고, 입하고 코에 대한 suctioning이 이루어졌제라.",환자 검사 결과가 비정상이여.,contradiction,True
+neutral,"아기는 건강한 상태하고 울음소리를 보여줬고, 입하고 코에 대한 suction이 이루어졌어.",환자는 남잔디라.,neutral,True
+entailment,"밖에 있는 병원에서 한 심장초음파 검사 결과가, 심박출률이 25%로 나왔슴다.",심장이 뻐근혀라.,neutral,False
+contradiction,"밖에 있는 병원애서 한 심장초음파 검사 결과, 심박춗률이 25% 나왔어.",심장이 뒤척이기만 하든다.,entailment,False
+neutral,"밖디 있는 병원에서 한 심초음파 검사 결과가, 심박출률이 25%로 나왔더라.",심부전하고 심근경색 병력,neutral,True
+entailment,그 여자의 좁은 복합체하고 혈역학적 안정성 때문에 이 시점에서는 임시 전선이 필요하지 않았심서.,이제 짜잉이는 수술이 필요 엄서께.,neutral,False
+contradiction,"""젤 누덕이 안혀서 긍게 이번 분예 임시 전선 안 하꼬엽.""",환자의 혈역학적 상태가 불안정했어라.,unknown,Unknown
+neutral,그 양반 좁은 복합체하고 혈역학적 안정성 때문에 이번에는 임시 전선이 필요 없었어라.,"환자 증상이 해소됐고, 심전도하고 생체 신호가 정상이었어라.",neutral,True
+entailment,"거시기 판첸물은 이십오고, 징기를 퍽 따치고 다부디다.",평균 폐모세관 웨지 압력이 비정상이여.,unknown,Unknown
+contradiction,"왈 좌심실 종말 이완기 압 무지 봄개틀, 대강 폐 숨관아실 압 27밖에 안 됐다이.",왈키 왼쪽영실 부당이 부단하고 폐맥관에서 비압이 평상이라.,contradiction,True
+neutral,"요 심장 오른쪽 부분이 마지막 벌때 압력이 20인데, 평균 폐관 압력이 27이더라.",관상동맥 질환의 과거력,unknown,Unknown
+entailment,투관 후 치료를 받았고 맥박이 다시 돌아왔어라.,환자는 심장마비 겪엇심더.,entailment,True
+contradiction,주관가이수련 치리를 받았구 맥박이 다시 살아났능교,환자가 실내 공기를 숨쉬고 있어라.,neutral,False
+neutral,투관 후 치료를 받았고 맥박이 다시 돌아왔어라.,환자는 뇌산소부족증에 걸렸어라.,neutral,True
+entailment,"그 사람은 DNR/DNI였는디, 환자 아들이 환자한테 밤새도록 기관삽관을 해달라고 했어. CXR에서 여러 군데서 유체가 새는 것으로 확인됐는디, 침습성 감염은 없었어. 요분석 결과는 정상이었어.",환자느 호흡되가 들어갔다.,neutral,False
+contradiction,"에이참 그 사람은 죽음을 거부하는 사람이었는디, 환자 아들놈이 환자한테 밤새도록 튜브를 넣어달라고 했더라. X레이에서 여러 곳에서 물이 새는 기 확인됐는디, 침습성 병변은 없었어.",연구실 분석에서 발견된 요로 감염,unknown,Unknown
+neutral,"그 사람은 숨조절 금지였는디, 환자 새끼가 환자한테 늦도록 기관삽관을 해달라고 했습니다.",환자가 정신이 안 좋네.,entailment,False
+entailment,"환자들이 재빨리 중환자실로 옮겨졌고, 정맥에 데스아메타존을 주사로 놔맀다.",환자는 덱사메타손을 맞았어라.,entailment,True
+contradiction,"환자놈이 곧바로 중환자실로 보내졌삽주, 혈소판 쏴가지고 정맥으로 데카돈 맞아서 도움 받았심더.",환자는 뭣도 안 멕이 삐진 기펴.,neutral,False
+neutral,"환자 좀 서두르다가 중환자실 가뿌야 됐고, 혈액 줘가며 데엑사메타조만도 놨어.",환자 캐 만성 앓고 있어.,unknown,Unknown
+entailment,그 사람은 가래가 많이 낀 기 뱉어내는디 힘들어 하고 있어라.,뒤지간 환자가 가래 토카 기집이 안달나 있수다.,entailment,True
+contradiction,요 사람이 허겁지겁 침뱉는 거 보는 거 짜증나다.,환자가 가떤게 엄청나게 많이 토하고 있어,unknown,Unknown
+neutral,그 사람이 씨부럭이서 가래를 토하는 기라.,에이고 그 사람은 기침할라 죽겠어 인게 폐병이라던디.,entailment,False
+entailment,"토하께 안허고, 배 안싸나 땀 흐르더라 캤어.",환자의 체계적 검사 결과는 부정적이어라.,neutral,False
+contradiction,"구토, 땀 흘림, 똥 상태 바뀐 것 없다고 카더라.",환자이는 자겊이 걷허들어가는 기부라.,neutral,False
+neutral,"게우는 것, 땀 흘리는 것, 똥 달라지는 것은 없다고 하더라고.",환자의 검사 결과는 음성이여.,unknown,Unknown
+entailment,도지게혀 빨리 뛰더라.,환자가 심장이 별로 빨리 뛰어가지고 아들 대가리 터질라카모 괴롭혀.,entailment,True
+contradiction,저레서 도플라로 빠르게 박는기라 전부수 나오더라.,환자 배 아 잘 숩노.,unknown,Unknown
+neutral,도플러로 심박수가 120으로 올라가고 수축기 혈압이 80대로 나왔심다.,환자헌티 피흘립디다.,neutral,True
+entailment,상캉년 봤다가 시시한 짓 없다고 하제,환자의 증상 검토 결과는 부정적이여.,unknown,Unknown
+contradiction,"아따, 우리 마누라 꼼꼼히 살펴본께 열이 나거나 기침을 해대더라, 머리가 아프고 가슴이 답답해 보이더라, 숨이 찬 것 같더라, 토하기도 했는데, 배가 아프고 설사나 변비가 있는 기 같더라. 소변 싸기도 힘들어 보이고 피가 섞여 나오더라, 다리도 아프고 부었더라그래.",환자가 가슴이 아프다며 카는 중이라네.,neutral,False
+neutral,"체계적인 검토 결과, 그 양반은 열 나는 것, 오한, 현기증, 어지러운 것, 가슴 아픈 것, 숨 차는 것, 토하는 것, 배 아픈 것, 설사, 변비, 오줌 누기 힘든 것, 피오줌, 다리 아픈 것이나 붓는 것 같은 증상이 없다고 하십니다.",환자는 아무 불편한 기도 안 했어라.,entailment,False
+entailment,DVT의 과거력.,환자가 심부정맥혈전증 앓은 적이 있어라.,entailment,True
+contradiction,DVT의 과거력.,환자는 심부정맥혈전증(deep vein thrombosis) 과거력이 없어라.,contradiction,True
+neutral,DVT(심부정맥혈전증)의 과거력.,환자한테 하부 대정맥 필터가 설치되어 있어라.,neutral,True
+entailment,"내내 속이 좀 울렁거린다, 움직이면 숨이 턱턱 막히더라, 밤에 꼭 똑 하고 숨이 멎는 것 같고, 누우면 짜증날 정도로 숨이 턱 막힌다, 발이 부르튼다, 심장이 쿵쾅거리는데, 어지러운 기색도 없다.",환자는 가슴 아픈 거 없다고 하십니다.,neutral,False
+contradiction,"심장 관련 체계 검토에서는 가슴 통증, 운동할 때 숨 차는 것, 밤중에 갑자기 생기는 숨 찬 것, 자다가 숨 찬 것, 발목 붓는 것, 심계항진, 까무러치거나 까무러칠 것 같은 증상이 없는 게 특징이여.",환자가 가슴이 맣다카대.,contradiction,True
+neutral,"심장 관련 체계 검토 결과에서는 가슴 아픈 기, 운동할 때 숨 차는 기, 밤에 갑자기 생기는 숨 찬 기, 잘 때 숨 차는 기, 발목 붓는 기, 가슴 두근거리는 기, 까무라치거나 까무라칠 것 같은 증상이 없는 기가 특징적이여.",심전도 깨끗허당께.,neutral,True
+entailment,"신장 결석, 양쪽 백내장 수술 후, 충수절제술 후, 편도절제술 후, 쇄석술 후",이 환자는 돌(돌)을 앓앗구마.,entailment,True
+contradiction,"신장 결석, 양쪽 백내장 수술 후, 충수절제술 후, 편도절제술 후, 쇄석술 후",환자는 콩팥돌(신장결석) 앓은 적이 없어라.,contradiction,True
+neutral,"신장 결석, 양쪽 백내장 수술 후, 충수절제술 후, 편도절제술 후, 쇄석술 후",환자가 등이 아프다고 허르르르르 불르르르르네.,unknown,Unknown
+entailment,그제 입원하기 전날로 새벽 열 시부터 뱃구미가 아팠거들랑 영혼까지 괴롭더래.,환자는 배시믹이 걸렸모양이제.,neutral,False
+contradiction,"짝질이 병원에 가기 전날 아침 열시부터 배가 아프더래마는, 계속 아프고 나아지지두 않았대.",환자가 소화제 먹고 나서 상태가 나아졌어라.,contradiction,True
+neutral,"환자가 입원 전날 오전 열시에 배가 아프기 시작했는디, 계속 아프고 나아지지 않았다고 했심다.",환자는 회식 가져근께.,unknown,Unknown
+entailment,"그 사람이 건조시키고, 따뜻하게 하고, 강하게 자극했는디 효과가 없었어라.",환자 정신이 흐리멍텅해졌어라.,neutral,False
+contradiction,"그 사람이 말리고, 따뜻하게 하고, 세게 자극했는디 효과가 없었어라.",환자가 자극에 반응했심니다.,contradiction,True
+neutral,"그 사람이 말리고, 따뜻하게 하고, 강하게 자극했는디 효과가 없었어라.",환자가 찰찰 떨고 잇었는기라.,neutral,True
+entailment,"왈도 환자가 깨장난 것이 두 번 있더라는데, 피가 묻어나와서 불안하더라.",환자는 배꼽 밑쪽으로 피를 내고 있제.,neutral,False
+contradiction,"[**9-12**]에 환자가 커피 찌꺼기 같은 거 토한 것이 두 번 있었는디, 빨간 피가 섞였는지 아닌지는 확실치 않았어라.",뱃고요네.,neutral,False
+neutral,"애들아, 아침 열두시에 환자가 커피 찌꺼기 같은 거를 두 번이나 토해냈어. 응, 알록달록한 피가 섞여 있는지는 정확히 모르겠어.",징기 환자꾸만 혈압이 뚝뚝 하데유.,unknown,Unknown
+entailment,땀절로 찍은 가슴 X-레이에서 양쪽 밑동에 물이 차 있다고 그래서 그분이 바트림을 먹게 됐다.,가슴 엑스레이 검사 결과가 비정상적이었어라.,entailment,True
+contradiction,"NH에서 진행된 흉부 엑스레이 촬영 결과 양쪽 기저부에 infiltration이 발견됐고, 그 양반은 Bactrim을 투여받게 됐제라.",가슴 엑스레이 결과는 특이사항이 없었어라.,contradiction,True
+neutral,"호 호! 어허 그건 쫌 어렵겠다. 워낙 전문적인 말투여서 날 펄쩍 보낸다 오이. 그래도 내가 할 수 있는 대로 전라도 사투리로 번역하자면,  ""그 계집 영화롭게도 NH 병원에서 어른신들이 찍어냈던 사진에 폐가 퍼부어 있고, 약을 먹으라고 줬더더이"" 어찌 했노?",환자는 페리가 걸렸수다.,entailment,False
+entailment,"그냥 주치리 보러갓삤는디 아트놀줄을 끊엇는디, 대구서 넘어진 사고에 대한 더 따진 검사는 안 햇어.",아나 저혈압 나디보네.,neutral,False
+contradiction,"환자는 다음날 주치의를 찾아가서 아테놀롤을 끊었는디, [** 위치 **]에서 넘어진 것에 대한 추가 검사(즉, scan/X-ray)는 안 했심니다.",환자는 베타 차단제를 계속 묵고 있심니다.,contradiction,True
+neutral,"환자께서는 내일 주치의 찾아가다가 압타놀롤 약 그만 먹은 끄데, 뭣이라는 곳에서 넘어지가 사고났는데 그거 더 살펴보지 않았다.",우리 환자는 일나가믄 피가 쭈욱 뽑이드라,unknown,Unknown
+entailment,"이 양반은 화종이랑 피압 있어서 그랬나 보여. 영화 보고 나서 가슴이 뜨뜻해지더니 나쁘진 않겠던 디, 한밤중에 [**Hospital1 170**] 응급실로 오갰어.",환자가 급성 관상동맥 증후군에 대한 걱정을 갖고 있어라우.,entailment,True
+contradiction,"이 몸 헛기침헌다. 이 사람이 60대 남정넘이 콜레스테롤이랑 혈압이 높아서, 어제 밤에 10시 30분날 엄니 보고 난 뒤부터 가슴이 아퍼서 새벽 1시 30분에 [**Hospital1 170**] 응급실에 왔다더라.",환자한테는 심장 질환 위험 요소가 하나도 없어라.,contradiction,True
+neutral,"아이고, 우리 할배가 고지혈증이랑 혈압이 높아서 몸이 안 좋으신디 저녁에 영화 보다가 갑자기 가슴이 아파서 새벽에 병원으로 왔더라.",환자는 심장병을 앓고 있넷다.,neutral,True
+entailment,웜마이 찬다리께서 요란헌다.,환자는 당이 있어,unknown,Unknown
+contradiction,오줌에서 글루코스하고 케톤체가 검출됐심니다.,환자 혈당 수치는 정상이여.,contradiction,True
+neutral,오줌에서 설탕이랑 묽은 것(케톤체) 나왔더랍디다.,환자가 혼수 상태에 빠져있어.,neutral,True
+entailment,"늘씨(그사람) 스트레스 테스트 맞빠라땄고, 결과가 통과땃자네, 그래서 당연히 심장 카테터 수술 맞빠라땄데.",환자는 관상동맥질환이 있어라.,unknown,Unknown
+contradiction,"걔가 스트레스 검사땜에 시험받았는데, 결과가 긍정이랬어서 그래서 막 catheterization 수술 받게 됐어.",환자 쥐뿌리 싸여진게 결과가 이쁘던데요.,unknown,Unknown
+neutral,"그 사람이 스트레스 테스트 받았는데, 그 결과가 양성으로 나와서 당연히 카테터화 수술 받게 되었어.",환자 혀 동맥에 문제가 있다메.,neutral,True
+entailment,그 때 트로포닌 수치는 0.475였어라.,환자 징벌이 올라갔다.,unknown,Unknown
+contradiction,그 때 트로포닌 수치는 0.475였어라.,환자 트로포닌이 음성이여.,contradiction,True
+neutral,그 때 트로포닌 수치는 0.475였어라.,환자한테 수요성 허혈이 있어라.,neutral,True
+entailment,"응급실 주임이 비강내시경 검사를 해 본께, arytenoid하고 vocal cord하고 supraglottis 부분에 부종이 생겼심서.",환자한테 기도 부종이 있어라.,entailment,True
+contradiction,"깽깽이 의사가 비깽내시경으로 살펴봤부나, 무덤할깨비 인대라고 할까? 성대랑 성대밑인대에 퉁퉁 붓어 있다고.",환자 내시경 검사 결과는 정상이여.,contradiction,True
+neutral,"응급실 전문의가 비강경 검사를 해 봤더니, arytenoid하고 vocal cord하고 supraglottis에 부종이 생겼답디다.",환자 껀 꼬장났지.,entailment,False
+entailment,"하고마씸 수술허구 9일날에는 환자가 고열도 나치 안치고 심장 뛴닭구 63쿤 뛰멍, 정상으로 뛰고 있제. 그리구 호흡은 18쿤에 산소는 3리터에 96프로라. 혈압은 122에 70이 나왔구마씸.",환자 짜나 수술 지나간 기라.,entailment,True
+contradiction,"영문 문장: The patient maintained a normal heart rhythm with a heart rate of 63 and no fever on the 9th day after surgery. Respiratory rate was 18, oxygen saturation was 96% on 3 liters, and blood pressure was 122/70.",환자 혈채가 불안직허다.,contradiction,True
+neutral,"허허, 수술 받고 나서 깨끗이 낫더라. 환자 분 열도 안 나고, 심장 뛰는 게 63번, 심장 박동도 정상이구, 숨 쉬는 게 18번, 산소포화도는 96퍼센트에 3리터, 혈압은 122에 70 나왔다네.",환자 상처가 잘 아물고 있어.,neutral,True
+entailment,배 아픈 것은 아니라고 하는디 배가 고프다고 느낍니다.,환자는 식욕이 있어라우.,entailment,True
+contradiction,꾸렁꾸렁 하다기는 안 하는디 셔터지고 있다마는.,환자는 입맛이 없어라.,unknown,Unknown
+neutral,"""어허, 배고픈 기분이 나는데 아퍼 보지는 안혀.""",환자는 금식 중이여.,neutral,True
+entailment,"어려운 말이라 이해가 어렵다마는, 수술 받고 일주일 지난 날에 그 사람이 피압이 낮았고, 오른쪽 폐혈관에 관이 들어갔는데, 심장마비로 진단받지는 않았다.",꼬메가 혈압이 낮네.,entailment,True
+contradiction,"오, 그 사람은 칠일 기증 날에 태저압 상태가 아나마씀양. 오른쪽 폐동맥에 관이 박혔더라도 심근경색증은 아니라고 하더라!",환자는 고혈압이여.,unknown,Unknown
+neutral,"수술 하고 나서 이레 지나고 그 분이 혈압 떨어져 있었고, 오른쪽 폐동맥에 튜브가 박혀 있었어.  그분은 심근경색이 아닌 것으로 나왔어.",환자가 맞어짐에 걸렸는데,unknown,Unknown
+entailment,정맥류; 수술 후 4주 상태,환자가 포방다 수술 받았다.,neutral,False
+contradiction,정맥이 수술고 넷 주래 됐다이.,이 환자는 아직도 까께 수술 안 받았어.,contradiction,True
+neutral,"응보기술, 수술 하고 넷째주양.",환자가 불알이 부운 것을 겪었어라.,unknown,Unknown
+entailment,그게 바로 그기가 얼매나 고맙은교로 생긴 앳이라 여기는 기라.,환자는 폐암 앓고 있제.,unknown,Unknown
+contradiction,"이거 보믄 전라도 말로 하면 ""허허, 그럴 수도 있겠네. 기관지에서 생겼을 거 같아 싶다구.""",환자 흉부 CT 결과는 정상이여.,contradiction,True
+neutral,"그런디 동무, 저런 판국이라 거 폐암이 눈에 확연하구마.",환자가 온몸에 전이성 질환이 쫙 퍼져 불었어.,neutral,True
+entailment,여그로 이송되어서 가능한 개입을 하려고 하는 기라.,그 사람은 의료적 관리가 필요했어.,entailment,True
+contradiction,여그로 옮겨져서 할 수 있는 개입을 하려고 하는 기라.,그 양반이 집으로 돌아갔삽니더.,unknown,Unknown
+neutral,여그로 이송되어서 가능한 개입을 하려고 하는 기라.,그 사람은 가슴이 아프다고 했어.,unknown,Unknown
+entailment,"이제꺼정 나온 병마 연구에따르믄, 이래가 그 사람 원래 암에서 혼자 갈라져나온 거라는 기이 탰습니더.",환자한테는 주요 악성 종양이 있어라.,entailment,True
+contradiction,이기 그 사람 근본 암에서 단놈 이주한 암덩이로 밝혀졌어.,환자거 허(무)병이니 말이여.,contradiction,True
+neutral,맞다 이제 그분 지암에서 멧뜨 몽땅 퍼져나갔더라.,환자카 4기 병신허고 있더만.,entailment,False
+entailment,꾸물꾸물한 경혈부 울트라사운드 검사 결과에서 엄청나게 쫌 들린 대동맥 구멍치라 하대더라. 대동맥 판밸브 면적은 0.7cm2 혻혻하더라.,"에이구, 그 사람이 엄청 큰 고약한 병이 있더라",entailment,True
+contradiction,"아이고 그냥 그렇다구나. 영어로 하면 이렇기라 하지,  Lately, the results of the transesophageal echocardiogram showed severe aortic stenosis, and the aortic valve area was 0.7cm2.",환자 에코검사 결과는 정상이여.,contradiction,True
+neutral,요즘에 한 영화 검사 결과에 그만 고간나 똘똘이 막무가내로 말리깄어.,환자 kkachi meolli teojiryeo beoryeobneun geosbida.,unknown,Unknown
+entailment,"웅쩡맨데 숨 가쁜 기가 없고, 가슴이 아픈 기고 없써이.",환자는 가슴 통증이 없어라.,entailment,True
+contradiction,"아이구 쉬웄나, 안 그리 숭실헙시더. 누오서는 숨 안 찌던데, 가슴 아프고 불편한 기쁨도 있다메.",환자카 가슴이 아파 쓰네.,entailment,False
+neutral,"수호지 껴 누워도 따끔거리는 기 없고, 배 아프거나 불편한 기 없다.",가슴 엑스레이 검사 결과는 정상이여.,neutral,True
+entailment,탸그쩐 환자는 요새 휘플 수술 받으러 수술 전 검사 받으미 뉴욕 엣 엔.와이.피. 병원에 이틀 전에 갔다 왔어.,환자는 수술 받아야 캉가.,entailment,True
+contradiction,환자가 금일이틀 전 Whipple 수술 받으려고 NYP 병원에 가 있다 왔구만.,환자는 병원에서 진료받지 않았어라.,contradiction,True
+neutral,쪽발이는 낼랑 위펠 수술 하려고 싸그만 평가 받으로 이닐 전에 나약뉴욕에 있는 나우욕펠 병원에 갔다 왔삤오.,환자한테 췌장 종양이 있어라.,unknown,Unknown
+entailment,카 요년이 석 달째 째떠리 안 하래.,환자가 간헐적으로 열나는 증상이 있어라.,unknown,Unknown
+contradiction,그 계집아인 동안 가끔씩 째물이 오르고 있어.,마이 환자가 열이 내리는 소식이 없갑더라.,unknown,Unknown
+neutral,그 여자는 몇 달 동안 가다가다 열이 나고 있어라.,그 환자는 임파선암을 앓고 있능께.,unknown,Unknown
+entailment,아기는 불안정한 태아 심박동 때문에 긴급 제왕절개 수술로 태어났어라.,이 새끼는 숨쉬기 힘든 거에 높은 위험성을 갖고 있어라.,neutral,False
+contradiction,그 아기 안대기 째깥안 싹싹이 딸갱이가 걸려가 허겄마 제왕가락 베기로 나왔다.,그 애기는 자연분만으로 태어났어라.,contradiction,True
+neutral,아기는 뱃속에서 심장 뛰는 기 불안정해서 급하게 배 갈라서 낳았어라우.,태아 모니터링에서 신생아가 늦은 감속을 보였어라.,entailment,False
+entailment,더덕이 니 그 사람 치료 받으몬서 두가리로 거시기가 또르르륵 쏟아져덜나 보더라.,환자 살 작새로 헤르니아가 생겼어.,unknown,Unknown
+contradiction,"웨이서도 뇨꼬라독 CT 뽀드랑이에 허리가 혼수써봤고, 양편 에다 이마팔로 혈소가 터졌더란다.",환자의 MMSE는 정상이어.,unknown,Unknown
+neutral,"병원에 ㅇㅇ병동에 입원햇을 때, 그 계집애가 또따시 체크하는 CT에서 오른쪽 관자놀이 피터졌고 양쪽 이마의 뇌하수체에서 출혈이 있었더라.",환자가 교통사고에 휩쓸렸어라.,unknown,Unknown
+entailment,그 여자는 왼쪽 다리 아픈 거 검사받으러 [**3434-12-2**]에 [**Hospital6 3057**]에 입원했심서.,환자가 왼팔 아프당께.,contradiction,False
+contradiction,그 여자는 왼쪽 다리 아픈 거 살펴보러 [**3434-12-2**]에 [**Hospital6 3057**]에 입원했제라.,환자가 고생한다는 걸 모르겠다네.,unknown,Unknown
+neutral,그 여자는 왼쪽 다리 아픈 거 살펴보러 [**3434-12-2**]에 [**Hospital6 3057**]에 입원했제.,"영어로 표현하면 ""The patient has a fracture.""",unknown,Unknown
+entailment,"가족들 말이, 뾰루지가 적어도 일주일 전부터 시작됐다고 하데이.",환자 깐봐부러 피부가 멍구멍 나써.,unknown,Unknown
+contradiction,"식구들 말이, 뭐시기 부럼이 적어도 일주일은 갔다고 하대이.",환자 체계적 검사 결과는 부정적이어라.,unknown,Unknown
+neutral,"껑충껑충 간깨비들이 말로헙주기로는, 그 상태가 적어도 나일새끼는 갔더라모.",환자는 대상포진에 걸렸어라.,unknown,Unknown
+entailment,"그녀의 아들에 따르면, 부인은",환자가 '마이 새끼'가 있다대요.,unknown,Unknown
+contradiction,"그 여자 아들 말로는, 마누라는",환자는 아들이 없어라.,contradiction,True
+neutral,"그녀의 아들에 따르면, 부인은",그 사람 아들은 어른이여.,unknown,Unknown
+entailment,"그 애는 28살 먹은, 임신 한 번, 출산은 한 번도 없고, 유산 세 번 한 어무이한테 태어났는디, 태아 선별 검사 결과는 B형 양성, 항체 음성, 매독 무반응, 풍진 면역, B형 간염 표면 항원 음성, 그룹 B 연쇄구균 미확인이었제라.",환자는 신생아여.,entailment,True
+contradiction,"그 애는 28살 먹은 G1, para 0-3인 어무이한테 태어났는디, 태아 검사 결과는 B형 양성, 항체 음성, RPR 비반응성, 풍진 면역, B형 간염 표면 항원 음성, 그리고 GBS는 알 수 없다고 했제라.",어무이는 B형 간염에 걸렸어라.,contradiction,True
+neutral,"그 애는 28살 먹은 G1, 파라 0-3인 어무이한테 태어났는디, 태아 선별 검사에는 B형 양성혈액형, 항체 음성, RPR 비반응성, 풍진 면역, B형 간염 표면 항원 음성, 그리고 GBS 미확인이 들어있었제라.",어무이는 풍진에 대한 예방접종을 맞았어라.,neutral,True
+entailment,- 만성폐쇄성폐질환,환자 몸무게카이 꿉꿉하더라.,unknown,Unknown
+contradiction,- 만성폐쇄성폐질환,환자가 복지로 전혀 겪이민 봉주지 아닙네다.,unknown,Unknown
+neutral,- 만성폐쇄성폐질환,환자는 악성 종양의 과거력이 있어라.,neutral,True
+entailment,환자가 발표 당일날 급성 호흡 곤란으로 깨어났구먼이라.,환자가 갑자기 숨쉬기 힘들어지기 시작했어라.,entailment,True
+contradiction,환자가 발표 당일 급성 호흡곤란으로 깨어났어라.,환자가 호흡에 지장이 없더라.,contradiction,True
+neutral,환자가 발표 당일날 급성 호흡곤란으로 깨어났어라.,환자가 꿀꺽하는 핏덩이 혈덩이가 있어여.,neutral,True
+entailment,환자는 발표 당일에 급성 호흡곤란으로 깨어났어라.,환자가 숨쉬기 힘들어하고 있어라.,entailment,True
+contradiction,환자는 발표 당일 급성 호흡곤란으로 깨어났어라.,환자가 호흡곤란 것을 부정한다.,contradiction,True
+neutral,환자가 발표 당일날 급성 호흡 곤란으로 깨어났제라.,환자니 폐색혈전이 있어라.,neutral,True
+entailment,환자가 기침 나는 병이 있다고 헌다.,환자는 만성폐쇄성폐질환(COPD)하고/,neutral,False
+contradiction,환자가 호흠이 잘 뻐긋거린다꼬 했심더.,환자 폐 기능은 정상이여.,neutral,False
+neutral,환자가 기침이 나면서 답답해 하는 병이 있다고 했어.,환자는 흡입기를 씁니다.,neutral,True
+entailment,전에 클라미디아 걸린 적이 있다카더라.,환자가 이전에 병에 걸렸제.,entailment,True
+contradiction,옛날에 클라미디아 감염된 적이 있었다고 보고했어라.,환자헌티는 과거의 병력이 없어라.,contradiction,True
+neutral,과거에 클라미디아 감염력이 있었음을 보고했제.,그 사람 증상이 애가 없어,unknown,Unknown
+entailment,"이번 입원할 때 처음으로 응급실에 갔을 때, 그 사람 생체 신호가 이랬습니다: 체온 100.1, 심박수 133, 혈압 118/77, 호흡수 14, 공기 중 산소 포화도 96%.",환자가 까닥하는 거 가졌어.,neutral,False
+contradiction,"이번 입원 시 초기 응급실 도착 시 그 사람 생체 신호는 다음과 같았습니다: 체온 100.1, 심박수 133, 혈압 118/77, 호흡수 14, RA 상태에서의 산소포화도 96%.",환자 생명체징은 정상이어.,contradiction,True
+neutral,"이번 입원 때 처음 응급실 갔을 때, 그 사람 생체 신호가 이랬어요: 체온 100.1, 심박수 133, 혈압 118/77, 호흡수 14, 룸 에어 상태에서 산소포화도 96%.",환자 나리가 질병에 걸려서 고생하고 있타.,neutral,True
+entailment,요새 퇴원한 사람은 [**Hospital1 5908**] 재활병원으로 갔댜.,환자느 쭈욱 치료받쟁 싯어야 되~,entailment,True
+contradiction,그이가 근에 병원 나온 환자가 [**Hospital1 5908**] 재활센터로 보내졌어.,환자는 추가로 더 치료받을 필요 없어라.,contradiction,True
+neutral,제일 요새 퇴원한 환자는 [**Hospital1 5908**] 재활센터로 옮겨갔제라.,근골격계 손상력,unknown,Unknown
+entailment,카테터화를 통해서 확인된 중등도의 mitral valve regurgitation 4+하고 1+의 aortic valve insufficiency가 나타났심더.,환자도 심슥사이를 앓구 있제.,neutral,False
+contradiction,[**6-11**]의 카테터화를 통해 확인된 중등도의 mitral valve regurgitation 4+와 1+의 aortic valve insufficiency가 나타났심니다.,환자 이 심장이 괜찮아라.,contradiction,True
+neutral,[**6-11**]의 카테터화를 통해 확인된 중등도의 카테터화는 4+의 미트랄 판막 역류하고 1+의 대동맥판막 불완전 폐쇄를 보여줍니다.,환자가 동글대면 호흡이 거북허당.,neutral,True
+entailment,그 여자는 헤마테메시스(혈구토) 증상을 겪고 있지 않았심다.,짜증 고만허라 허는 그 계집이놈이 토혈을 영 안 났쓰마.,entailment,True
+contradiction,그 년이 토혈은 안 마이냈주.,그 여자는 피를 토하고 있었어라.,contradiction,True
+neutral,까누마이 몸서리나 오더라마는,그기는 꼬꼬댕이 걸렸더만,unknown,Unknown
+entailment,"응급실에서 환자가 Kussmaul 호흡을 보이고 있었고, 심박수가 빨랐제라.",환자가 숨쉬기 힘들어 하고 있어라우.,entailment,True
+contradiction,"응급실에서 환자가 Kussmaul breathing을 보이고 있었고, 심박수가 빨랐어라.",환자 숨쉬는 속도는 정상이어.,contradiction,True
+neutral,"응급실에서 환자가 Kussmaul breathing을 보이고 있었고, 심박수가 빨랐심다.",환자가 맺맺이 맞지 안흔 박동을 갖고 있어.,neutral,True
+entailment,그 계집 넋 없어라.,그 여자 다리 마디가 구부러져 있었어라.,unknown,Unknown
+contradiction,젤녀 말뼈에 비뚤어짐이 있더라.,다리 관절에는 구부러짐이 없었어라.,neutral,False
+neutral,그 여자 다리에 주변적인 굽힘 현상이 있었어라.,환자는 걷는 능력이 있어.,neutral,True
+entailment,"그 여자는 아픈 기 없는 상태를 유지했고, 심장 카테터 검사를 받으러 [**Hospital1 47**]로 옮겨갔어.",환자가 가슴 안 아파서구만.,entailment,True
+contradiction,"그 여자는 아픈 기 없는 상태를 유지했고, 심장 카테터 검사를 받으러 [**Hospital1 47**]로 옮겨갔어.",환자가 아프다고 허르는데.,contradiction,True
+neutral,그 마 영 통증이 엄씨 상태로 [**Hospital1 47**]로 간신에 심장 카테터 검사를 받았다.,환자 심전도 결과는 정성이구만.,neutral,True
+entailment,젭알 찌그만 지사 증말을 고백혼께.,환자가 맬렸다.,unknown,Unknown
+contradiction,그 뒤로 있는 집에서 엄마가 설사를 호소하고 있다.,환자가 젠장 누렸다고 씨부렀다.,unknown,Unknown
+neutral,거시 그 마나는 집에서 조금 수두루 있다카더라.,환자가 깨끗상이에 감염됐다네.,unknown,Unknown
+entailment,"깨따라따 그 여자는 급환처에서 심지를 치근(뜨뜨하다) 안 뛰는 상태로 발견되고, 아트로핀을 깨거덩 맞따라마씀.",환자가 호흡이랑 심장이 멎었다 쫌 꼬숭이가 해줘썻어.,entailment,True
+contradiction,"오이, 그 년은 병원에 간께 심장이 멎는 걸로 헐떡댔어. 그래서 아트로핀이랑 약 들어가게 해 가지고 가슴이 빨리 뛰는 걸로 바꿨다카네.",환자는 정상적인 신전도를 보였제라.,contradiction,True
+neutral,"아이고 쪼매만 갔더니 그 계집애는 심장이 멎어뿌렸고, 여러 번 아트로핀 맞았더니 심실 세동으로 바뀌었고, 그 다음에는 심실 빈맥으로 바뀌었어.",환자가 어짜피 심장으로 얻어맞았어.,neutral,True
+entailment,"폐기종, 골다공증, 1기 유방암으로 오른쪽 유방 절제술 및 안와 림프절 제거술하고 방사선 치료 [**2510**] 받았심, 건초염, 흑색종으로 절제술 받았심, 디버티큘라증, 메티실린 내성 황색포도알균(MRSA) 감염력이 있는 과거력, 편도절제술, 자궁경부 및 자궁강 세척술(D&C), 대장내시경을 통한 4개 용종 제거",암의 병력,entailment,True
+contradiction,"폐기종, 골다공증, 1기 유방암으로 오른쪽 유방절제술 및 안와림프절 제거술하고 방사선 치료 [**2510**] 받은 후, 건초염, 흑색종으로 절제술 받은 후, 대장디브레티큘라증, MRSA 감염력이 있는 과거력, 편도절제술, 자궁경부 및 자궁강 진경술, 대장내시경을 통한 4개 용종 제거",폐 질환의 과거력이 없슴,contradiction,True
+neutral,"폐기종, 골다공증, 1기 유방암 수술 후 오른쪽 유방종양 제거 및 안와림프절 절제술과 방사선 치료 [**2510**], 점액낭염, 흑색종 절제술 후, 대장성형증, 메티실린 내성 황색포도알균 감염력이 있는 이력, 편도절제술, 자궁경부 및 자궁강 살포술, 대장내시경을 통한 4개의 용종 제거",담배 피운 것에 대한 지나간 일,unknown,Unknown
+entailment,"마이 혼사람이 호흡이 좀 힘들엉고, 후레기가 24여서 산소 4리터 사용헌께 산소 포화도가 96% 여따.",그 여자 숨쉬는 속도가 높았어라.,entailment,True
+contradiction,"여게 사람이 숨쉬기 무짤어부러, 숨쉬는 거 24번이라꼬, 4리터로 산소 96% 있어.",그 여자 생체 신호하고 산소 포화도 수준은 정상이었어라.,entailment,False
+neutral,"그애기 숨넘어가긴 좀 괴들거거든, 숨쉴때 맘 빨라서 시간 24번 해가꼬, 산소 수치가 4리터 재가꼬 96퍼센트더라","그 여자는 만성폐쇄성폐질환(COPD)을 앓고 있고, 담배 피운 이력이 있어라.",unknown,Unknown
+entailment,이제부턴 깨나 마려운데도 잘 마려우지 안트만여.,환자의 배변 습관이 안정적이어라.,contradiction,False
+contradiction,요즘 기생 고는 거나 오수 싱기는 거 습관이 달라진 거 없다.,환자가 새로 설사를 하고 있어라우.,contradiction,True
+neutral,요새 똥 누는 거나 오줌 누는 거에 변화가 없어라.,환자는 요로 감염이 없어라.,unknown,Unknown
+entailment,"CT/혈관조영술 결과에 따르면 왼쪽 아랫쪽 폐에 폐렴이 생겼고, 폐색전증은 없었어라. 또 B힐라림프절이 1cm로 나왔고, 심한 폐기종도 확인됐어라.",영상 결과 몰있어 감염증이랑 만성폐병이 나왔다메.,entailment,True
+contradiction,"이제 잘 들어, 왼쪽에 아래쪽으로 폐염이 있지만 핏줄 막혀가는 건 없고, B힐라 리습절에 1센치 크기로 리습절이 있는데 폐기종이 심허게 보입디다.",정상적인 폐 기능,contradiction,True
+neutral,"왼쪽 아랫배뎅이 폐엽에서 폐염이 보이는디, 폐속마개는 없더라. 또 빈 곳에서 엘센티미 크기 림프절이 나왔고, 펀근 폐병증이 있더라.",담배 피운 것에 대한 지나간 일,unknown,Unknown
+entailment,특히 이 환자는 최근에 [**Hospital1 18**]에서 복통으로 입원한 적이 있어라 [**1-6**].,복통력 있어요,entailment,True
+contradiction,"특히, 환자가 요새 [**Hospital1 18**]에서 배 아파서 [**1-6**]에 입원했었제라.",배 아픔이 업써여.,contradiction,True
+neutral,"특히, 환자는 최근 [**Hospital1 18**]에서 복통으로 인해 입원한 적이 있어라.",환자는 섞돌이 몸이었더라.,unknown,Unknown
+entailment,"60살 남자 환자인디, 전에 심부정맥혈전증, 에이즈, C형 간염, 간암, 신장암 앓았고, 폐로 퍼진 상태여. 요 이틀 전에 사이버나이프 수술 받았어. 지금 명치 부근하고 가슴이 아프다 카고, 삼키면 더 아프다 카네.",환자는 식도염 증상을 보이고 있어라우.,neutral,False
+contradiction,"60살 먹은 남자 환자는 전에 deep vein thrombosis(DVT), HIV, C형 간염, hepatocellular carcinoma(HCC), renal cell carcinoma(RCC) 진단 받았고, 폐로 전이된 상태여. 요새 이틀 전에 CyberKnife 치료 받았제. 지금 명치짝이 아프고 가슴도 아프다 카는디, 침 삼킬 때 통증이 더 심해진다 카드만.",환자놈이 속 쓰린 기미가 털끝만큼도 없제.,contradiction,True
+neutral,"60살 남자 환자인디, 전에 심부정맥혈전증(DVT), 인간면역결핍바이러스(HIV), C형 간염(Hep C), 간세포암(HCC), 신세포암(RCC) 앓았고, 폐로 전이된 상태여. 사이버나이프 치료 받았는디(마지막 치료는 이틀 전에 받았어), 명치 쪽이랑 가슴이 아프다 카고, 삼키면 더 아프다 캐.",환자가 방사선 유발 식도염을 앓고 있심시로.,entailment,False
+entailment,"환자 젤 무와틍게 계제 안헸고, 더 검사해보라고 입원시켰어.",환자는 혈역학적으로 안정적이어라.,neutral,False
+contradiction,"환자가 좋은 상태드 엿고, 더 진찰 받으려고 병원에 입원했다잉.",환자는 뚜뚜가 쎄지.,unknown,Unknown
+neutral,환자가 이렇다구 혈압이 괜찮어서 그냥 병원에 입원해놨어,환자가 아플 끼 모르겠더라.,neutral,True
+entailment,임신이 늘어난 엄마 혈압 때문에 복잡해졌어라.,"""어무이가 혈압이 높습니다.""",entailment,True
+contradiction,임신이 늘어난 엄마 혈압 때문에 복잡해졌어라.,어무이 혈압은 정상 범위여.,contradiction,True
+neutral,배에 째깐 안고 있는 엄마 혈압이 올라져 껄떡거리네.,그기야 전자증명 있심더.,unknown,Unknown
+entailment,"낼낼 그 년이 병원에서 퇴원했는데, 엄청엄청 열이 나가지고 아직도 인공호흡기 달고 숨쉬고 있어요.",환자가 장난스럽기도 해서 열이 쫙쫙 올라대.,contradiction,False
+contradiction,"저 계신 계집아이는 병원 재활센터서 2926년 7월 27일날 퇴원허대도, 계속 고열이 나와 여차히 인공호흡기에 의지하고 있것다.",환자가 무열증 상탭니다.,contradiction,True
+neutral,"그 여자는 작년 칠월이십칠일날 병원 재활센터로 나왔는데, 여전히 고열이 나고 지속적으로 인공호흡기를 쓰고 있어.",환자는 꼴깨리 감염에 걸렸제.,unknown,Unknown
+entailment,"82살 암믄 아이보메 쇼그렌중후군, 혈관염, 배속 출혈, 피압 높은 데 앉있고, 배속 출혈로 왔다.",환자가 배 아파 뿌루룩혀 있제.,entailment,True
+contradiction,"이야들라이나 꾀떽이여 칠십이고 넘쳤노 부인 환자로 시리아증헌디 영활 못보고 배 아프고 혈압 높고, 배 아프냐.",환자 위장 기능은 정상이여.,contradiction,True
+neutral,"82살 누이, 쓰거시고 이리쑤렁허니랴, 혈관이 부르트나봐요, 배스러움 심허니 안팎으로 피가 나구마는",환자가 핏덩이 뿜어내는 증상으로 왔거든.,entailment,False
+entailment,"응급실로 이동하는 동안에, 그 여자는 복사증상 없이 가슴 한가운데 아래쪽 통증이 더 심해졌어라.",환자가 가슴 아프다고 하고 잉어.,entailment,True
+contradiction,"응급실로 이동하는 동안에, 그 여자는 복사증상이 없는 심장 밑부위의 가슴 통증이 더 심해졌어라.",환자는 가슴이 아프지 않다카더라.,contradiction,True
+neutral,며칠 자구 오는 동안 그 ᄋᆞᆼ마이가 숨소리는 진 안 나나는데 젖가슴 한가운데 좋코치 아퍼졌다.,환자가 이 뒤로 숨넘기가 있구마이.,entailment,False
+entailment,"그 여자는 4 유닛의 PRBCs하고 3리터의 NS로 용량 복원을 받았습니다. 참고로, PRBCs는 Packed Red Blood Cells의 약어로, 집약적으로 적혈구를 담은 혈액제품을 의미하는 기라요. NS는 Normal Saline의 약어로, 정상 생리식염수를 의미합니다. 이것들은 환자의 혈액 용량을 회복시키는디 사용됩니다.","에이, 걔 몸에서 물이 빠졌어서 약 타 먹었거든.",neutral,False
+contradiction,짝새리 저강암이 4유닛 혈액이랑 3리터 허수 양약을 받아냈다.,그 여자는 추가로 물 먹는 것이 필요하지 않았어라.,contradiction,True
+neutral,그 여자는 4 유닛의 PRBCs하고 3리터의 NS로 volume resuscitation 받았제.,그 마누라는 피가 엄시 안 꼴라들더라.,entailment,False
+entailment,안나새끼가 조금 불안정했는지 이것저것 신경이 쓰이긴 했는디 뭐 어떤 변화가 있었단 뜻은 아인가 봐요.,환자꺼 뇌 터져부렀다.,unknown,Unknown
+contradiction,지 환자가 피 흘리며 정신 나가 있엇다고 헙니더.,환자 겍사 결과 괜찮다 소.,contradiction,True
+neutral,환자가 출혈 날 때 혼수 상태고 반응이 하나도 없더라는 기 확인됐제라.,환자 CT 영상이 비정상적이어라.,unknown,Unknown
+entailment,"해당 문장을 적절한 전라도 사투리로 번역하면 다음과 같습니다:  이 분은 나이 팔십 넉 살 머슴이시는디, 십 년 전에 병 걸려가지고 절뚝거리던 혈액순환 이상 앓아본 적이 있어요. 그 양반이 요새 며칠 째 걸음걸이가 힘들다 카더라더라.",환자가 절뚝거리는 기 더 심해지고 있어라.,entailment,True
+contradiction,"확인돼어진 환자 성 35912는 팔십사살 된 어르신이라네, 십년 전에 진단받은 외주혈관병(PVD) 앓아부렀는데 요새 그제서야 걸어가는 게 힘들어지더라고.",환자는 걸어꺼시 아무 불편 없심다.,contradiction,True
+neutral,"【**확인된 환자 성 35912**】는 84살 할아부지인디, 10년 전에 진단받은 아픈 증상을 보이는 말초혈관질환(PVD)을 앓았던 과거력이 있제. 그 양반이 요새 며칠 동안 걷는 기운이 떨어졌다는 기 알게 됐심더.",환자는 피떡이 생긴 동맥을 갖고 있어라.,neutral,True
+entailment,"자이구만 나, 그 응앨 할 때 찌그로 한 번 보이더니 좌측으로는 뭣이 다 막혔고, 우측으로는 가지가 하나 나와 있긴 했어 허니, 중간쯤으로는 제법 뚫려 있더라구 아가씨.",환자는 간 악이더라.,unknown,Unknown
+contradiction,으이참 그라믄 저 마이 아픈 병신이 병원에 갔다고 하데. 그래서 그 영상 진단해 본께 좌측에 있는 포탈 정맥이 이무리도 부클렸다고 하데. 그런데 우측에 있는 포탈 정맥 말단부만은 정상이었다 카네. 그래고 그 우측 포탈 정맥하고 주 포탈 정맥은 깨끗하다 했데. 그래서 저 경정맥-간내-문맥-정맥 간문맥 우회술도 잘 되었다 카네.,환자 간 기능은 정상이어.,neutral,False
+neutral,"멍마, 쿠데기(입원) 때 그래픽(영상 진단) 결과 보몬, 왼편 포털 베인이랑 오른편 포털 베인 맨끝부분은 통째로 막혀불었더라. 그런데 오른편 포털 베인 윗부분이랑 메인 포털 베인은 통로가 뚫려있고, TIPS는 딱 맞게 열려있더라.",술을 많이 묵은 적이 있어불고,neutral,True
+entailment,"그 사람은 [**Location (un) 18**]의 바깥쪽 병원에서 2리터 정상 삼투압 생리식염수, thiamine, folic acid, multivitamin, Kayexalate, calcium chloride, insulin, 하고 bicarbonate를 맞았어라.",환자는 산증 상태였어.,entailment,True
+contradiction,"니 보자, 우짠 사람이 [**Location (un) 18**] 밖 병원에서 2리터 정상 소금물, 티아민, 엽산, 멀티비타민, 카이엑살레이트, 염화칼슘, 인슐린, 그리고 탄산수소염을 맞았더란다.",환자께서 술 마시는 거 부정하십니다.,unknown,Unknown
+neutral,"그 양반이 [**Location (un) 18**]의 외부 병원에서 평통 소금물, 비타민 B1, 엽산, 종합 비타민, 칼륨 강하제, 염화칼슘, 인슐린, 그리고 중탄산염을 맞았어.",환자는 알코올 중독이여.,neutral,True
+entailment,환자는 그쪽에서 관을 넣엇져.,환자가 숨쉬는 튜브를 받았어라.,entailment,True
+contradiction,환자는 여그서 댕구먹이를 꼽았주게.,환자는 숨쉬는 거 도와주는 거가 필요 없었어라.,neutral,False
+neutral,환자가 징께 응급실에서 튜브 박는 거 맞주게.,환자가 숨을 제대로 쉬기가 힘들었다.,entailment,False
+entailment,그 여자는 자기 식욕하고 잠자는 것이 좋지 않다고 얘기했어라.,환자가 잠이 안와 쿨지 몰라게 해.,entailment,True
+contradiction,"서유기나, 그 계집은 자기 눔배기 혼(배고픔)이랑 자믄 거 좋지 안다고 캤다라.",환자가 아무 불편한 것도 없다고 안 했어라.,unknown,Unknown
+neutral,그 여자는 자기 식욕하고 잠자는 것이 좋지 않다는 것을 얘기했어라.,환자가 몸이 아프다고 느껴왔어라.,neutral,True
+entailment,묵찌빠! 오줌은 이리께 이끄러도 되겄나?,환자가 입새로 들어갔다.,unknown,Unknown
+contradiction,다음은 간략하게 요약된 퇴원 요약서를 검토한 내용이여.,환자 진지 입원 안 한갑주.,unknown,Unknown
+neutral,"""퇴원 요약서를 검토했고, 밑에 간단하게 요약했습니다.""",환자가 마장기가 급하게 막혀서 병원에 왔네.,unknown,Unknown
+entailment,눈에 안 보이는 젊은 날쨌다 병원 온 기록이 가 제일 중요헌 기입니다.,환자보리는 목에구멍냈죠.,unknown,Unknown
+contradiction,거게 병원 기록에 [**12-19**]에 항구 구멍 뚫었다 쿤디가 중요하게 써 나가있다구나.,환자 숨쉬는 것은 정상이여.,unknown,Unknown
+neutral,아따 그때 병원 기록에 [**12-19**]날 기관절개수술 허맀다구 잘 나와 있네.,환자는 만성폐쇄성폐질환(COPD)을 앓고 있어라.,neutral,True
+entailment,오늘 그년은 너무 힘이 없어서 침대에서 일어날 수가 없었어.,그 여자는 걷는 디 능력이 없었어라.,entailment,True
+contradiction,오늘 그 여자는 너무 힘이 없어서 침대에서 일어나지 못했어.,걸음걸음이 늘어뜰라.,entailment,False
+neutral,오늘 그 여자는 너무 힘이 없어서 침대에서 일어나지 못했어.,그 여자는 토카이싸 메슥거리제.,neutral,True
+entailment,"이차이 보리 맹깅어라~ 웃어른이 멀쩡헐레? 누었어노 괴로운 일이 혔네마는. 수술도 잘받으실 거라, 의사선생님들이 병도 잘 고치실 끼라.",환자가 허리병을 앓고 있다마이.,unknown,Unknown
+contradiction,"【**확인된 환자 성 11376**】은 친절한 73세 여자 어른신인디, 전극 써가지고 대동맥판막 갈아끼는 수술하고 관상동맥 우회 이식 수술 하려고 미리 수술하러 왔심니다.",환자는 껀지 수술한 적이 없제.,contradiction,True
+neutral,안철 환자 영감 73살 되삐신 아주 착한 어른이다. 심장 수술하고 혈관 수술도 하러 왔다.,환자는 다리동맥병이 있어.,neutral,True
+entailment,"그 여자 남편은 하루에 적어도 한 번은 토하는 것을 확인했는디, 이게 피 섞인 토인지는 확실히 모르겠더라고.",그 사람 요새 토하고 있어라.,entailment,True
+contradiction,"그 양반 남편이 하루에 적어도 한 번은 게우는 것을 했다고 말했는디, 이게 피 섞인 것인지는 확실하지 않았어.",그럴랑게 그 양반 구토헐 징조 안 있었다마.,contradiction,True
+neutral,"그 계집 댁 신랑이 하루에 적어도 한 번씩은 구갈린다 카드라, 그 구갈린 게 피 섞인 구갈인지는 확실치 않더라.",그 사람은 토하구 있다,neutral,True
+entailment,그 여자는 이번에 심폐정지가 생길 때까지는 잘 지내고 있는 것 같았어라.,환자가 심장이 멎었다.,entailment,True
+contradiction,그 여자는 지금 이 심폐 정지라는 일이 일어나기 전까지는 잘 지내고 있는 것으로 보였어라.,환자는 심장마비의 과거력이 없어라.,neutral,False
+neutral,그 여자는 지금 이 심폐 정지라는 일이 일어나기 전까지는 잘 지내고 있는 것으로 보였어라.,환자가 빌바다트게 잘 안 쓴다고 혀.,unknown,Unknown
+entailment,그이는 어혀리는 기 엇고 숨차는 기 엇고 운동할 때 숨 못 쉬는 기 엇곡 까무러치는 기 엇어더라 카더라.,환자의 ROS(Review of Systems) 결과는 부정적이어라.,entailment,True
+contradiction,그 사람은 전혀 아퍼 보이지 않네.,환자덜이 가슴아픔이라서 고생 중이게나.,contradiction,True
+neutral,"와이, 껄껄 그 사람이 앓는 기침이고 헐떡거리고 돌아가고 해도 다 모르는 척하고 있다지예.",환자 몸 살펴본 기 정상이여.,contradiction,False
+entailment,"깐보리 또 ""어지리됨""이 나곡따다면서, 꾸물꾸물 쓰러질 냉기가 느껴졌다고 하더라.",환자는 어지럼증을 느꼈심다.,entailment,True
+contradiction,"그 사람이 또 ""어질어질하다""고 했고, 그거 똑바로 얘기해보라고 했더니 가끔씩 정신이 아뜩해지고 까무러칠 것 같은 어지럼증을 느꼈다고 했어.",환자긴 깜히 어질어질 안허니께요.,contradiction,True
+neutral,"그 사람이 또 ""어지럼증""을 느꼈다고 했고, 그거 똑부러지게 말해보라고 했더니 그 사람이 가끔씩 까무라칠 것 같은 현기증을 느꼈다고 했어.",이 사람이 쿠룩해졌다.,unknown,Unknown
+entailment,"어무이는 제왕절개 수술 전까지 애 낳을 징후나 증상, 양수 터지는 것이나 자궁 수축이 하나도 없었어라.",어무이는 제왕절개 수술로 아기를 낳았어라.,entailment,True
+contradiction,"어무이는 제왕절개 수술 전에 분만의 징후나 증상, 양수파열이나 자궁 수축이 하나도 없었어라.",어무이가 애 낳는 중이었어라.,contradiction,True
+neutral,"어무이는 제왕절개 수술 전에 어떤 분만의 징후나 증상, 태막 파열이나 자궁 수축이 없었심서.",그 여자는 때가 되서 애기를 낳았어라.,contradiction,False
+entailment,"환자는 지금 튜브를 떼내고 진정제를 끊은 상태이고, 더 자세한 정보를 알려줬제라.",그 환자는 전에 숨쉬기 도와주는 것이 필요했어라.,entailment,True
+contradiction,"환자는 지금 기관 삽관을 떼내고 진정제를 끊은 상태이며, 추가적인 상세 정보를 제공했제라.",그 사람은 튜브 꼽은 적이 조또 없어.,contradiction,True
+neutral,마이 지금 숫씨 뚜부 뺐고 졍져 내리서 있다그유. 마씨 궨란한 전보 따로 더 요해줬다.,환자가 부상을 입었다,entailment,False
+entailment,이기 대강 임신 18주 쯤 진행한 태아 진단에서 뇌수막이 없는 거 확인해가지고 복잡해 졌갑네.,태아의 발달이 비정상적이었어라.,entailment,True
+contradiction,임신이 대충 임신 18주쯤에 태아가 뇌실질 결여증이라는 선천적 진단을 받아서 복잡해졌어라.,임신은 복잡하지 않았어라.,contradiction,True
+neutral,임신이 대충 임신 18주 때 한 태아 진단에서 뇌수막 결핍증이 나와가지고 복잡해졌어라.,뱃속에 있을 때 독소에 노출될 가능성,unknown,Unknown
+entailment,"환자가 수탁을 끊고 수탁으로 때리는 라식스를 열 번 맞았고, 오라비를 오백시지 쌌어.",환자꺼 콩팥은 수업이 잘 되고 있끄리.,unknown,Unknown
+contradiction,환자가 두 번 맞춰서 500밀리를 지렀능갑니다.,환자 콩팥이 제대로 돌가지 안혀.,unknown,Unknown
+neutral,"오로라, 환자가 인질 맞는 주사를 뜨꾸나 끊었제. 그런뒤에 Lasix 10mg을 정맥에다가 세 번 맞앗제. 그래꼬 오줌을 500cc나 낫제.",환자가 너무 많이 주사를 맞았구만.,neutral,True
+entailment,둥그녕이예.,환자가 찌질해 보이네.,unknown,Unknown
+contradiction,"갿지도 말긋냐, 어느씨연이 말입네.",환자는 땀을 하나도 안 흘립니다.,unknown,Unknown
+neutral,그건 또 다한증하고 관련이 있었어라.,환자는 열이 있어라우.,unknown,Unknown
+entailment,환자는 숨 쉬기가 힘들어 동네 병원에 입원했수다.,환자가 폐부종 증상을 보이고 있어라.,neutral,False
+contradiction,"입원하삐게 됐당께. 숨이 턱없이 턱덕거리고, 침은 없는디 기침이 나더라, 잘 때도 숨이 멎는 증세 때문이어.",환자는 폐부종의 증상이 하나도 없어라.,contradiction,True
+neutral,"환자는 기운이 팍팍 나가서 마이가 힘들고, 마른기침으로 시름시름하고 있어근께 다른 병원으로 들어가더라.",환자 겨시는기 폐가 부종허는디여.,neutral,True
+entailment,"그 여자는 심장내과 서비스에 Dr. [**Last Name (STitle) 295**]한테도 진료를 받았고, 그 양반이 그 여자한테 심장에 chimpanzee valve replacement 수술을 받으라고 제안했제.",환자한테 미트랄 밸브(mitral valve) 역류증이나 협착증 증상이 나타나고 있어라.,neutral,False
+contradiction,"저 여자가 또 심장 병원 의사한테 진찰을 받았고, 그 양반이 저 여자가 심장 수술을 받아야 한다고 하더라.",환자 간중있어 별다른 듸 안 나타난다.,contradiction,True
+neutral,그 요매가 심장병원 박사한테 싹쓸이 진찰도 받고 그 양반이 그 요매한테 심장 누렁이 고치는 수술을 받아야 한다고 해부리더라,환자가 몸이 허연 기가 내려가더라.,unknown,Unknown
+entailment,오줌줄 수술한 뒤에는 이젠 다 나았어.,환자는 예전에 대장루 수술을 받은 적이 있어.,unknown,Unknown
+contradiction,콜로소미 햇다 나 이제는 나아졌다.,환자는 수술 받은 적이 없어라.,contradiction,True
+neutral,"장루 만든 후 상태, 지금은 다시 붙였어.",환자는 대장암의 과거력이 있어라.,unknown,Unknown
+entailment,"젤씨가 자기 동생 피워낸 다리에 전화로 따진께, 그 자리서 몬씨를 하는께 그구래서 당뇨병이 나온거랑디.",그 사람은 위장관 천공으로 진단받았어라.,unknown,Unknown
+contradiction,"헌마는 자기 주치의 사무실로 전화했는데, 거기서 검사를 받았더니 소장이 터졌어.",글이 소화가 잘 되능테다.,contradiction,True
+neutral,"그 사람이 자기 주치의 병원에 전화 걸앗디, 거서 검사 받고 보으니 소장이 째진 기라.",그 양반이 이가리끼리 걸린거라네.,unknown,Unknown
+entailment,아가가 터임 터늘이랑 부야치는구만.,환자한테 아기 낳는 거 돕기가 이뤄졌제.,entailment,True
+contradiction,"영어로 ""Labor induction has started, and labor progressed gradually after the rupture of the amniotic membrane about 2 hours prior to ovulation.""",환자가 일찍 애로 나왔더라.,contradiction,True
+neutral,"조금 있어 낳앗고, 약 2시간 전에 물이 터지면서 점점 낳기가 진행됐다.",환자가 이년 낳았능교.,unknown,Unknown
+entailment,그 여자 혈소판 수치는 이송 당시 한 100이었어라.,환자 혈소판 수치가 정상 범위 하한선에 있어부러.,contradiction,False
+contradiction,그 여자 혈소판 수치가 이송할 때 대충 100이었어라.,환자 빨간 핏발이 올라갔구먼.,unknown,Unknown
+neutral,그 여자 혈소판 수치가 이송할 때 대충 100이었어라.,환자가 피 안 멎나.,entailment,False
+entailment,"고양이야, 걔 기침 왕나게 핸 기분이엿지랑. 그리고 구역질두 함불기 시작앴는디, 어째선지 배도 엄청 아픈 기분이엿더라.",환자가 심한 배알이를 겪고 있어라우.,entailment,True
+contradiction,"짜다 떼로 죄를 나았고, 담배질 밀다가, 꿀 맹거이 내눕기도 하더라.",환자는 뱃살 안 아프다고 카더라.,unknown,Unknown
+neutral,"그 여자는 기침을 시작하고 헛구역질을 하고 나서, 배가 심하게 아프기 시작했어라.",환자가 창자께 막힘이 됐어.,neutral,True
+entailment,CT 결과로 보니께 4등급 [** 위치 **] 찢어짐이 있고 복강 출혈이 생겼심다.,환자한테 배안에 피나는 기 있어라.,entailment,True
+contradiction,CT 결과에 따르면 4기 [** 위치 **]의 절개 상처하고 복강 출혈이 나타났심서.,환자 CT 결과는 정상이여.,contradiction,True
+neutral,CT 결과로 보면 4등급으로 [** 위치 **] 찢어진 것이 있고 복강 출혈이 생겼심니다.,환자는 교통사고 당됬쟈나~,neutral,True
+entailment,"에이고, 쌔리가 껌살이 191에 120이더로, 뼈가 102대로 뛰더랍니더. 방안에서 산소가 91퍼센트였는디, 산소 달래주민 98퍼센트로 올라갔다더라. 열나는 기색두 없었다 쿠네.",환자는 혈압이 높애.,entailment,True
+contradiction,"그 여자 혈압은 191/120이었고, 심박수는 102였어. 룸 에어에서 산소포화도는 91%였는디, 2리터 산소 캐뉼라를 쓰니께 98%로 올라갔어. 또 그 여자는 열나는 증상은 읎었어.",환자는 저혈압이여.,contradiction,True
+neutral,"그 양반으로 혈압이 191에 120이이고, 심장이 102로 뛰더란다. 방안 공기만이놔서 산소포화도가 91%인디, 2리터 산소 마스크 쓰이께 98%로 올라갔더랬지.",환자는 폐병을 앓고 있서.,unknown,Unknown
+entailment,"환자는 잠들어 있어서 병력을 묻기가 좀 어려운데, 그분 말씀으로는 3일 전까지는 괜찮았는데, 집에서 스트레스 받아서 다시 술을 마시고 cocaine도 하기 시작했대요.",환자가 멍 오거든.,unknown,Unknown
+contradiction,"""환자졸아서 병력정보제한적이지만, 3일전까진상태좋았다캅니다. 집안스트레스땜에또술처묵고코카인도하기시작했다더라.""",환자가 약이나 술 씹고 있다긴다.,neutral,False
+neutral,"환자가 졸아서 병력 파악이 좀 힘들긴 한디, 그 사람 말로는, 한 3일 전까지는 잘 지내다가 집안 스트레스 때문에 다시 술 먹고 cocaine을 하기 시작했다고 하데이.",환자가 까불기 싸다.,unknown,Unknown
+entailment,"그 사람이 전에 있었던 일들 기억 잘 안 나더만, 수술 받고 나서는 인지력이랑 방향 잡는 능력이 보통이라고 했던데.",그 여자는 전에 인공호흡 하라고 튜브를 꽂았어라.,unknown,Unknown
+contradiction,"지꺼리께서는 전에 있던 일 기억이 잘 안나는디, 그기 붙이는 거 빼고 나서는 정신이 깨꿋하고 사람-시간-데 다 알아보는 게 정사디.",큰마씨는 기관 뚝딱 따 부린 뒤엔 정신 놓고 말랑거렸나봐.,contradiction,True
+neutral,"그 사람은 전에 있었던 일들에 대한 기억력이 약했는디, 기관 삽관 빼고 나서는 인지하고 지향력이 3점으로 평가됐어라.",어여 동낭이 전에 마음 놓치 민지야.,unknown,Unknown
+entailment,두부 외상은 없다고 하네.,있는 게 없다.,entailment,True
+contradiction,뿌오리 나부난께 부인하더라.,뇌진탕 과거력,unknown,Unknown
+neutral,머리 엄킨 기다 아닝게,넘어진 적이 없어요,contradiction,False
+entailment,강아지 ᄋᆞᆯ래 무사헐녜? 엄마 피가 타나서 골치 아파웠삽네. [**알려진 환자 성**](Ms. Park)으로 패혈증 치료받았다꼬.,환자눈 항생제 투약으로 치료받았구만.,entailment,True
+contradiction,"감염성 질환: 환자 병이 얼매나 심한지하고 엄마가 열이 났던 것, 그래서 태막에 염증 생길까봐 걱정되서, [**알려진 환자 성**]은 패혈증일 것 같다고 해서 치료를 받았심니다.","""패혈증에 대한 위험은 없습니다.""",contradiction,True
+neutral,"환악일레 그 꼬맹이 병이 꼬부랑한가봐 으메가 뙤약볕에 구웠어, 그리고 태막염으로 안타깝게 생각한다, 그래서 병법을 써서 봐주꼈다.","""모성 감염이 있었습니다.""",unknown,Unknown
+entailment,기관지거치야 생검 안 늬앙쿱디더.,환자한테는 미디어스티넘 질량이 있어라.,unknown,Unknown
+contradiction,선캐지맹 생캠은 진단에 안 도멍캤어,환자 CT 검사 결과는 안 나왔구마.,unknown,Unknown
+neutral,Transbronchial biopsy는 진단에 도움이 안 됐어라.,환자가 허헐령이 들린다.,unknown,Unknown
+entailment,그 자구리 여자는 선모증으로는 지금 꿔뿌고 있는 사항 정도를 설명하기 어렵다는 판단이 나왔소.,환자가 으깨끼 어렵게 숨석꼬 있쑤다.,unknown,Unknown
+contradiction,개 못 생긴 인자가 진짜 보통 아니이소. 병이 굉장허거든 설명하는 게 왠만해선 하기 싫어요.,환자한테는 기저 폐 질환이 없어라.,unknown,Unknown
+neutral,쌤마 그기가 폐병만으로는 지금 겪는 징징이 이리 심한 거 설명하기 어려울끼라고 생각됩네.,환자가 폐울혈이 있어.,neutral,True
+entailment,"아따 그 사람은 또 심장병이 재발헌 모양이네. 검사 결과가 좋지 않아서 [**Month (only) 115**]에 카테터 수술 받으러 갔다는데 말이여. 혈관에 40-50% 정도 막힌 곳이 있고, 다른 데도 30%에서 70% 정도로 죽은 놈들이 있더라고.",환자는 다발성 관상동맥 질환을 갖고 있어라.,entailment,True
+contradiction,"그 사람은 재발성 협심증하고 긍정적인 운동부하 검사 때문에 [**Month (only) 115**]에 다시 cardiac catheterization laboratory로 실려갔제. 이 검사에서 40-50%의 posterior descending artery (PDA), 30%의 left main artery, 60-70%의 left anterior descending artery (LAD), 50%의 circumflex artery, 그리고 60%의 obtuse marginal artery (OM) 병변이 발견됐제.",환자 관상동맥은 정상이여.,contradiction,True
+neutral,"그 사람은 재발성 협심증하고 긍정적인 운동부하 검사 때문에 [**Month (only) 115**]에 다시 cardiac catheterization laboratory로 옮겨졌어라. 이 검사에서 40-50%의 posterior descending artery (PDA), 30%의 left main, 60-70%의 left anterior descending artery (LAD), 50%의 circumflex artery, 그리고 60%의 obtuse marginal artery (OM) 병변이 발견됐제라.",환자 심장 출력이 줄어들었어라.,neutral,True
+entailment,"위하고 같이, 만성 신부전증(CRI), 위식도 역류질환(GERD), 고혈압(HTN), 고지혈증, 신장 결석(renal calculi)",환자는 껌띠끈 질병들로 아팍튼다.,entailment,True
+contradiction,"위하고 같이, 만성 신부전증(CRI), 위식도 역류 질환(GERD), 고혈압(HTN), 고지혈증, 신장 결석(renal calculi)",환자는 병력이 없어라.,contradiction,True
+neutral,"위하고 같이, 만성 신부전증(CRI), 위식도 역류질환(GERD), 고혈압(HTN), 고지혈증, 신장 결석(renal calculi)",아이고 환자가 허리가 아파 이리 허니께.,unknown,Unknown
+entailment,"깍듯이 맙소사, 이년 팔십삼 살이십만 칠십팔 사시는 할머니께서 왼쪽 팔뚝에 마르지 않는 궤양이 달라쳐서 [**Name (NI) 13252**] 박사님 병원으로 실려왔답니다. 이젠 혈관 조영술로 틀어막힌 혈관을 넓히면서 스텐트를 박아주는 수술을 받으실 갑시더.",환자 껀 다리 부었삐다.,unknown,Unknown
+contradiction,"이 늙은이는 83살 할망구라, 왼쪽 복사뼈에 미쳐지지 않는 궤양이 있답니다. Dr. [**Name (NI) 13252**] 병원에 입원해 있고, 혈관조영술하고 다음엔 풍선확장술하고 스텐트 박는 걸로 있습니다.",환자는 심장 질환의 과거력이 없어라.,neutral,False
+neutral,"이 환자는 83세 여자분인디, 왼쪽 안쪽 복사뼈에 안 낫는 궤양이 있어요. Dr.[**Name (NI) 13252**] 선생님 병원 통해서 입원했고, 혈관조영술하고 되면 혈관성형술하고 스텐트 넣는 것도 할 예정이여.",환자가 당뇨병 앓은 적이 있어라.,unknown,Unknown
+entailment,"환자는 메로페넴, 반코마이신, 아즈트레오남 맞아 봤는데 차도 없어서 중환자실로 갔다.",환자께서는 가지가지 약 뜯어먹었더랍니더.,entailment,True
+contradiction,"환자는 메론이랑 바니라도 접었는데, 옆에 불청객까지 왔다 들어갔다 허네",환자는 항생제 맞고 집으로 퇴원햇심더.,unknown,Unknown
+neutral,아따 그 사람은 메로페넴이고 반코마이신하고 아즈트레오남을 한 번 맞았다가 더 치료하라고 중환자실로 들어갔능께.,"야 그치만 임마, 그 사람 면역력이 쪼끔 삽뜩해짚어.",neutral,True
+entailment,"지금 병의 지난 내력: 환자는 관상동맥 질환, 만성폐쇄성폐질환(COPD), 고혈압, 뇌혈관 사고 지난 내력이 있는 79세 백인 남자입니다. 몇 년 전에 뇌졸중 후 상태라는 보고에 따르면께.",환자 깨끄메기 안허는 건강 문제들이 꼬로록 있어.,entailment,True
+contradiction,"자이고마시, 워사 안 모르겄네. 저 할배는 칠십구 세 난 총각이라는데, 속은 왜 저캐 엉망이제. 혈압이 쎄고, 폐가 안 펴지고, 혈관도 꼬부라지고, 뇌도 터져 나가고 그랫네.",환자는 심장이 터지거나 허파 앓는 기가 없어,contradiction,True
+neutral,"지금 병력은 이라마씨가 칠십구살 백인 아버님이시는데, 관상동맥 질환, 폐병증, 당뇨, 뇌혈관 문제 있어시놓고, 몇 해 전에 뇌졸중 걸리신 적 있다더라.",환자는 이 집에서 쪼끄만한 산소로 치료를 받고 있제.,neutral,True
+entailment,"안부꺼네, 이 환자는 요새 며칠 동안 몇 번씩 토를 하고 설사를 겪었다 카더라(피는 없었다며). 그리고 오한 증상이 있다 카네.",겁나 열났갑네.,entailment,True
+entailment,심장낭 엄 나와 있지 안타.,카디어름에 몬시 약이 차 있당게.,entailment,True
+contradiction,심낭에 통증이 없다.,와이 뭐람? 심낭이서 물이 나오는 거 찾았능데?,neutral,False
+neutral,심낭 퍼짐엔 없는기여.,환자가 헐떡이는 기는 앎겡다.,unknown,Unknown
+entailment,"난소는 정상 상태 -- H. pylori 하고 PUD(편도염하고 위궤양) 과거 병력 있어. -- 젊었을 때 간염 A 걸려서 병원 치료 받은 과거 병력 있어. -- 젊었을 때 폐렴 걸려서 병원 치료 받은 과거 병력 있어. -- 전에 담배 피웠는디, 30년 동안 피우다가 [**2906**]년에 끊었어.",환자는 옛날에 담배 피우는 사람이었어라.,entailment,True
+contradiction,"난소는 정상 -- H. pylori 하고 PUD 과거 병력이 있심. -- 젊은 성인 시절에 간염 A로 인한 입원 치료 경험이 있심. -- 젊은 성인 시절에 폐렴으로 인한 입원 치료 경험이 있심. -- 전 흡연자로, 30팩년을 흡연했고 [**2906**]년에 금연했심.",환자늬 담배 뻡쪄 피웠으몰라.,entailment,False
+neutral,"난소는 정상 -- H. pylori 하고 위궤양 병력이 있심. -- 젊은 성인 시절에 간염 A로 인한 입원 치료 이력이 있심. -- 젊은 성인 시절에 폐렴으로 인한 입원 치료 이력이 있심. -- 전 흡연자로, 30팩년 동안 담배 피웠고 [**2906**]년에 끊었심.",환자는 폐기종에 걸렸어라.,neutral,True
+entailment,야 나이 좀 먹었냐? 그 애 심장이 안 좋더라니깐 그래서 걍 섬쭈까로 까버렸삽니더.,환자 나리가 아기 심장음이 불안정하다마이.,entailment,True
+contradiction,"아기 심장 뛰는 거 지켜보는디 안정적이지 않은 패턴하고 변동성이 줄어들고, 그리고 늦은 감속이 나타났어, 그래서 어머니는 급하게 제왕절개 수술로 애를 낳았어.",환자는 정상적인 태아 심장 박동음을 갖고 있어라.,contradiction,True
+neutral,"아기 심장박동 보고 있는디 내 아칙 고르지 않고, 변화가 줄어든고 그리고 늦게 감소하더라구, 그래서 엄마가 급하게 배 가르는 수술로 아로 낳았다.",이 애기는 일레게 태어났어.,entailment,False
+entailment,내가 산께네 만성 압이 그릇 돼서 임신이 까다로왔다카더만. 그래서 내가 분만날 3일 전에 병원에 누웄다가 결국엔 수술을 받았다카네.,환자는 임신 기간 동안 고혈압을 겪었어라.,entailment,True
+contradiction,"터시 짝짝~ 으 로써라 ㅗ그게 있응게, 중창이라고 하는 찌저점이 합신겨써, 그래서 아직 안으리가 쓸여났당께 방으로 들어오고 나서 정시라고 하는 수술도 맞았드랑께.",임신은 복잡하지 않았어라.,unknown,Unknown
+neutral,임신 때문에 일이 복잡허캉 입원해서 수술 받았심더. 혈압도 높아졌심더.,환자네기 임신 중에 도가비풋을 겪었다.,unknown,Unknown
+entailment,그 여자는 안정된 상태로 의료 병동으로 불려지고 있어라.,환자는 중환자실에 있었어라.,contradiction,False
+contradiction,그 여자는 안정된 상태로 의료 병동으로 불려지고 있어라.,환자 상태가 불안정하구만이라.,contradiction,True
+neutral,그 계집애는 맞는 상태로 병원으로 끌려가고 있어.,환자는 패혈증을 앓고 있었어라.,unknown,Unknown
+entailment,그 사람이 시술 뒤로도 낮은 혈압을 보여서 병원에서 보냈더라.,시술 후에 수축기 혈압이 낮았어라.,entailment,True
+contradiction,"환자 당, 그 사람 수축기 혈압이 시술 후에도 낮게 유지되었는디, 그 사람은 집으로 보내뿌렀어.",해당 환자는 시술 후에 고혈압 상태였어라.,contradiction,True
+neutral,"환자 당, 그 사람 수축기 혈압이 시술 후에도 낮게 유지되었는디, 그 사람은 집으로 보내졌제라.",환자가 시술 하는 동안에 피를 흘렸어라.,unknown,Unknown
+entailment,그 환자는 짤나기간 일 년 동안 올록볼록 걸음걸이를 보다가 누룩 전에 한 번 넘어졌다 안다. 지금도 그 모양새 달라짐 없이 계속되고 있따.,환자 영감 자꾸 퍼석퍼석 떨어지더래.,neutral,False
+contradiction,"아이고, 그 환자는 어린왕자 걸음만 엉성해졌능게 지난 일년간 걸어댔구만. 그래도 돌변한 건 석 달 전에 쪽팔리게 떨어졌긴 했네. 근디 아직도 잘 구닥 있다카더라.",환자 걸그만 밀쩡허네.,contradiction,True
+neutral,"짝, 그 환자는 작년 동안 점점 쭈금쭈금 걸어대서 요거끼쳤거든. 근디 최근 3주 전에는 뒤채러도 졌대. 근데 그 상태가 좋아지지도 않고 그냥 있대.",환자나 정상압 수듸씨를 껴안고 있다네.,neutral,True
+entailment,B) 심혈관: 환자 혈압은 정상 범위에서 안정적이었어라.,환자눈 피가 펑펑펑 흘러낼디 안혀.,unknown,Unknown
+contradiction,아부지 피압이 자리로이 안정되 있더라.,환자는 모니터링 기간 동안 저혈압 상태였어라.,contradiction,True
+neutral,환자 피혈분이 둥기하이 조마하이 지정 터랑에서 지켜내는 중허다.,환자는 혈압 낮추는 약을 먹고 있지 않제라.,unknown,Unknown
+entailment,"아이고, 그 양반이 전라도 사투리로 하믄, ""여보, [**State 53**]에서 내 가슴에 트럭이 앉아있는 것 같아서 중환자실에 댕겨가 가 있었는데, 그거 보다가 혈전이 나왔다더라. 그래서 약을 먹었는데, 지긍은 안 먹는다카던데.""",가슴 아프다고 했어.,entailment,True
+contradiction,"""[**State 53**]에서 '내 가슴에 트럭이 앉아있는 것 같다'는 느낌과 함께 포타캐스 끝에 혈전이 발견되서 중환자실로 입원했습니다. 그것에 대한 약을 먹고 있었는디, 지금은 항응고제는 안 먹고 있습니다.""",아프다는 거 부인하네요,contradiction,True
+neutral,"""[**State 53**]에서 '내 가슴에 트럭이 앉아있는 것 같다'는 느낌과 함께 포타캐스 끝에 혈전이 발견되어 중환자실에 입원했습니다. 이에 대한 약물 치료를 받았으나, 지금은 항응고 치료를 받고 있지 않습니다.""",암의 병력,unknown,Unknown
+entailment,그때 그 여자는 왼쪽 대퇴골간부 골절(femoral shaft fracture)로 진단받았어라.,다리 아프다마는.,entailment,True
+contradiction,그때 그 여자는 왼쪽 대퇴골간부 골절(femoral shaft fracture)로 진단받았어라.,환자가 전에 골절한 적이 없어.,neutral,False
+neutral,그때 그 여자는 왼쪽 대퇴골간부 골절(femoral shaft fracture)로 진단받았어라.,환자의 영상 진단 결과가 비정상적이어라.,entailment,False
+entailment,끄따뿌카 하루서 최대 다앵 번까지 설사를 꿉꿉이 겪엇다카대.,환자는 급성 증상을 보이고 있어.,entailment,True
+contradiction,그거 맹이 하리에 다섯 번 땍 걱정거리 똥을 했다네.,환장이 건강하다이.,unknown,Unknown
+neutral,그 사람이 하루에 최대 다섯 번까지 2-3일 동안 묽고 피가 안 섞인 설사를 한다고 보고했어라.,환자는 장염에 걸려 있쑙더라.,neutral,True
+entailment,"그 이후로 그 사람은 점점 더 심해지는 허리 통증을 겪고 있고, 계단을 오르락내리락하거나 등을 대고 누울 때 통증이 더 심해집니다.",환자가 신경병증성 통증 겪고 있네.,unknown,Unknown
+contradiction,이제부터 니가 겪는 허리 통증이 점점 심해지고 있다마. 계단 오르내리거나 몸을 밑에 누워보면 더 악화된다고.,"아유, 그 환자 사람 보면 계단을 올라가모 나으는 구만.",contradiction,True
+neutral,"그 이후로 그 사람은 점점 더 심해지는 허리 통증을 겪고 있고, 계단을 오르락내리락 하거나 등을 대고 누워 있을 때 통증이 더 심해집니다.",환자는 요추부에 퇴행성 변화를 보이고 있어.,neutral,True
+entailment,"악설, 번역할 문장이 없가? 뭣들이가 내 실력을 시험함이가? 쑣어라 문장을 줭, 그제그제 틀린 데 고쳐서 살려주곡 싶다이~",맘이 덜컥덜컥하다고 했슈.,unknown,Unknown
+contradiction,"에휴, 또 부탁하나? 마이 시럽더라.",심장이 꿍꿍거려도 괜찮아.,unknown,Unknown
+neutral,"미안한디, 번역할 문장이 안 주어졌네잉. 다시 한 번 확인해주시면 고맙제잉.",심방세동의 병력,unknown,Unknown
+entailment,"야, 우리 동네 늬 말로 하몬, 으근으근 해결해나가는 쿤께. [**알려진 환자 성**]이라는 냄비가 피이오 30 랑 ProMod PG로 완전히 물 먹여주고 있더라 카이. 살이 꼴꼴하게 쑤욱 찌더라.",환자가 엄청 기쁘게 받아들이고 있어라.,neutral,False
+contradiction,"여이, 염분 맹 영양분: [**알려진 환자 성**]이는 PE 30이랑 ProMod PG를 같이 쓰가이고 전체 밥을 잘 해결하고 체중이 잘 늘고 있습디다.",환자 아가씨가 몸무게 감량 중이네.,contradiction,True
+neutral,지랄! 그카이 부어라 영양분 먹으면서 쌉쉬운 약도 계속 탱겁더나. 몸무게도 쑥쑥 늘어나제~,환자넨 G 튜브 달래.,entailment,False
+entailment,옛날에 소장 폐색증(SBO)하고 부분적 소장 폐색증 이력이 있어.,소장 폐쇄의 과거력,entailment,True
+contradiction,과거에 소장 폐색증(SBO) 하고 부분적 소장 폐색증이 있었심.,소장 질환 과거력이 읎어라.,contradiction,True
+neutral,과거에 소장 폐쇄증(SBO)하고 부분적인 소장 폐쇄증이 있었던 병력.,배때기 수술 받은 적,entailment,False
+entailment,"그년이 입원한 날, 그년이 혈압이 낮다는 것을 알게 됐제라.",환자느 낮은 혈압이 있먼다.,entailment,True
+contradiction,"그 애가 입원한 날, 그 애 혈압이 낮다는 것을 알게 됐어라.",환자는 혈압이 쎼다.,contradiction,True
+neutral,아이고 그 계집애가 아퍼서 병원 가는 날 혈압이 낮다는 걸 알았어.,아이구 뻔뻔이가 다 기절버렸제.,neutral,True
+entailment,엉이 술술 돼가고 웅돔이 퍼질라 졌네.,그 여자는 임신 중에 요로 감염을 앓게 됐어라.,unknown,Unknown
+contradiction,임신이 방광염 2번하고 헤르페스 바이러스 감염으로 복잡해졌어라.,분만 덤에 컬레가 없었더라.,neutral,False
+neutral,"아! 구광아, 임신을 하니께 요도염이 두 번 나고 헤르페스 바이러스 감염으로 복잡한 상황이 된 갑다.",애 낳는 것은 배를 가르는 수술로 했제라.,neutral,True
+entailment,"주목할 점은, 모르핀 gtt를 쓰는 동안 그녀 혈압이 83/30으로 떨어졌어라우.",환자는 아프다 짜증나는구마.,neutral,False
+contradiction,"눈여겨 봐야 할 것이, 모르핀 넣어주는 기라 그 양반 혈압이 83/30으로 떨어졌다는 것이여.",환자궤는 체 혈관을 치 못했어.,neutral,False
+neutral,알다 못해 모르펀 맞으쪄서 눌로 떡징이 83/30이 아떠졍 뿌곤덨다이.,Morpin-i jeo-heol-pa-reul yug-g'eob-geos-somnida.,entailment,False
+entailment,환자는 발열 원인을 조사하고자 병동에 오기 전에 HD unit으로 transfer됐어라.,환자 체온이 올랐어라.,entailment,True
+contradiction,환자가 열나는 기 알아보라고 병동으로 오기 전에 HD 단위로 보내졌어라.,환자가 무열이디.,contradiction,True
+neutral,환자는 열나는 것 진단받으러 병동으로 오기 전에 HD 유닛으로 보내졌어라.,환자헌티 감염이 생겼심께라.,unknown,Unknown
+entailment,[**2987**]년에 생긴 뇌졸중으로 인한 남은 왼쪽 부위의 약화 현상 8.,환자 마이가 앞서 중풍 딱걸려 봤어.,entailment,True
+contradiction,[**2987**]년에 생긴 뇌졸중으로 인해서 왼쪽 부분이 약한 증상이 남아있어.,환자 운동신경 검사 결과는 정상이어.,contradiction,True
+neutral,[**2987**]년에 생긴 뇌졸중으로 인해서 왼쪽 부분의 힘이 약해진 상태 8.,환자는 긍혀 병에 걸리웠이라.,unknown,Unknown
+entailment,[**2987**]년에 생긴 뇌졸중으로 인해서 왼쪽 부분이 약한 증상이 남아있슴.,환자가 뇌졸중을 겪었어라.,entailment,True
+contradiction,맙사 그래도 왼천이 좌근 약합니당.,환자 뇌 MRI 결과는 정상이여.,neutral,False
+neutral,"엊그제 앙인이 뒈졌다카는디, 그래서 왼쪽이 멀쩡 안 태난다 카네.",환자가 경동맥에 동맥경화증이 있어라.,unknown,Unknown
+entailment,구닌께네 발이랑 손이 걱정이제,환자가 마지막 부분에서 감각이 덜 느껴지거든.,entailment,True
+contradiction,주변신경병증력이 있심.,환자가 팔다리감이 좋커든.,contradiction,True
+neutral,"엄마야, 뱃고 좀 그래.",환자는 당뇨병이라따.,unknown,Unknown
+entailment,"그 여자는 새로 생긴 심방세동을 갖고 있었고, 심장 뛰는 거가 120에서 130 사이였어요. 또 옆쪽 ST 내려간 거를 보였는디, 이게 요구성 허혈하고 맞아떨어집니다.",환자가 불규칙하게 불규칙한 심장 뛰는 것을 갖고 있어라.,entailment,True
+contradiction,"마 그 년 새근에 생겼다는 atrial fibrillation 걸려 있었는데, 심장이 120부터 130까지 뛰더라. 그런데 옆짝으로 ST depression이 있어서 demand ischemia 나타냈더라.",허겁들었심더.,entailment,False
+neutral,"그 여자는 새로 생긴 심방세동을 갖고 있고, 심장 뛰는 거는 120에서 130 사이로 확인됐습니다. 또 옆쪽 ST 내려가는 거 보이는디, 이게 수요성 허혈하고 맞아떨어집니다.",환자가 관상동맥 질환을 갖고 있어라.,neutral,True
+entailment,2형 당뇨병,혈당 높았던 거 있었던 거,entailment,True
+contradiction,2형 당뇨병,당뇨병력이 없어라,contradiction,True
+neutral,2형 당뇨병,비만력 사항,neutral,True
+entailment,52삐쟁이 마이가 C형 간병신 걸려가지고 맨날 구토하니까 [**Hospital3 36130**] 병원에 누웠대.,간 질환의 과거력,entailment,True
+contradiction,오십이 달 노리는 왕 환자가 C타잉 감코이라능 그러고 살골 막 아팠던 병력이 있다 그래서 배가 아무라 괴롭다 진짜 심허드라 [**Hospital3 36130**] 병원에 입원했라능.,정상적인 간 기능,contradiction,True
+neutral,"칠십이 햇 환자가 B형 간방이고 살구병 역사가 있는디, 배 퉁퉁해서 병원에 눕었다.",술 많이 묵은 이력,entailment,False
+entailment,"그 년이 배 CT 찍었삼더니, 정상이라더라.",환자 배 CT 결과는 정상이여.,entailment,True
+contradiction,"응 그 여자 배 CT 찍었다카더라, 결과는 괜찮았다더라.",환자꺼 속보리가 있나 보대.,contradiction,True
+neutral,"그 여자 배 CT 찍었지만, 괜찮던데.",환자가 배 아픈 기 겪고 있어라우.,contradiction,False
+entailment,"환자의 판막 면적은 0.8 cm2로 계산되었고, 대동맥 판막을 가로질러 평균 gradient는 35 mmHg였어라.",환자가 대동맥 좁아지는 병이 있이라.,entailment,True
+contradiction,"환자의 판막 면적은 0.8 cm2로 계산되었고, 대동맥 판막을 가로질러 평균 경사는 35 mmHg였어라.",환자 대동맥 판막은 정상이여.,contradiction,True
+neutral,"환자 판막이 0.8 cm2, 동맥 판막 평균 차이가 35 mmHg 나타났다.",환자는 TAVR(경피적 대동맥 판막 치환술)을 받게 될 것이여.,neutral,True
+entailment,"입원 이틀 전에, 환자가 [**Hospital1 18**] [**Location (un) 614**]에 아랫배 아프다고 찾아갔제. 그 사람이 아랫배 전체로 심하게 아프다고 했는디, 이게 토하고, 메스껍고, 헛구역질하는 것하고 관련이 있었답디.",그 여자는 입원 전에 병에 걸렸고 통증을 겪었어라.,entailment,True
+contradiction,"입원 이틀 전에, 환자가 [**Hospital1 18**] [**Location (un) 614**]에 가서 아랫배가 아프다고 했제. 그 양반이 아랫배에 걸쳐서 찌르는 듯한 통증을 느꼈는디, 이게 토하고, 속이 메스껍고, 헛구역질하는 것하고 연관이 있었제.",그 여자는 구토를 부인했제라.,contradiction,True
+neutral,"입원 이틀 전에, 환자가 [**Hospital1 18**] [**Location (un) 614**]에 가서 아랫배 아프다고 했제. 그 사람이 아랫배에 걸쳐서 찌르는 듯한 통증을 느꼈는디, 이게 토하고 메스껍고 구역질 나는 것하고 연관이 있었제.",그 계집애는 설사 증상 있다는 거 인정을 안 했어.,neutral,True
+entailment,아따 그 양반이 오백 시씨나 피를 잃었다니 안됐구먼. 그 딴게 나니까 뒤에는 이호사람에게 농축적혈구 두 유닛하고 신선 동결 혈장 두 유닛이 이식됐더랑께.,환자가 저혈색소증 때문에 혈액을 투여받았심니다.,entailment,True
+contradiction,"이 사람이 500 cc 혈액을 빼냈구, 그 다음에 2 unit 농축 적혈구와 2 unit 신선 냉동 혈장을 수혈받았다.",환자는 피를 수혈 안 받았어라.,contradiction,True
+neutral,"킹시러기가 500시시 핏빗 줌바꼈고, 쪼깨나 뒤에 킹시러기한테는 2병아리 찌긋찌긋 혈구하고 2병아리 찌개혈장이 솔펑됐다.",환자가 피를 엄청 줄줄 흘리고 있네.,entailment,False
+entailment,웨 사람이 정신이 없어보낫구먼.,환자 양반이 미쳐빿아써.,entailment,True
+contradiction,어디선가 맥이 풀렸나벼~,걔느 칠칠하다싶어.,unknown,Unknown
+neutral,꼴쑤룸해라 질때마다 저 사람이 헷갈러갑디더라.,환자 허(그)신 MMSE 성적 잘 나왔제,contradiction,False
+entailment,"그 사람은 어지럼증, 가슴 아픈 것, 심장 두근거리는 것, 숨 차는 것,",환자는 주로 앉아서 생활하고 있어.,unknown,Unknown
+contradiction,"""카이꺼리기 지고, 가슴이 묵직헌디, 심지가 요골나는디, 숨이 차는디, 운동 할 때도 호흡이 거칠디 캤는데, 운동을 거의 안 해서 이런 증상을 확인하기가 힘드네. 입원할 일이 많아서 체력이 많이 떨어져 대부분 침상이나 휠체어에 있는 형편이거든.""",환자가 설맘겉다고 허네.,neutral,False
+neutral,"오이, 걜어그렁이 무슨 소리하노. 그 양반이 무신일 잇는지 말하노라. 어지럼증두 업고, 가슴아픔도 없고, 심장뛰는 소리나 숨차거리는 것두 읎다 캅니다마는, 그래도 그 양반이 운동을 안 하고 주로 침대에 누워 있거나, 앉아서만 있어야 되니까 체력이 쑥 떨어졌어 구만. 그래서 휠체어나 타고 지내는 기라는디, 이래 풀어서 얘기해야 될 것 같다네.",아따 냥얼 아버지 호영 갈더구먼.,unknown,Unknown
+entailment,제한성 폐질환,"앗게 꼬마야, 그 환자 씨 치기 숨을 깊이 들이마시기가 줍더구만.",entailment,True
+contradiction,제한성 폐 질환,환자 폐기능검사 결과는 정상이여.,contradiction,True
+neutral,제한성 폐 질환,환자 흉부 CT 결과가 비정상적이여.,neutral,True
