@@ -4,7 +4,7 @@ import time
 from tqdm import tqdm
 from openai import OpenAI
 
-client = OpenAI(api_key="api_key")  # GPT API 키 입력
+client = OpenAI() 
 
 
 #############################################
@@ -14,7 +14,7 @@ def evaluate_mednli(input_file):
     output_file = input_file.replace(".csv", "_evaluated.csv")
     print(f"\n[MedNLI 평가] → {input_file}")
 
-    # 기존 결과 파일 삭제 후 재생성
+    # 기존 evaluated 파일 삭제 (재생성)
     if os.path.exists(output_file):
         os.remove(output_file)
 
@@ -22,7 +22,7 @@ def evaluate_mednli(input_file):
         reader = csv.DictReader(f)
         rows = list(reader)
 
-        fieldnames = reader.fieldnames
+        fieldnames = reader.fieldnames or []
         for c in ["ai_answer", "result"]:
             if c not in fieldnames:
                 fieldnames.append(c)
@@ -32,54 +32,77 @@ def evaluate_mednli(input_file):
 
         for row in tqdm(rows, desc="MedNLI"):
 
-            s1 = row.get("sentence1") or row.get("sentence1_Jeju") or row.get("sentence1_Gyeongsang") \
-                 or row.get("sentence1_Jeolla") or row.get("sentence1_Chungcheong") or ""
-            s2 = row.get("sentence2") or row.get("sentence2_Jeju") or row.get("sentence2_Gyeongsang") \
-                 or row.get("sentence2_Jeolla") or row.get("sentence2_Chungcheong") or ""
+            # 방언 필드 대응
+            s1 = (
+                row.get("sentence1")
+                or row.get("sentence1_Jeju")
+                or row.get("sentence1_Gyeongsang")
+                or row.get("sentence1_Jeolla")
+                or row.get("sentence1_Chungcheong")
+                or ""
+            )
+            s2 = (
+                row.get("sentence2")
+                or row.get("sentence2_Jeju")
+                or row.get("sentence2_Gyeongsang")
+                or row.get("sentence2_Jeolla")
+                or row.get("sentence2_Chungcheong")
+                or ""
+            )
 
-            gold = row.get("gold_label", "").strip().lower()
+            gold = (row.get("gold_label") or "").strip().lower()
 
-            # 🔥 시스템 프롬프트 절대 수정 X
+            #####################################################
+            # ⛔ 시스템 프롬프트 절대 수정 금지
+            #####################################################
             system = (
                 "Answer ONLY one of: entailment, neutral, contradiction, unknown.\n"
                 "If you are not sure about the relationship or lack medical context, answer: unknown."
             )
 
-            # 🔥 unknown 남발 방지 — user 프롬프트만 개선
+            #####################################################
+            # 🔥 TruthfulQA 코드처럼 unknown 남발 방지 (user 메시지만 개선)
+            #####################################################
             user = (
-                f"SENTENCE_1 (dialect): {s1}\n"
-                f"SENTENCE_2 (dialect): {s2}\n\n"
-                "Convert the dialect to standard medical Korean internally.\n"
-                "Infer the clinical meaning of both sentences.\n\n"
-                "Judging rule:\n"
-                "- entailment: sentence 1 logically supports or implies sentence 2\n"
-                "- neutral: both can be true together but do not imply each other\n"
-                "- contradiction: one clinically denies or conflicts with the other\n"
-                "- unknown: only when absolutely no relationship can be inferred\n\n"
-                "Make your best judgment using clinical reasoning and contextual inference.\n"
+                f"SENTENCE 1 (dialect): {s1}\n"
+                f"SENTENCE 2 (dialect): {s2}\n\n"
+                "Internally convert the dialect to standard medical Korean.\n"
+                "Do not output the converted text.\n\n"
+                "Make the best possible inference using clinical reasoning:\n"
+                "- entailment: S1 strongly supports S2\n"
+                "- neutral: both can be true but do not imply each other\n"
+                "- contradiction: S1 conflicts with S2\n"
+                "- unknown: only when there is truly no clinical relationship\n\n"
+                "Choose the most likely label based on medical knowledge and logical inference.\n"
                 "Output only one label."
             )
 
             try:
-                res = client.chat.completions.create(
+                # ✅ 최신 Responses API 사용
+                res = client.responses.create(
                     model="gpt-5.1",
-                    temperature=0.30,
-                    messages=[
-                        {"role": "system", "content": system},
-                        {"role": "user", "content": user},
-                    ]
+                    temperature=0.0,        # 논리적 판단 강화
+                    instructions=system,    # 예전 system 역할
+                    input=user              # 예전 user 메시지 역할
                 )
 
-                raw = res.choices[0].message.content.lower()
+                # SDK 편의 프로퍼티: 전체 텍스트
+                raw_text = (res.output_text or "").strip().lower()
 
                 labels = ["entailment", "neutral", "contradiction", "unknown"]
-                ai = next((lbl for lbl in labels if lbl in raw), "unknown")
+                # 응답 안에 포함된 라벨을 탐색 (가장 먼저 발견되는 것 선택)
+                ai = next((lbl for lbl in labels if lbl in raw_text), "unknown")
 
-            except Exception:
-                ai = "unknown"
+            except Exception as e:
+                # 실제 디버깅할 땐 e를 로그로 찍어두는 게 좋음
+                # print(f"[ERROR] {e}")
+                ai = "unknown"  # "Error" 대신 Unknown 처리하는 편이 더 안정적
 
-            # 평가 정답 판정
-            if ai == gold:
+            # 정답 판정
+            if not gold:
+                # gold_label이 비어 있으면 Unknown으로 통일
+                result = "Unknown"
+            elif ai == gold:
                 result = "True"
             elif ai == "unknown":
                 result = "Unknown"
@@ -90,6 +113,8 @@ def evaluate_mednli(input_file):
             row["result"] = result
             writer.writerow(row)
             out.flush()
+
+            # 너무 빠른 요청으로 인한 rate limit 방지
             time.sleep(0.35)
 
     print(f"✔ MedNLI 완료 → {output_file}")
@@ -120,30 +145,30 @@ def generate_summary():
         with open(file, encoding="utf-8") as f:
             reader = csv.DictReader(f)
             for row in reader:
-                r = row.get("result", "").strip().lower()
+                r = (row.get("result") or "").strip().lower()
                 if r == "true":
                     total_correct += 1
                 elif r == "false":
                     total_wrong += 1
-                else:
+                else:  # "unknown" 또는 빈 값, 기타
                     total_unknown += 1
 
-        score = total_correct * 1 + total_wrong * (-1)
+        score = total_correct * 1 - total_wrong
 
         with open(summary_name, "w", encoding="utf-8") as s:
             s.write(f"📌 MedNLI Evaluation Summary — {region}\n")
-            s.write("--------------------------------------------------\n")
+            s.write("--------------------------------------------\n")
             s.write(f"정답 개수 : {total_correct}\n")
             s.write(f"오답 개수 : {total_wrong}\n")
             s.write(f"모름 개수 : {total_unknown}\n")
-            s.write("--------------------------------------------------\n")
+            s.write("--------------------------------------------\n")
             s.write(f"총점 : {score}\n")
 
         print(f"📄 {summary_name} 생성 완료!")
 
 
 #############################################
-# 실행부 — 충청도 포함 전체 평가
+# 실행부 — 전체 MedNLI 자동 평가
 #############################################
 if __name__ == "__main__":
     csv_files = [
@@ -159,4 +184,3 @@ if __name__ == "__main__":
     print("\n🎉 MedNLI 전체 평가 완료 (*_evaluated.csv 생성됨) 🎉")
 
     generate_summary()
-
