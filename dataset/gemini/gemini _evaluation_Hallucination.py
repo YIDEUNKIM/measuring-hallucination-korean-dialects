@@ -102,7 +102,7 @@ def process_mednli_file(file_info):
                     ai_answer_clean = "neutral"
                 elif "contradiction" in ai_answer:
                     ai_answer_clean = "contradiction"
-                elif "unknown" in ai_answer
+                elif "unknown" in ai_answer:
                     ai_answer_clean = "unknown"
 
                 row["ai_answer"] = ai_answer_clean
