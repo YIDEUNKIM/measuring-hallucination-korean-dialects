@@ -224,14 +224,14 @@ def process_all_files_parallel():
     4개의 방언 파일을 동시에 처리
     """
     # 처리할 파일 목록
-    """
+    
     truthfulqa_tasks = [
         ('truthfulqa_Jeju.GPT-5.csv', 'truthfulqa_jeju_GPT-5_processed1.csv', 'Jeju', 'gemini-3.0-pro-preview'),
         ('truthfulqa_Chungcheong.GPT-5.csv', 'truthfulqa_choongchung_GPT-5_processed1.csv', 'Chungcheong', 'gemini-3.0-pro-preview'),
         ('truthfulqa_Jeolla.GPT-5.csv', 'truthfulqa_jeonra_GPT-5_processed1.csv', 'Jeolla', 'gemini-3.0-pro-preview'),
         ('truthfulqa_Gyeongsang.GPT-5.csv', 'truthfulqa_kyungsang_GPT-5_processed1.csv', 'Gyeongsang', 'gemini-3.0-pro-preview')
     ]
-    """
+    
     mednli_tasks = [
         ('mednli_jeju.GPT-5.csv', 'mednli_jeju_(GPT-5)_processed.csv', 'jeju', 'gemini-3-pro-preview'),
         ('mednli_chungchung.GPT-5.csv', 'mednli_choongchung_(GPT-5)_processed.csv', 'choongchung', 'gemini-3-pro-preview'),
@@ -241,7 +241,7 @@ def process_all_files_parallel():
     existing_tasks = []
     
     # TruthfulQA 작업 추가
-    for task in mednli_tasks:
+    for task in truthfulqa_tasks:
         input_file, output_file, dialect, model_name = task
         if os.path.exists(input_file):
             existing_tasks.append(('truthfulqa', task))
@@ -267,14 +267,14 @@ def process_all_files_parallel():
         with multiprocessing.Pool(processes=min(4, len(mednli_jobs))) as pool:
             mednli_results = pool.map(process_Mednli, mednli_jobs)
             results.extend([('mednli', r) for r in mednli_results])
-    """
+    
     # TruthfulQA 작업 처리
     if truthfulqa_jobs:
         print(f"\nTruthfulQA 작업 {len(truthfulqa_jobs)}개 처리 중...")
         with multiprocessing.Pool(processes=min(2, len(truthfulqa_jobs))) as pool:
             truthfulqa_results = pool.map(process_TruthfulQA, truthfulqa_jobs)
             results.extend([('truthfulqa', r) for r in truthfulqa_results])
-    """
+    
     # 결과 요약
     print("\n" + "="*60)
     print("모든 파일 처리 완료!")
@@ -288,9 +288,7 @@ def process_all_files_parallel():
 
 # 실행부
 if __name__ == "__main__":
-    if os.name == 'nt':
-        multiprocessing.freeze_support()
-    
+  
     try:
         process_all_files_parallel()
     except Exception as e:
