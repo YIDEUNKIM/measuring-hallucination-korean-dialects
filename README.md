@@ -37,8 +37,8 @@ pip install manim pandas numpy
 ```
 
 ### 2. 시각화 생성
+결과 보기: https://www.youtube.com/watch?v=TE06MPR8uEA
 `manim_data_visualize` 디렉토리로 이동하여 다음 명령어를 실행합니다.
-https://www.youtube.com/watch?v=TE06MPR8uEA
 **전체 프레젠테이션 생성 (High Quality)**
 ```bash
 cd manim_data_visualize
